@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10097:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "alta",
+  "descrizione": "Strada a senso unico, A e B nella stessa direzione; A tampona B. Urto sulla parte anteriore di A e sulla parte posteriore di B."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 108,
+  "ms": 3569,
+  "cost_usd": 0.010648,
+  "cached": false,
+  "image_sha": [
+   "61bda17f059f9b72"
+  ]
+ }
+}

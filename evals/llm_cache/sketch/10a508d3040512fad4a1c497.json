@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10105:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "alta",
+  "descrizione": "Strada rettilinea, A e B nella stessa direzione verso destra; A urta con il frontale il retro di B. Tamponamento."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 100,
+  "ms": 2595,
+  "cost_usd": 0.010488,
+  "cached": false,
+  "image_sha": [
+   "bdd1530c69546baf"
+  ]
+ }
+}

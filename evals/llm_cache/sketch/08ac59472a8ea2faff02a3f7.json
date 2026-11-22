@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10137:sk",
+ "answer": {
+  "scenario": "cambio_corsia",
+  "impatto_A": "ant_dx",
+  "impatto_B": "non_leggibile",
+  "certezza": "alta",
+  "descrizione": "Strada a due corsie stessa direzione: A si sposta verso destra nella corsia di B, urtandolo con l'anteriore destro. Sagoma B senza freccia."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 118,
+  "ms": 2596,
+  "cost_usd": 0.010848,
+  "cached": false,
+  "image_sha": [
+   "379d0c332ec185b4"
+  ]
+ }
+}

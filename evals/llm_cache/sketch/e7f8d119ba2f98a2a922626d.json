@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10177:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "Grafico con scritta RETROMARCIA: A procede all'indietro e urta con il retro il fronte di B, rivolti in direzioni opposte sulla stessa strada."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 113,
+  "ms": 2985,
+  "cost_usd": 0.010748,
+  "cached": false,
+  "image_sha": [
+   "334fb33a5c6cd05d"
+  ]
+ }
+}

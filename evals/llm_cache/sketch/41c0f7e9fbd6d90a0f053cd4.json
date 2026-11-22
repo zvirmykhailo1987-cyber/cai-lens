@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "demo-500007:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "alta",
+  "descrizione": "Stessa strada e direzione: A segue B e lo urta nel retro. Freccia su fronte di A e retro di B."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 95,
+  "ms": 2460,
+  "cost_usd": 0.010388,
+  "cached": false,
+  "image_sha": [
+   "6096637bd2410361"
+  ]
+ }
+}

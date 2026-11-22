@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10128:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "Strada unica, dicitura RETROMARCIA. A procede all'indietro e urta con il retro la parte anteriore di B; frecce del grafico ambigue."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 109,
+  "ms": 2412,
+  "cost_usd": 0.010668,
+  "cached": false,
+  "image_sha": [
+   "b9cea7958e748c99"
+  ]
+ }
+}

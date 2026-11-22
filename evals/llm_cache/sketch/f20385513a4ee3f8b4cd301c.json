@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10183:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "alta",
+  "descrizione": "Strada a corsia unica, A e B procedono nella stessa direzione; A urta con la parte anteriore il retro di B."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 96,
+  "ms": 2560,
+  "cost_usd": 0.010408,
+  "cached": false,
+  "image_sha": [
+   "902ce26edc26622c"
+  ]
+ }
+}

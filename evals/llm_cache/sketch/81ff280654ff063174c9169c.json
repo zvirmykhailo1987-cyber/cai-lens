@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10030:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "Grafico con dicitura RETROMARCIA: A procede all'indietro urtando con il retro il fronte di B. Frecce nel grafico ambigue sulle direzioni."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 114,
+  "ms": 3052,
+  "cost_usd": 0.010768,
+  "cached": false,
+  "image_sha": [
+   "229b4a7c784f327b"
+  ]
+ }
+}

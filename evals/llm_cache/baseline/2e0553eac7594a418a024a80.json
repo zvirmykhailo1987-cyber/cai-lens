@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10007:base",
+ "answer": {
+  "caselle_A": [
+   10
+  ],
+  "caselle_B": [
+   9
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "24/02/2026",
+  "ora": "07:00",
+  "luogo": "ROMA, PIAZZA CAVOUR 125",
+  "testimoni": "BIANCHI LORENZO",
+  "A_cognome": "DE LUCA",
+  "A_nome": "ANNA",
+  "A_cf": "DLCNNA74E55L219M",
+  "A_targa": "DA324SL",
+  "A_compagnia": "PONENTE ASSICURAZIONI",
+  "A_polizza": "82D6560011",
+  "A_cond_cognome": "LOMBARDI",
+  "A_cond_nome": "CHIARA",
+  "A_patente": "MU9942773T",
+  "A_danni": "PARAFANGO ANT. DX",
+  "A_osservazioni": "",
+  "A_totale": "",
+  "B_cognome": "RIZZO",
+  "B_nome": "PAOLO",
+  "B_cf": "RZZPLA58H21H501F",
+  "B_targa": "EG027CW",
+  "B_compagnia": "PONENTE ASSICURAZIONI",
+  "B_polizza": "46D3328583",
+  "B_cond_cognome": "RIZZO",
+  "B_cond_nome": "PAOLO",
+  "B_patente": "UD5589130S",
+  "B_danni": "PARAFANGO POST. SX",
+  "B_osservazioni": "TRAFFICO INTENSO",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 498,
+  "ms": 5741,
+  "cost_usd": 0.02556,
+  "cached": false,
+  "image_sha": [
+   "f80990cc6149a727"
+  ]
+ }
+}

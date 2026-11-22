@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10027:base",
+ "answer": {
+  "caselle_A": [
+   17
+  ],
+  "caselle_B": [
+   16
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "01/11/2026",
+  "ora": "20:45",
+  "luogo": "NAPOLI, PIAZZA CAVOUR 20",
+  "testimoni": "COPPOLA LUCA",
+  "A_cognome": "GALLI",
+  "A_nome": "GIUSEPPE",
+  "A_cf": "GLLGPP63A06H501E",
+  "A_targa": "YF537AB",
+  "A_compagnia": "CORSO MUTUA",
+  "A_polizza": "78F6948031",
+  "A_cond_cognome": "GALLI",
+  "A_cond_nome": "GIUSEPPE",
+  "A_patente": "RA9086106E",
+  "A_danni": "COFANO E FARO",
+  "A_osservazioni": "VISIBILITA' SCARSA",
+  "A_totale": "1",
+  "B_cognome": "ROSSI",
+  "B_nome": "FEDERICA",
+  "B_cf": "RSSFRC63H52F839Q",
+  "B_targa": "GF237PE",
+  "B_compagnia": "PONENTE ASSICURAZIONI",
+  "B_polizza": "88M9905896",
+  "B_cond_cognome": "ROSSI",
+  "B_cond_nome": "FEDERICA",
+  "B_patente": "UM6783092R",
+  "B_danni": "FIANCATA SINISTRA",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 495,
+  "ms": 5724,
+  "cost_usd": 0.0255,
+  "cached": false,
+  "image_sha": [
+   "2d6bc91ff15da992"
+  ]
+ }
+}

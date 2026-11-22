@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10064:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "Strada a una carreggiata con scritta RETROMARCIA: A procede all'indietro verso B, urtandolo con il posteriore sul fronte di B. Frecce dei veicoli ambigue."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 122,
+  "ms": 3986,
+  "cost_usd": 0.010928,
+  "cached": false,
+  "image_sha": [
+   "9fd7048640e8aff2"
+  ]
+ }
+}

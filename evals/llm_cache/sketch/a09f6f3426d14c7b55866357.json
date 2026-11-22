@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10167:sk",
+ "answer": {
+  "scenario": "rotatoria",
+  "impatto_A": "anteriore",
+  "impatto_B": "non_leggibile",
+  "certezza": "media",
+  "descrizione": "A entra nella rotatoria da sinistra mentre B vi circola; freccia su A indica urto anteriore, sagoma B senza indicazione d'urto."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 109,
+  "ms": 2512,
+  "cost_usd": 0.010668,
+  "cached": false,
+  "image_sha": [
+   "303e75287d8e5ad3"
+  ]
+ }
+}

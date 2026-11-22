@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10107:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "non_leggibile",
+  "certezza": "alta",
+  "descrizione": "Strada a corsia unica, A e B stessa direzione verso destra; A urta il retro di B. Sagoma B senza freccia indicata."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 104,
+  "ms": 2576,
+  "cost_usd": 0.010568,
+  "cached": false,
+  "image_sha": [
+   "165ba2852db4d75d"
+  ]
+ }
+}

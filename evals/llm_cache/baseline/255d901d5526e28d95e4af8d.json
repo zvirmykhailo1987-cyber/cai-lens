@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10034:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "01/08/2026",
+  "ora": "17:15",
+  "luogo": "MILANO, VIA ROMA 86",
+  "testimoni": "NESSUNO",
+  "A_cognome": "MARCHETTI",
+  "A_nome": "LUCA",
+  "A_cf": "MRCLCU01S25L219N",
+  "A_targa": "NG026HX",
+  "A_compagnia": "AURORA ASSICURAZIONI",
+  "A_polizza": "11A6809825",
+  "A_cond_cognome": "LOMBARDI",
+  "A_cond_nome": "ROBERTA",
+  "A_patente": "BE1073239V",
+  "A_danni": "PARAURTI POSTERIORE",
+  "A_osservazioni": "VISIBILITA' SCARSA",
+  "A_totale": "1",
+  "B_cognome": "LONGO",
+  "B_nome": "ELISA",
+  "B_cf": "LNGLSE00M63D612L",
+  "B_targa": "GH661TJ",
+  "B_compagnia": "LAGUNA ASS.NI",
+  "B_polizza": "61B7302722",
+  "B_cond_cognome": "LONGO",
+  "B_cond_nome": "ELISA",
+  "B_patente": "TT4286450A",
+  "B_danni": "COFANO E FARO",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 481,
+  "ms": 6779,
+  "cost_usd": 0.02522,
+  "cached": false,
+  "image_sha": [
+   "2fc24adb6fa2dceb"
+  ]
+ }
+}

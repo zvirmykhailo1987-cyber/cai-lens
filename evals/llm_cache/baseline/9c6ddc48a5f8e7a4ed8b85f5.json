@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10018:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [
+   "B1"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "07/05/2026",
+  "ora": "19:45",
+  "luogo": "TORINO, VIA DANTE 149",
+  "testimoni": "",
+  "A_cognome": "CONTI",
+  "A_nome": "ROBERTO",
+  "A_cf": "CNTRRT99P07F205T",
+  "A_targa": "FL290NP",
+  "A_compagnia": "BOREALE RC AUTO",
+  "A_polizza": "88C1503118",
+  "A_cond_cognome": "CONTI",
+  "A_cond_nome": "ROBERTO",
+  "A_patente": "BC1880457H",
+  "A_danni": "PARAURTI POSTERIORE",
+  "A_osservazioni": "TRAFFICO INTENSO",
+  "A_totale": "1",
+  "B_cognome": "SERRA",
+  "B_nome": "GIULIA",
+  "B_cf": "SRRGLI95L47L219O",
+  "B_targa": "XN321VG",
+  "B_compagnia": "AURORA ASSICURAZIONI",
+  "B_polizza": "25D4051944",
+  "B_cond_cognome": "MARINO",
+  "B_cond_nome": "ANNA",
+  "B_patente": "AR4154078F",
+  "B_danni": "PARAURTI ANTERIORE",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 476,
+  "ms": 8565,
+  "cost_usd": 0.02512,
+  "cached": false,
+  "image_sha": [
+   "59eba8fc26633f0e"
+  ]
+ }
+}

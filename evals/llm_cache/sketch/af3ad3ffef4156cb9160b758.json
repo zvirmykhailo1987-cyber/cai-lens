@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10138:sk",
+ "answer": {
+  "scenario": "parcheggio",
+  "impatto_A": "ant_sx",
+  "impatto_B": "lato_dx",
+  "certezza": "alta",
+  "descrizione": "A esce dall'area di parcheggio (P) e con l'anteriore sinistro urta il fianco destro di B che circola sulla strada."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 103,
+  "ms": 2625,
+  "cost_usd": 0.010548,
+  "cached": false,
+  "image_sha": [
+   "785f1265da0ffe28"
+  ]
+ }
+}

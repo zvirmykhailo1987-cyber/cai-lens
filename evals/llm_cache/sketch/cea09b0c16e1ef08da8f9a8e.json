@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10017:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "Strada unica con etichetta RETROMARCIA: A procede all'indietro e urta con il retro la parte anteriore di B, posto dietro di lui."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 106,
+  "ms": 2694,
+  "cost_usd": 0.010608,
+  "cached": false,
+  "image_sha": [
+   "4cec6f12e886350f"
+  ]
+ }
+}

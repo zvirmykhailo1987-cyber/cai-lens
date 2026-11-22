@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10021:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "A procedendo in retromarcia urta con il retro la parte anteriore di B; grafico essenziale ma coerente con le frecce sulle sagome."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 104,
+  "ms": 2802,
+  "cost_usd": 0.010568,
+  "cached": false,
+  "image_sha": [
+   "89f305682c9acbac"
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "demo-500000:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "alta",
+  "descrizione": "Strada a senso unico, A e B nella stessa direzione; A tampona il retro di B. Frecce sulle sagome: anteriore A, posteriore B."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 108,
+  "ms": 2373,
+  "cost_usd": 0.010648,
+  "cached": false,
+  "image_sha": [
+   "2416c0ece2cc40e5"
+  ]
+ }
+}

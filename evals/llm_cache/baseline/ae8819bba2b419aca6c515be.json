@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10024:base",
+ "answer": {
+  "caselle_A": [
+   17
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [
+   "B16"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": false,
+  "firma_B": true,
+  "data": "25/02/2026",
+  "ora": "20:30",
+  "luogo": "VENEZIA, VIA GARIBALDI 167",
+  "testimoni": "NESSUNO",
+  "A_cognome": "COLOMBO",
+  "A_nome": "FEDERICO",
+  "A_cf": "CLMFRC98H10H501N",
+  "A_targa": "KG626NN",
+  "A_compagnia": "PONENTE ASSICURAZIONI",
+  "A_polizza": "27M9256638",
+  "A_cond_cognome": "COLOMBO",
+  "A_cond_nome": "FEDERICO",
+  "A_patente": "UC6168376R",
+  "A_danni": "MASCHERINA",
+  "A_osservazioni": "VISIBILITA' SCARSA",
+  "A_totale": "2",
+  "B_cognome": "GALLO",
+  "B_nome": "ELISA",
+  "B_cf": "GLLLSE97D64L736X",
+  "B_targa": "SY477EG",
+  "B_compagnia": "ALPINA MUTUA",
+  "B_polizza": "12E1550800",
+  "B_cond_cognome": "GALLO",
+  "B_cond_nome": "ELISA",
+  "B_patente": "MD5807223G",
+  "B_danni": "PORTIERA SX",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 480,
+  "ms": 5454,
+  "cost_usd": 0.0252,
+  "cached": false,
+  "image_sha": [
+   "cfb7a0447cffba90"
+  ]
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10035:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [
+   "B11"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "nessuna",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "24/01/2026",
+  "ora": "17:50",
+  "luogo": "BERGAMO, VIALE EUROPA 180",
+  "testimoni": "",
+  "A_cognome": "DE LUCA",
+  "A_nome": "PAOLO",
+  "A_cf": "DLCPLA72L21G224L",
+  "A_targa": "HA359EG",
+  "A_compagnia": "BOREALE RC AUTO",
+  "A_polizza": "28E7207806",
+  "A_cond_cognome": "LEONE",
+  "A_cond_nome": "GIUSEPPE",
+  "A_patente": "CV6104035V",
+  "A_danni": "FANALE POST.",
+  "A_osservazioni": "VISIBILITA' SCARSA",
+  "A_totale": "1",
+  "B_cognome": "LOMBARDI",
+  "B_nome": "FEDERICA",
+  "B_cf": "LMBFRC61E50F839G",
+  "B_targa": "JC530BS",
+  "B_compagnia": "CORSO MUTUA",
+  "B_polizza": "37H9343653",
+  "B_cond_cognome": "LOMBARDI",
+  "B_cond_nome": "FEDERICA",
+  "B_patente": "AR1018404H",
+  "B_danni": "COFANO E FARO",
+  "B_osservazioni": "SEMAFORO GUASTO",
+  "B_totale": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 491,
+  "ms": 5619,
+  "cost_usd": 0.02542,
+  "cached": false,
+  "image_sha": [
+   "bce7ab98925bd42f"
+  ]
+ }
+}

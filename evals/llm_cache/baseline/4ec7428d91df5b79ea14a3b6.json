@@ -1,0 +1,56 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10012:base",
+ "answer": {
+  "caselle_A": [
+   4
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "07/07/2026",
+  "ora": "13:50",
+  "luogo": "VERONA, VIA VERDI 150",
+  "testimoni": "NESSUNO",
+  "A_cognome": "BIANCHI",
+  "A_nome": "SARA",
+  "A_cf": "BNCSRA85B43D612Z",
+  "A_targa": "LL346NC",
+  "A_compagnia": "MEDITERRANEA RC",
+  "A_polizza": "33E4667973",
+  "A_cond_cognome": "BIANCHI",
+  "A_cond_nome": "SARA",
+  "A_patente": "MT5322162T",
+  "A_danni": "PARAFANGO ANT. SX",
+  "A_osservazioni": "",
+  "A_totale": "",
+  "B_cognome": "GALLI",
+  "B_nome": "FEDERICO",
+  "B_cf": "GLLFRC81P09H501F",
+  "B_targa": "MW137XK",
+  "B_compagnia": "LAGUNA ASS.NI",
+  "B_polizza": "46B6744271",
+  "B_cond_cognome": "VITALE",
+  "B_cond_nome": "LUCA",
+  "B_patente": "VA9590221M",
+  "B_danni": "SPECCHIETTO DX",
+  "B_osservazioni": "STRADA BAGNATA",
+  "B_totale": "0"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 472,
+  "ms": 6676,
+  "cost_usd": 0.02504,
+  "cached": false,
+  "image_sha": [
+   "2cd8b993dc06319e"
+  ]
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10025:base",
+ "answer": {
+  "caselle_A": [
+   4
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [],
+  "feriti": "si",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "05/07/2026",
+  "ora": "12:00",
+  "luogo": "BERGAMO, VIA MILANO 9",
+  "testimoni": "NESSUNO",
+  "A_cognome": "GALLI",
+  "A_nome": "ANNA",
+  "A_cf": "GLLNNA86E68L219E",
+  "A_targa": "MA001RV",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "28S7952815",
+  "A_cond_cognome": "GALLI",
+  "A_cond_nome": "ANNA",
+  "A_patente": "DA8247616C",
+  "A_danni": "FARO ANT. SX",
+  "A_osservazioni": "STRADA BAGNATA",
+  "A_totale": "1",
+  "B_cognome": "",
+  "B_nome": "",
+  "B_cf": "",
+  "B_targa": "VJ419DB",
+  "B_compagnia": "ALPINA MUTUA",
+  "B_polizza": "",
+  "B_cond_cognome": "",
+  "B_cond_nome": "",
+  "B_patente": "",
+  "B_danni": "",
+  "B_osservazioni": "",
+  "B_totale": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 414,
+  "ms": 5011,
+  "cost_usd": 0.02388,
+  "cached": false,
+  "image_sha": [
+   "eea29567637b0880"
+  ]
+ }
+}

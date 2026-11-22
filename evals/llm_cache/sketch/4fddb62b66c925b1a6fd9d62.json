@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10142:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "Strada rettilinea con etichetta RETROMARCIA: A procedendo all'indietro urta con il retro il fronte di B, che lo segue. Frecce su sagome coerenti."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 117,
+  "ms": 2927,
+  "cost_usd": 0.010828,
+  "cached": false,
+  "image_sha": [
+   "4feb52e95fd2ddce"
+  ]
+ }
+}

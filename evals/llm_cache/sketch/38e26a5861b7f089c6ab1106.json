@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "holdout-90084:sk",
+ "answer": {
+  "scenario": "non_leggibile",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "bassa",
+  "descrizione": "Grafico dell'incidente vuoto. Le frecce indicano l'urto sull'anteriore di A e sul posteriore di B, compatibile con un tamponamento non confermabile."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 119,
+  "ms": 2640,
+  "cost_usd": 0.010868,
+  "cached": false,
+  "image_sha": [
+   "defe8431ba20e5b7"
+  ]
+ }
+}

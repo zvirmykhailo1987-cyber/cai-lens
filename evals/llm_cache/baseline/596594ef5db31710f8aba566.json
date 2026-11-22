@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10022:base",
+ "answer": {
+  "caselle_A": [
+   6
+  ],
+  "caselle_B": [
+   7
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "30/07/2026",
+  "ora": "08:50",
+  "luogo": "NAPOLI, VIA VERDI 169",
+  "testimoni": "",
+  "A_cognome": "MARIANI",
+  "A_nome": "ROBERTO",
+  "A_cf": "MRNRRT89E02A944A",
+  "A_targa": "GH637XX",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "85F6827103",
+  "A_cond_cognome": "MARIANI",
+  "A_cond_nome": "ROBERTO",
+  "A_patente": "AT3987223M",
+  "A_danni": "MASCHERINA",
+  "A_osservazioni": "SEMAFORO GUASTO",
+  "A_totale": "1",
+  "B_cognome": "GALLI",
+  "B_nome": "LAURA",
+  "B_cf": "GLLLRA79M57L219X",
+  "B_targa": "JY987WJ",
+  "B_compagnia": "LAGUNA ASSNI",
+  "B_polizza": "83A9745635",
+  "B_cond_cognome": "COLOMBO",
+  "B_cond_nome": "FRANCESCA",
+  "B_patente": "UM8559317P",
+  "B_danni": "FIANCATA DESTRA",
+  "B_osservazioni": "TRAFFICO INTENSO",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 485,
+  "ms": 5775,
+  "cost_usd": 0.0253,
+  "cached": false,
+  "image_sha": [
+   "d9fcd368f6e688ab"
+  ]
+ }
+}

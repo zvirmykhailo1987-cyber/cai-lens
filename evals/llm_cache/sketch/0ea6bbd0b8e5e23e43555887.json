@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "holdout-90064:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "non_leggibile",
+  "certezza": "alta",
+  "descrizione": "A e B sulla stessa strada nella stessa direzione; A tampona B. Freccia su A anteriore; sagoma B senza freccia."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 104,
+  "ms": 2871,
+  "cost_usd": 0.010568,
+  "cached": false,
+  "image_sha": [
+   "6e64f317700d1a77"
+  ]
+ }
+}

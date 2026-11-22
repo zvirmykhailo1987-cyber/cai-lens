@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10178:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "alta",
+  "descrizione": "Strada rettilinea, A e B stessa direzione verso destra; A tampona il retro di B. Frecce: anteriore A, posteriore B."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 104,
+  "ms": 2731,
+  "cost_usd": 0.010568,
+  "cached": false,
+  "image_sha": [
+   "13197f41e3a510af"
+  ]
+ }
+}

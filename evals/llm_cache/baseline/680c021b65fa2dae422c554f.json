@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10037:base",
+ "answer": {
+  "caselle_A": [
+   17
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [
+   "A12"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "24/06/2026",
+  "ora": "17:15",
+  "luogo": "MILANO, CORSO ITALIA 132",
+  "testimoni": "GALLO ROBERTO",
+  "A_cognome": "DE SANTIS",
+  "A_nome": "ELENA",
+  "A_cf": "DSNLNE90M49L781Y",
+  "A_targa": "PA271JB",
+  "A_compagnia": "CORSO MUTUA",
+  "A_polizza": "43A3010321",
+  "A_cond_cognome": "DE SANTIS",
+  "A_cond_nome": "ELENA",
+  "A_patente": "VE6300016C",
+  "A_danni": "COFANO E FARO",
+  "A_osservazioni": "",
+  "A_totale": "2",
+  "B_cognome": "",
+  "B_nome": "",
+  "B_cf": "",
+  "B_targa": "PH745KP",
+  "B_compagnia": "BOREALE RC AUTO",
+  "B_polizza": "",
+  "B_cond_cognome": "",
+  "B_cond_nome": "",
+  "B_patente": "",
+  "B_danni": "",
+  "B_osservazioni": "",
+  "B_totale": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 414,
+  "ms": 5779,
+  "cost_usd": 0.02388,
+  "cached": false,
+  "image_sha": [
+   "18b4b343a2dd09f0"
+  ]
+ }
+}

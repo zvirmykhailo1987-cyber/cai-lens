@@ -1,0 +1,59 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10009:base",
+ "answer": {
+  "caselle_A": [
+   10,
+   11
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [
+   "B9"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "11/06/2026",
+  "ora": "22:30",
+  "luogo": "VENEZIA, VIALE MONZA 151",
+  "testimoni": "NESSUNO",
+  "A_cognome": "SERRA",
+  "A_nome": "PAOLA",
+  "A_cf": "SRRPLA67M41A944E",
+  "A_targa": "HJ564CN",
+  "A_compagnia": "POLARIS ASSICURA",
+  "A_polizza": "79B4994073",
+  "A_cond_cognome": "SERRA",
+  "A_cond_nome": "PAOLA",
+  "A_patente": "CT9125302G",
+  "A_danni": "PARAFANGO ANT. DX",
+  "A_osservazioni": "STRADA BAGNATA",
+  "A_totale": "2",
+  "B_cognome": "DE LUCA",
+  "B_nome": "STEFANO",
+  "B_cf": "DLCSFN93P27A794S",
+  "B_targa": "VY439YJ",
+  "B_compagnia": "AURORA ASSICURAZIONI",
+  "B_polizza": "81A4701598",
+  "B_cond_cognome": "DE LUCA",
+  "B_cond_nome": "STEFANO",
+  "B_patente": "UB7508742V",
+  "B_danni": "PARAFANGO POST. SX",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 489,
+  "ms": 6056,
+  "cost_usd": 0.02538,
+  "cached": false,
+  "image_sha": [
+   "edaccfe255dba9e6"
+  ]
+ }
+}

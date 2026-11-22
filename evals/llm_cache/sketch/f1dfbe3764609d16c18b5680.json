@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "holdout-90003:sk",
+ "answer": {
+  "scenario": "parcheggio",
+  "impatto_A": "ant_sx",
+  "impatto_B": "non_leggibile",
+  "certezza": "alta",
+  "descrizione": "A esce dall'area di parcheggio (P) e urta con l'anteriore sinistro B che circola verso destra. Sagoma B senza freccia."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 108,
+  "ms": 2704,
+  "cost_usd": 0.010648,
+  "cached": false,
+  "image_sha": [
+   "0f78a6dc6246e744"
+  ]
+ }
+}

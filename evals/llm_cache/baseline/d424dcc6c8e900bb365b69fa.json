@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10004:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "05/09/2026",
+  "ora": "10:15",
+  "luogo": "VERONA, CORSO ITALIA 113",
+  "testimoni": "NESSUNO",
+  "A_cognome": "MARINO",
+  "A_nome": "STEFANO",
+  "A_cf": "MRNSFN94T26L736A",
+  "A_targa": "KT712EH",
+  "A_compagnia": "PONENTE ASSICURAZIONI",
+  "A_polizza": "34P7883808",
+  "A_cond_cognome": "CONTI",
+  "A_cond_nome": "ALESSANDRO",
+  "A_patente": "EM5175499C",
+  "A_danni": "PARAURTI POSTERIORE",
+  "A_osservazioni": "",
+  "A_totale": "1",
+  "B_cognome": "SANTORO",
+  "B_nome": "SILVIA",
+  "B_cf": "SNTSLV66A46A794C",
+  "B_targa": "FX092MW",
+  "B_compagnia": "POLARIS ASSICURA",
+  "B_polizza": "34V2764238",
+  "B_cond_cognome": "LONGO",
+  "B_cond_nome": "FEDERICO",
+  "B_patente": "CU7481126D",
+  "B_danni": "COFANO E FARO",
+  "B_osservazioni": "TRAFFICO INTENSO",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 482,
+  "ms": 5625,
+  "cost_usd": 0.02524,
+  "cached": false,
+  "image_sha": [
+   "72d33e3067ccdd28"
+  ]
+ }
+}

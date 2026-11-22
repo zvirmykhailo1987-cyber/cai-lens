@@ -1,0 +1,60 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10017:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [
+   "B14"
+  ],
+  "feriti": "si",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "08/06/2026",
+  "ora": "18:00",
+  "luogo": "BERGAMO, VIA GARIBALDI 17",
+  "testimoni": "BRUNO FRANCESCA",
+  "A_cognome": "GALLI",
+  "A_nome": "SIMONE",
+  "A_cf": "GLLSMN84R10L219U",
+  "A_targa": "BF619HY",
+  "A_compagnia": "CORSO MUTUA",
+  "A_polizza": "69F4363139",
+  "A_cond_cognome": "GALLI",
+  "A_cond_nome": "SIMONE",
+  "A_patente": "TC1501308L",
+  "A_danni": "PORTELLONE",
+  "A_osservazioni": "VISIBILITA' SCARSA",
+  "A_totale": "1",
+  "B_cognome": "MANCINI",
+  "B_nome": "SILVIA",
+  "B_cf": "MNCSLV81E53G224M",
+  "B_targa": "AS261PL",
+  "B_compagnia": "BOREALE RC AUTO",
+  "B_polizza": "47C6418982",
+  "B_cond_cognome": "MANCINI",
+  "B_cond_nome": "SILVIA",
+  "B_patente": "CV1438854B",
+  "B_danni": "MASCHERINA",
+  "B_osservazioni": "TRAFFICO INTENSO",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 491,
+  "ms": 5597,
+  "cost_usd": 0.02542,
+  "cached": false,
+  "image_sha": [
+   "61ad6692efbd44a0"
+  ]
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10001:base",
+ "answer": {
+  "caselle_A": [
+   10,
+   11
+  ],
+  "caselle_B": [
+   9
+  ],
+  "caselle_incerte": [
+   "A6"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "30/06/2026",
+  "ora": "08:20",
+  "luogo": "PADOVA, CORSO ITALIA 122",
+  "testimoni": "GALLI LORENZO",
+  "A_cognome": "LEONE",
+  "A_nome": "SARA",
+  "A_cf": "LNESRA85E45H501S",
+  "A_targa": "NR826YM",
+  "A_compagnia": "CORSO MUTUA",
+  "A_polizza": "49R1638936",
+  "A_cond_cognome": "SANTORO",
+  "A_cond_nome": "VALENTINA",
+  "A_patente": "TB9481891R",
+  "A_danni": "PARAFANGO ANT. DX",
+  "A_osservazioni": "",
+  "A_totale": "2",
+  "B_cognome": "FERRARI",
+  "B_nome": "MARCO",
+  "B_cf": "FRRMRC57T07D612F",
+  "B_targa": "FW509YL",
+  "B_compagnia": "ALPINA MUTUA",
+  "B_polizza": "69D8754737",
+  "B_cond_cognome": "GENTILE",
+  "B_cond_nome": "ROBERTO",
+  "B_patente": "MA9323651B",
+  "B_danni": "PARAFANGO POST. SX",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 472,
+  "ms": 5816,
+  "cost_usd": 0.02504,
+  "cached": false,
+  "image_sha": [
+   "7c0f3648aba426dc"
+  ]
+ }
+}

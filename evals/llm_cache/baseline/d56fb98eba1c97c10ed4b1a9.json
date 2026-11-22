@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10023:base",
+ "answer": {
+  "caselle_A": [
+   6
+  ],
+  "caselle_B": [
+   7
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "22/05/2026",
+  "ora": "18:45",
+  "luogo": "BOLOGNA, CORSO ITALIA 3",
+  "testimoni": "SERRA ALESSIA",
+  "A_cognome": "SANTORO",
+  "A_nome": "FEDERICO",
+  "A_cf": "SNTFRC04M24F839G",
+  "A_targa": "YK482XX",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "32B5613565",
+  "A_cond_cognome": "GRECO",
+  "A_cond_nome": "STEFANO",
+  "A_patente": "TA4197814V",
+  "A_danni": "MASCHERINA",
+  "A_osservazioni": "SEMAFORO GUASTO",
+  "A_totale": "1",
+  "B_cognome": "GALLI",
+  "B_nome": "GIOVANNI",
+  "B_cf": "GLLGNN65S21H501T",
+  "B_targa": "DY768PB",
+  "B_compagnia": "CORSO MUTUA",
+  "B_polizza": "69R1475236",
+  "B_cond_cognome": "LONGO",
+  "B_cond_nome": "MARCO",
+  "B_patente": "DU7187987L",
+  "B_danni": "SPECCHIETTO DX",
+  "B_osservazioni": "STRADA BAGNATA",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 489,
+  "ms": 5375,
+  "cost_usd": 0.02538,
+  "cached": false,
+  "image_sha": [
+   "aa9aec5fea705c25"
+  ]
+ }
+}

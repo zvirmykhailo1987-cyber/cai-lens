@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "holdout-90086:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "alta",
+  "descrizione": "Su strada rettilinea il veicolo A procede in retromarcia e urta con il retro la parte anteriore del veicolo B retrostante."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 102,
+  "ms": 2318,
+  "cost_usd": 0.010528,
+  "cached": false,
+  "image_sha": [
+   "ee23e13de5867369"
+  ]
+ }
+}

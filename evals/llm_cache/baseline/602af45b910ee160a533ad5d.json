@@ -1,0 +1,59 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10006:base",
+ "answer": {
+  "caselle_A": [
+   13,
+   17
+  ],
+  "caselle_B": [
+   16
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "29/08/2026",
+  "ora": "10:15",
+  "luogo": "MILANO, VIA MILANO 99",
+  "testimoni": "NESSUNO",
+  "A_cognome": "MARIANI",
+  "A_nome": "GIULIA",
+  "A_cf": "MRNGLI67L46A794X",
+  "A_targa": "FL637AB",
+  "A_compagnia": "ALPINA MUTUA",
+  "A_polizza": "55F2565302",
+  "A_cond_cognome": "MARIANI",
+  "A_cond_nome": "GIULIA",
+  "A_patente": "BV6060500M",
+  "A_danni": "COFANO E FARO",
+  "A_osservazioni": "VISIBILITA' SCARSA",
+  "A_totale": "2",
+  "B_cognome": "MARCHETTI",
+  "B_nome": "FRANCESCO",
+  "B_cf": "MRCFNC79P19L219A",
+  "B_targa": "MN552TS",
+  "B_compagnia": "POLARIS ASSICURA",
+  "B_polizza": "61V8942742",
+  "B_cond_cognome": "MARCHETTI",
+  "B_cond_nome": "FRANCESCO",
+  "B_patente": "DV4086619R",
+  "B_danni": "PORTIERA SX",
+  "B_osservazioni": "SEMAFORO GUASTO",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 492,
+  "ms": 6117,
+  "cost_usd": 0.02544,
+  "cached": false,
+  "image_sha": [
+   "a2dbf0e56644dc9c"
+  ]
+ }
+}

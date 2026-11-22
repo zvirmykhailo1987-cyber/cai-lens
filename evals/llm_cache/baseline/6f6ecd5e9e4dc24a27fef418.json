@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10036:base",
+ "answer": {
+  "caselle_A": [
+   10
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [
+   "B9"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "24/04/2026",
+  "ora": "10:10",
+  "luogo": "TORINO, CORSO ITALIA 48",
+  "testimoni": "NESSUNO",
+  "A_cognome": "DE SANTIS",
+  "A_nome": "FEDERICA",
+  "A_cf": "DSNFRC00S54H501A",
+  "A_targa": "ZS728RM",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "27L5278383",
+  "A_cond_cognome": "DE SANTIS",
+  "A_cond_nome": "FEDERICA",
+  "A_patente": "EV4416499L",
+  "A_danni": "PARAFANGO ANT. DX",
+  "A_osservazioni": "TRAFFICO INTENSO",
+  "A_totale": "1",
+  "B_cognome": "MARIANI",
+  "B_nome": "GIUSEPPE",
+  "B_cf": "MRNGPP87L17H501R",
+  "B_targa": "SL381ZD",
+  "B_compagnia": "POLARIS ASSICURA",
+  "B_polizza": "50H7816524",
+  "B_cond_cognome": "BRUNO",
+  "B_cond_nome": "FRANCESCO",
+  "B_patente": "VR1410967B",
+  "B_danni": "FANALE POST. SX",
+  "B_osservazioni": "TRAFFICO INTENSO",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 506,
+  "ms": 6150,
+  "cost_usd": 0.02572,
+  "cached": false,
+  "image_sha": [
+   "641a3e72fa57726c"
+  ]
+ }
+}

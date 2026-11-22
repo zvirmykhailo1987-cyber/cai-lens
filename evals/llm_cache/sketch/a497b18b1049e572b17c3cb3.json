@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "holdout-90023:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "alta",
+  "descrizione": "A, in retromarcia sulla stessa carreggiata, urta con il posteriore la parte anteriore di B che lo segue."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 97,
+  "ms": 2528,
+  "cost_usd": 0.010428,
+  "cached": false,
+  "image_sha": [
+   "c61d1f9ea0cdd85b"
+  ]
+ }
+}

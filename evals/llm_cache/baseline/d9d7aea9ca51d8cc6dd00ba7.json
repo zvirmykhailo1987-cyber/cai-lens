@@ -1,0 +1,61 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10020:base",
+ "answer": {
+  "caselle_A": [
+   6,
+   12
+  ],
+  "caselle_B": [
+   7
+  ],
+  "caselle_incerte": [
+   "A10"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "26/05/2026",
+  "ora": "16:45",
+  "luogo": "BERGAMO, VIA ROMA 60",
+  "testimoni": "",
+  "A_cognome": "MANCINI",
+  "A_nome": "MATTEO",
+  "A_cf": "MNCMTT90E07F205A",
+  "A_targa": "YY090MK",
+  "A_compagnia": "POLARIS ASSICURA",
+  "A_polizza": "35H2874763",
+  "A_cond_cognome": "MANCINI",
+  "A_cond_nome": "MATTEO",
+  "A_patente": "BA3063162T",
+  "A_danni": "MASCHERINA",
+  "A_osservazioni": "",
+  "A_totale": "1",
+  "B_cognome": "RIZZO",
+  "B_nome": "DAVIDE",
+  "B_cf": "RZZDVD66C02H501T",
+  "B_targa": "VY934HX",
+  "B_compagnia": "BOREALE RC AUTO",
+  "B_polizza": "41P9812163",
+  "B_cond_cognome": "RIZZO",
+  "B_cond_nome": "DAVIDE",
+  "B_patente": "AU3446074M",
+  "B_danni": "FIANCATA DESTRA",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 463,
+  "ms": 6024,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "1cac151c2187b274"
+  ]
+ }
+}

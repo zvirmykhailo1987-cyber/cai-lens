@@ -1,0 +1,61 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10003:base",
+ "answer": {
+  "caselle_A": [
+   13,
+   17
+  ],
+  "caselle_B": [
+   16
+  ],
+  "caselle_incerte": [
+   "B2"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "02/05/2026",
+  "ora": "19:20",
+  "luogo": "FIRENZE, VIALE MONZA 155",
+  "testimoni": "NESSUNO",
+  "A_cognome": "SANTORO",
+  "A_nome": "MONICA",
+  "A_cf": "SNTMNC66M45L736T",
+  "A_targa": "AZ991AK",
+  "A_compagnia": "PONENTE ASSICURAZIONI",
+  "A_polizza": "25M8347650",
+  "A_cond_cognome": "SANTORO",
+  "A_cond_nome": "MONICA",
+  "A_patente": "MU6404673C",
+  "A_danni": "PARAURTI ANTERIORE",
+  "A_osservazioni": "",
+  "A_totale": "2",
+  "B_cognome": "GRECO",
+  "B_nome": "SARA",
+  "B_cf": "GRCSRA81B68L736Y",
+  "B_targa": "DY696PK",
+  "B_compagnia": "AURORA ASSICURAZIONI",
+  "B_polizza": "28R2524480",
+  "B_cond_cognome": "COSTA",
+  "B_cond_nome": "GIOVANNI",
+  "B_patente": "UV2700632N",
+  "B_danni": "PORTIERA SX",
+  "B_osservazioni": "",
+  "B_totale": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 474,
+  "ms": 5924,
+  "cost_usd": 0.02508,
+  "cached": false,
+  "image_sha": [
+   "8c686b4d993aab79"
+  ]
+ }
+}

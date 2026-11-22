@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10008:base",
+ "answer": {
+  "caselle_A": [
+   17
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [
+   "B16"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "si",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "07/12/2026",
+  "ora": "12:10",
+  "luogo": "MILANO, VIA DANTE 11",
+  "testimoni": "RIZZO LAURA",
+  "A_cognome": "SANTORO",
+  "A_nome": "PAOLO",
+  "A_cf": "SNTPLA68P03G224J",
+  "A_targa": "JF342BW",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "91D3378145",
+  "A_cond_cognome": "FONTANA",
+  "A_cond_nome": "GIOVANNI",
+  "A_patente": "AE3677907R",
+  "A_danni": "MASCHERINA",
+  "A_osservazioni": "SEMAFORO GUASTO",
+  "A_totale": "1",
+  "B_cognome": "GRECO",
+  "B_nome": "PAOLO",
+  "B_cf": "GRCPLA73T06A944J",
+  "B_targa": "VK124LE",
+  "B_compagnia": "ALPINA MUTUA",
+  "B_polizza": "55B2033668",
+  "B_cond_cognome": "GRECO",
+  "B_cond_nome": "PAOLO",
+  "B_patente": "CA1161101F",
+  "B_danni": "FIANCATA SINISTRA",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 478,
+  "ms": 5628,
+  "cost_usd": 0.02516,
+  "cached": false,
+  "image_sha": [
+   "dfb6991b098f8140"
+  ]
+ }
+}

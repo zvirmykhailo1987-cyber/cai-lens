@@ -1,0 +1,56 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10019:base",
+ "answer": {
+  "caselle_A": [
+   4
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "si",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "11/08/2026",
+  "ora": "11:00",
+  "luogo": "PADOVA, VIA ROMA 40",
+  "testimoni": "MARTINI LORENZO",
+  "A_cognome": "D'ANGELO",
+  "A_nome": "ALESSIA",
+  "A_cf": "DNGLSS95P46H501O",
+  "A_targa": "BW379XH",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "60S5220681",
+  "A_cond_cognome": "D'ANGELO",
+  "A_cond_nome": "ALESSIA",
+  "A_patente": "UE7357597L",
+  "A_danni": "FARO ANT. SX",
+  "A_osservazioni": "",
+  "A_totale": "1",
+  "B_cognome": "",
+  "B_nome": "",
+  "B_cf": "",
+  "B_targa": "RA335BP",
+  "B_compagnia": "LAGUNA ASS.NI",
+  "B_polizza": "",
+  "B_cond_cognome": "",
+  "B_cond_nome": "",
+  "B_patente": "",
+  "B_danni": "",
+  "B_osservazioni": "",
+  "B_totale": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 418,
+  "ms": 5472,
+  "cost_usd": 0.02396,
+  "cached": false,
+  "image_sha": [
+   "df888d010a84700a"
+  ]
+ }
+}

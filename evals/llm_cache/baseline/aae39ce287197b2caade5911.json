@@ -1,0 +1,59 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10031:base",
+ "answer": {
+  "caselle_A": [
+   10,
+   11
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [
+   "B9"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "19/05/2026",
+  "ora": "16:15",
+  "luogo": "NAPOLI, VIA VERDI 45",
+  "testimoni": "SERRA LUCA",
+  "A_cognome": "GIORDANO",
+  "A_nome": "MARTINA",
+  "A_cf": "GRDMTN58C67G224T",
+  "A_targa": "ED269YJ",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "77M7899656",
+  "A_cond_cognome": "GIORDANO",
+  "A_cond_nome": "MARTINA",
+  "A_patente": "RU4604315E",
+  "A_danni": "FARO ANT. DX",
+  "A_osservazioni": "",
+  "A_totale": "2",
+  "B_cognome": "D'ANGELO",
+  "B_nome": "PAOLA",
+  "B_cf": "DNGPLA95A61F839F",
+  "B_targa": "GJ356YZ",
+  "B_compagnia": "MEDITERRANEA RC",
+  "B_polizza": "36H4574863",
+  "B_cond_cognome": "D'ANGELO",
+  "B_cond_nome": "PAOLA",
+  "B_patente": "EU2082774Z",
+  "B_danni": "FANALE POST. SX",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 479,
+  "ms": 6012,
+  "cost_usd": 0.02518,
+  "cached": false,
+  "image_sha": [
+   "86a4ee5d5a841b4f"
+  ]
+ }
+}

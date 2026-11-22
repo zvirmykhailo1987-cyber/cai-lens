@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "demo-500013:sk",
+ "answer": {
+  "scenario": "incrocio",
+  "impatto_A": "anteriore",
+  "impatto_B": "lato_sx",
+  "certezza": "alta",
+  "descrizione": "A, proveniente da sinistra con segnale STOP, entra nell'incrocio e urta con il frontale il fianco sinistro di B che procede verso nord."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 108,
+  "ms": 2641,
+  "cost_usd": 0.010648,
+  "cached": false,
+  "image_sha": [
+   "c702176f13b97712"
+  ]
+ }
+}

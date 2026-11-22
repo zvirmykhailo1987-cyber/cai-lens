@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10021:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [],
+  "feriti": "si",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "06/08/2026",
+  "ora": "08:40",
+  "luogo": "VENEZIA, VIA GARIBALDI 138",
+  "testimoni": "ROMANO NICOLA",
+  "A_cognome": "GALLO",
+  "A_nome": "MARCO",
+  "A_cf": "GLLMRC02R13G224P",
+  "A_targa": "PD515ZG",
+  "A_compagnia": "ALPINA MUTUA",
+  "A_polizza": "11V8291992",
+  "A_cond_cognome": "CARUSO",
+  "A_cond_nome": "ALESSIA",
+  "A_patente": "DA1741785T",
+  "A_danni": "FANALE POST.",
+  "A_osservazioni": "VISIBILITA' SCARSA",
+  "A_totale": "1",
+  "B_cognome": "MANCINI",
+  "B_nome": "ROBERTO",
+  "B_cf": "MNCRRT63T17L781K",
+  "B_targa": "JA633NP",
+  "B_compagnia": "POLARIS ASSICURA",
+  "B_polizza": "36V7423047",
+  "B_cond_cognome": "ROMANO",
+  "B_cond_nome": "DAVIDE",
+  "B_patente": "MU7079218G",
+  "B_danni": "COFANO E FARO",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 480,
+  "ms": 5807,
+  "cost_usd": 0.0252,
+  "cached": false,
+  "image_sha": [
+   "a81c8acfb9858c24"
+  ]
+ }
+}

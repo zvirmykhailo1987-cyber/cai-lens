@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10108:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "alta",
+  "descrizione": "Strada a senso unico: A procede in retromarcia verso B, urtandone il frontale con la propria parte posteriore. Grafico chiaro, etichetta RETROMARCIA presente."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 119,
+  "ms": 3035,
+  "cost_usd": 0.010868,
+  "cached": false,
+  "image_sha": [
+   "b06e148bbd70ace9"
+  ]
+ }
+}

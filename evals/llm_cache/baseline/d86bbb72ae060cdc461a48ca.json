@@ -1,0 +1,60 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10010:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [
+   "feriti no: casella scarabocchiata"
+  ],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "16/05/2026",
+  "ora": "07:00",
+  "luogo": "MILANO, VIA DANTE 49",
+  "testimoni": "",
+  "A_cognome": "BIANCHI",
+  "A_nome": "PAOLO",
+  "A_cf": "BNCPLA69H07A794A",
+  "A_targa": "NX282EG",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "58M9483286",
+  "A_cond_cognome": "RIZZO",
+  "A_cond_nome": "LUCA",
+  "A_patente": "ME2751047E",
+  "A_danni": "PORTELLONE",
+  "A_osservazioni": "",
+  "A_totale": "1",
+  "B_cognome": "COLOMBO",
+  "B_nome": "FRANCESCO",
+  "B_cf": "CLMFNC66R21A944W",
+  "B_targa": "DH880PG",
+  "B_compagnia": "",
+  "B_polizza": "88S8560758",
+  "B_cond_cognome": "SANTORO",
+  "B_cond_nome": "ELENA",
+  "B_patente": "MU5994074A",
+  "B_danni": "PARAURTI ANTERIORE",
+  "B_osservazioni": "",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 463,
+  "ms": 5838,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "1c9376af4f11f554"
+  ]
+ }
+}

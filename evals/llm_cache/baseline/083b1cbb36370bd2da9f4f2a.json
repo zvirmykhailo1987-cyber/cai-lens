@@ -1,0 +1,56 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10014:base",
+ "answer": {
+  "caselle_A": [
+   4
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "11/10/2026",
+  "ora": "15:00",
+  "luogo": "VENEZIA, PIAZZA CAVOUR 76",
+  "testimoni": "NESSUNO",
+  "A_cognome": "MORETTI",
+  "A_nome": "ALESSIA",
+  "A_cf": "MRTLSS76P66H501B",
+  "A_targa": "TE781GE",
+  "A_compagnia": "LAGUNA ASS.NI",
+  "A_polizza": "40N5530785",
+  "A_cond_cognome": "MORETTI",
+  "A_cond_nome": "ALESSIA",
+  "A_patente": "ER3447682D",
+  "A_danni": "PARAFANGO ANT. SX",
+  "A_osservazioni": "",
+  "A_totale": "1",
+  "B_cognome": "GENTILE",
+  "B_nome": "FRANCESCA",
+  "B_cf": "GNTFNC00D68G224U",
+  "B_targa": "RM230HP",
+  "B_compagnia": "PONENTE ASSICURAZIONI",
+  "B_polizza": "67P4401573",
+  "B_cond_cognome": "GENTILE",
+  "B_cond_nome": "FRANCESCA",
+  "B_patente": "UE9622012N",
+  "B_danni": "FIANCATA DESTRA",
+  "B_osservazioni": "STRADA BAGNATA",
+  "B_totale": "0"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 493,
+  "ms": 6342,
+  "cost_usd": 0.02546,
+  "cached": false,
+  "image_sha": [
+   "b1f4006ea528ab52"
+  ]
+ }
+}

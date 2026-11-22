@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "holdout-90046:sk",
+ "answer": {
+  "scenario": "cambio_corsia",
+  "impatto_A": "ant_dx",
+  "impatto_B": "post_sx",
+  "certezza": "alta",
+  "descrizione": "Strada a due corsie, stessa direzione: A si sposta verso destra nella corsia di B, urtandolo con l'anteriore destro sul posteriore sinistro."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 115,
+  "ms": 2384,
+  "cost_usd": 0.010788,
+  "cached": false,
+  "image_sha": [
+   "6cf6295be0660395"
+  ]
+ }
+}

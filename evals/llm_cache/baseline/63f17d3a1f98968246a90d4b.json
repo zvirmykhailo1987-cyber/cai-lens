@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10005:base",
+ "answer": {
+  "caselle_A": [
+   14
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [],
+  "feriti": "si",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "15/04/2026",
+  "ora": "19:20",
+  "luogo": "FIRENZE, VIA DANTE 42",
+  "testimoni": "",
+  "A_cognome": "MARINO",
+  "A_nome": "DAVIDE",
+  "A_cf": "MRNDVD80H24F205L",
+  "A_targa": "DL088ES",
+  "A_compagnia": "MEDITERRANEA RC",
+  "A_polizza": "19N8398517",
+  "A_cond_cognome": "MARINO",
+  "A_cond_nome": "DAVIDE",
+  "A_patente": "ED8508959C",
+  "A_danni": "PARAURTI POSTERIORE",
+  "A_osservazioni": "TRAFFICO INTENSO",
+  "A_totale": "1",
+  "B_cognome": "COLOMBO",
+  "B_nome": "FRANCESCO",
+  "B_cf": "CLMFNC88S02G224X",
+  "B_targa": "PG614XG",
+  "B_compagnia": "ALPINA MUTUA",
+  "B_polizza": "69T5584360",
+  "B_cond_cognome": "COLOMBO",
+  "B_cond_nome": "FRANCESCO",
+  "B_patente": "VC8565179P",
+  "B_danni": "COFANO E FARO",
+  "B_osservazioni": "TRAFFICO INTENSO",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 488,
+  "ms": 5438,
+  "cost_usd": 0.02536,
+  "cached": false,
+  "image_sha": [
+   "d66c1062680117ad"
+  ]
+ }
+}

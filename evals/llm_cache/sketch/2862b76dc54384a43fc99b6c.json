@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10005:sk",
+ "answer": {
+  "scenario": "retromarcia",
+  "impatto_A": "posteriore",
+  "impatto_B": "anteriore",
+  "certezza": "media",
+  "descrizione": "Retromarcia su strada rettilinea: il retro di A urta il fronte di B. Grafico essenziale, direzioni dei veicoli poco dettagliate."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 109,
+  "ms": 2858,
+  "cost_usd": 0.010668,
+  "cached": false,
+  "image_sha": [
+   "6495c9799c533e89"
+  ]
+ }
+}

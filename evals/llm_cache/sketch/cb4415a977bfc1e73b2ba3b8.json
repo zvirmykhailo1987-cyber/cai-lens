@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "holdout-90015:sk",
+ "answer": {
+  "scenario": "rotatoria",
+  "impatto_A": "anteriore",
+  "impatto_B": "lato_dx",
+  "certezza": "alta",
+  "descrizione": "A entra nella rotatoria da sinistra e urta con il frontale il fianco destro di B che circola nell'anello."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 95,
+  "ms": 2173,
+  "cost_usd": 0.010388,
+  "cached": false,
+  "image_sha": [
+   "5d0d4ce4ef3d4c7a"
+  ]
+ }
+}

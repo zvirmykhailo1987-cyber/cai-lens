@@ -1,0 +1,23 @@
+{
+ "purpose": "sketch",
+ "prompt_version": "sk-v2",
+ "cache_id": "dev-10112:sk",
+ "answer": {
+  "scenario": "tamponamento",
+  "impatto_A": "anteriore",
+  "impatto_B": "posteriore",
+  "certezza": "alta",
+  "descrizione": "Strada rettilinea, A e B nella stessa direzione; A urta con la parte anteriore il retro di B. Frecce coerenti sulle sagome."
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 2122,
+  "output_tokens": 107,
+  "ms": 2735,
+  "cost_usd": 0.010628,
+  "cached": false,
+  "image_sha": [
+   "915f87e800eb4fa6"
+  ]
+ }
+}

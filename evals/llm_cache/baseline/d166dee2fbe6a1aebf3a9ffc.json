@@ -1,0 +1,56 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10016:base",
+ "answer": {
+  "caselle_A": [
+   4
+  ],
+  "caselle_B": [],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "si",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": true,
+  "data": "22/03/2026",
+  "ora": "20:30",
+  "luogo": "NAPOLI, VIA DANTE 163",
+  "testimoni": "",
+  "A_cognome": "COLOMBO",
+  "A_nome": "VALENTINA",
+  "A_cf": "CLMVNT93H59A944N",
+  "A_targa": "EC544YD",
+  "A_compagnia": "ALPINA MUTUA",
+  "A_polizza": "72S7204180",
+  "A_cond_cognome": "COLOMBO",
+  "A_cond_nome": "VALENTINA",
+  "A_patente": "TM3855831G",
+  "A_danni": "PARAFANGO ANT. SX",
+  "A_osservazioni": "TRAFFICO INTENSO",
+  "A_totale": "1",
+  "B_cognome": "MORETTI",
+  "B_nome": "NICOLA",
+  "B_cf": "MRTNCL77R18L219M",
+  "B_targa": "GB519SG",
+  "B_compagnia": "LAGUNA ASS.NI",
+  "B_polizza": "89N6325659",
+  "B_cond_cognome": "MORETTI",
+  "B_cond_nome": "NICOLA",
+  "B_patente": "CC3896684B",
+  "B_danni": "PORTIERA DX",
+  "B_osservazioni": "TRAFFICO INTENSO",
+  "B_totale": "0"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 486,
+  "ms": 5743,
+  "cost_usd": 0.02532,
+  "cached": false,
+  "image_sha": [
+   "af035e2b7ced54af"
+  ]
+ }
+}

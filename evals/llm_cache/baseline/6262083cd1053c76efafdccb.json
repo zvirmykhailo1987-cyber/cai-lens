@@ -1,0 +1,58 @@
+{
+ "purpose": "baseline",
+ "prompt_version": "base-v2",
+ "cache_id": "dev-10032:base",
+ "answer": {
+  "caselle_A": [
+   8
+  ],
+  "caselle_B": [
+   1
+  ],
+  "caselle_incerte": [],
+  "feriti": "no",
+  "veicoli": "no",
+  "oggetti": "no",
+  "firma_A": true,
+  "firma_B": false,
+  "data": "23/05/2026",
+  "ora": "18:15",
+  "luogo": "MILANO, VIA MILANO 91",
+  "testimoni": "",
+  "A_cognome": "MARTINELLI",
+  "A_nome": "ALESSANDRO",
+  "A_cf": "MRTLSN72L17F839S",
+  "A_targa": "GD648KV",
+  "A_compagnia": "PONENTE ASSICURAZIONI",
+  "A_polizza": "44B9182018",
+  "A_cond_cognome": "MARTINELLI",
+  "A_cond_nome": "ALESSANDRO",
+  "A_patente": "TM4635403F",
+  "A_danni": "MASCHERINA",
+  "A_osservazioni": "TRAFFICO INTENSO",
+  "A_totale": "1",
+  "B_cognome": "ROMANO",
+  "B_nome": "DAVIDE",
+  "B_cf": "RMNDVD75M06H501B",
+  "B_targa": "TJ173MW",
+  "B_compagnia": "",
+  "B_polizza": "95N3798923",
+  "B_cond_cognome": "MARINO",
+  "B_cond_nome": "GIULIA",
+  "B_patente": "RA3578567M",
+  "B_danni": "FANALE POST.",
+  "B_osservazioni": "VISIBILITA' SCARSA",
+  "B_totale": "1"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 3900,
+  "output_tokens": 479,
+  "ms": 5860,
+  "cost_usd": 0.02518,
+  "cached": false,
+  "image_sha": [
+   "a7c45638a3fb72a5"
+  ]
+ }
+}
