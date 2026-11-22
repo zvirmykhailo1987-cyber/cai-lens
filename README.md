@@ -8,7 +8,9 @@ the art. 148 CAP deadline and routing are plain code. Every field comes with a c
 goes to a claims handler with the reason and the legal term for the offer. Agents can use it through an MCP
 server.
 
-Five-minute walkthrough: [docs/DEMO.md](docs/DEMO.md).
+**Live demo:** https://sinistri-demo.159.195.219.73.sslip.io (synthetic cases only; sign in with
+`liquidatore` / `liquidatore-demo-2026` to correct fields or build a case). Five-minute walkthrough:
+[docs/DEMO.md](docs/DEMO.md).
 
 > Technical demo on **synthetic data only**: no real form, person, plate, policy or insurer. The form is drawn
 > from scratch after the structure of Reg. IVASS n. 56/2025, Allegato 1. The system prepares data and flags
@@ -102,7 +104,7 @@ all passing. Before release the demo is also run end to end in the production co
 an attacker (CSRF, open redirect, path traversal, XSS, brute force, forged cookies) and live cases built with
 the real model. That run found two bugs the unit tests had not: a live answer was lost because the cassette
 could not be written on a read-only image, and the review view dropped the verifier's veto on a codice fiscale.
-Both now have a test and a mutation.
+Both now have a test and a mutation. The run is [`scripts/e2e_check.py`](scripts/e2e_check.py).
 
 ![The queue: cases ordered by the art. 148 term, with the reasons](docs/screenshot-queue.png)
 
