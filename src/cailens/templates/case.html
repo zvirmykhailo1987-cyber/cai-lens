@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+{% block title %}{{ row.case_id }} · CAI-Lens{% endblock %}
+{% block content %}
+{% set R = eff.readings %}
+{% set dl = eff.deadline %}
+<div class="case-head">
+  <div>
+    <p class="eyebrow"><a href="/coda">Coda</a> / pratica</p>
+    <h1 class="mono">{{ row.case_id }}</h1>
+    <p class="muted small">Ricevuta il {{ row.received_on | itdate }} · {{ 'foto' if res.quality_note or (row.truth and row.truth.capture == 'foto') else 'scansione' }} · nitidezza {{ res.sharpness | round | int }} · {{ eff.reviewed }} campi rivisti</p>
+  </div>
+  <div>{{ m.route_chip(eff.route, eff.status) }}</div>
+</div>
+
+<div class="case-grid">
+  <figure class="viewer" aria-label="Il modulo raddrizzato con i campi letti">
+    {% if has_page %}
+    <div class="stage">
+      <img src="/pratica/{{ row.case_id }}/pagina.jpg" alt="Modulo CAI della pratica {{ row.case_id }}, raddrizzato" width="{{ W }}" height="{{ H }}">
+      <svg class="overlay" viewBox="0 0 {{ W }} {{ H }}" preserveAspectRatio="none" role="img" aria-label="Riquadri sui campi letti">
+        {% for b in boxes %}<a href="#f-{{ b.id }}" aria-label="{{ b.id | label }}"><rect class="{{ b.tone }}" x="{{ b.x }}" y="{{ b.y }}" width="{{ b.w }}" height="{{ b.h }}"/></a>{% endfor %}
+      </svg>
+    </div>
+    <figcaption class="legend">
+      <span><i class="lg-ok"></i> letto con affidabilità</span><span><i class="lg-look"></i> da guardare</span>
+      <span><i class="lg-bad"></i> incoerente</span><span><i class="lg-done"></i> confermato da una persona</span>
+      <a href="/pratica/{{ row.case_id }}/originale.jpg">foto originale</a>
+    </figcaption>
+    {% else %}
+    <div class="card"><p>Il modulo non è stato allineato: <a href="/pratica/{{ row.case_id }}/originale.jpg">apri la foto originale</a>.</p></div>
+    {% endif %}
+  </figure>
+
+  <div>
+    <section class="card reg">
+      <div class="verdict">
+        <div class="badge {{ 'auto' if eff.route == 'automatico' else 'look' }}">{{ m.icon('check' if eff.route == 'automatico' else 'alert', 'lg') }}</div>
+        <div>
+          <h2>{{ STATUS_LABEL[eff.status] }}</h2>
+        </div>
+      </div>
+      {% if eff.reasons %}<ul class="reasons-list">{% for r in eff.reasons %}<li>{{ r }}</li>{% endfor %}</ul>
+      {% else %}<p class="muted small">Tutti i campi chiave sono leggibili e coerenti: i dati possono andare al liquidatore senza ricontrollo.</p>{% endif %}
+    </section>
+
+    <section class="card">
+      <div class="deadline {{ 'provisional' if dl.provisional }}">
+        <div class="days">{{ dl.days if dl.days else '—' }}<small>giorni · art. 148</small></div>
+        <div>
+          <p><b>Offerta entro il {{ dl.due | itdate if dl.due else '—' }}</b>{% if dl.provisional %} <span class="chip look">provvisorio</span>{% endif %}</p>
+          <p class="small muted">{{ dl.basis }}</p>
+        </div>
+      </div>
+    </section>
+
+    {% if eff.issues %}
+    <section class="card">
+      <h2>{{ m.icon('alert') }} Controlli</h2>
+      <ul class="issues">{% for i in eff.issues %}<li><span class="chip {{ 'bad' if i.severity == 'errore' else 'look' }}">{{ i.severity }}</span> <span>{{ i.message }}</span></li>{% endfor %}</ul>
+    </section>
+    {% endif %}
+
+    {% if row.truth %}
+    <section class="card">
+      <h2>{{ m.icon('flask') }} Confronto con la verità sintetica</h2>
+      {% if truth_diff %}
+      <p class="small muted">Questi campi differiscono da ciò che è stato davvero scritto (le letture «incerte» non contano: sono già in coda).</p>
+      <ul class="issues">{% for d in truth_diff %}<li><span class="mono">{{ d.field }}</span> <span>scritto <b class="mono">{{ show_value(d.field, d.want) }}</b>, letto <b class="mono">{{ show_value(d.field, d.got) }}</b></span></li>{% endfor %}</ul>
+      {% else %}<p class="small">Nessuna lettura sicura è sbagliata: tutto ciò che il sistema non poteva sapere è in coda come «incerto».</p>{% endif %}
+      <p class="small muted">Difetti inseriti dal generatore: {{ row.truth.defects | join(', ') or 'nessuno' }} · scenario {{ row.truth.scenario }}.</p>
+    </section>
+    {% endif %}
+  </div>
+</div>
+
+<section class="section" id="campi">
+  <h2>Campi letti</h2>
+  {% if not user %}<p class="note">{{ m.icon('lock') }} <a href="/accesso?next=/pratica/{{ row.case_id }}">Accedi</a> per confermare o correggere i campi: termine e instradamento si ricalcolano subito.</p>{% endif %}
+  <div class="table">
+  <table class="fields">
+    <thead><tr><th>Campo</th><th>Valore</th><th>Affidabilità</th><th>Chi l'ha letto</th></tr></thead>
+    <tbody>
+    {% for title, ids in groups %}
+      <tr class="grp"><td colspan="4">{{ title }}</td></tr>
+      {% for fid in ids if fid in R %}{% set r = R[fid] %}
+      <tr id="f-{{ fid }}" class="{{ 'look' if fid in look }}" {% if fid in look %}data-state="partial"{% endif %}>
+        <td>{{ fid | label }}</td>
+        <td class="val">{{ show_value(fid, r.value) }}
+          {% if user and r.agent != 'revisore' and fid in look %}
+          <form method="post" action="/pratica/{{ row.case_id }}/campo" class="fix">
+            <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="field" value="{{ fid }}">
+            {% if '.c' in fid or fid.endswith('firma') or fid.endswith('_si') or fid.endswith('_no') %}
+              <button class="btn ghost sm" name="action" value="correggi" type="submit" formnovalidate>Sì</button>
+              <input type="hidden" name="value" value="si">
+            {% else %}
+              <input type="text" name="value" value="{{ r.value or '' }}" maxlength="120" aria-label="Valore corretto">
+              <button class="btn ghost sm" name="action" value="correggi" type="submit">Correggi</button>
+              {% if r.value and r.value != 'incerto' %}<button class="btn ghost sm" name="action" value="conferma" type="submit">Confermo</button>{% endif %}
+            {% endif %}
+          </form>
+          {% if '.c' in fid or fid.endswith('firma') or fid.endswith('_si') or fid.endswith('_no') %}
+          <form method="post" action="/pratica/{{ row.case_id }}/campo" class="fix">
+            <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="field" value="{{ fid }}"><input type="hidden" name="value" value="no">
+            <button class="btn ghost sm" name="action" value="correggi" type="submit">No</button>
+          </form>
+          {% endif %}
+          {% endif %}
+        </td>
+        <td>{{ m.meter(r.confidence, r.agent) }}</td>
+        <td><span class="tag">{{ r.agent }}</span>{% if r.evidence.ink is defined %} <span class="small muted">inchiostro {{ (r.evidence.ink * 100) | round | int }}%</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    {% endfor %}
+      <tr class="grp"><td colspan="4">Circostanze barrate (sezione 12)</td></tr>
+      {% for s in ['A', 'B'] %}
+      <tr><td>Veicolo {{ s }}</td><td class="val" colspan="3">
+        {% for n in range(1, 18) %}{% set fid = s ~ '.c' ~ ('%02d' % n) %}{% set r = R.get(fid) %}
+          {% if r and r.value != 'no' %}<a href="#f-{{ fid }}" class="chip {{ 'look' if r.value == 'incerto' else ('done' if r.agent == 'revisore' else 'auto') }}">{{ n }} · {{ fid | label | replace('12.' ~ n ~ ' ', '') }}{% if r.value == 'incerto' %} (incerta){% endif %}</a> {% endif %}
+        {% endfor %}
+      </td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <details>
+    <summary>Tutte le 40 caselle, con l'inchiostro misurato</summary>
+    <div class="table"><table class="fields"><tbody>
+    {% for s in ['A', 'B'] %}{% for n in range(1, 18) %}{% set fid = s ~ '.c' ~ ('%02d' % n) %}{% set r = R.get(fid) %}{% if r %}
+      <tr id="f-{{ fid }}" class="{{ 'look' if fid in look }}"><td class="mono">{{ fid }}</td><td>{{ fid | label }}</td><td class="val">{{ show_value(fid, r.value) }}
+      {% if user and r.agent != 'revisore' and fid in look %}
+        <form method="post" action="/pratica/{{ row.case_id }}/campo" class="fix"><input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="field" value="{{ fid }}"><input type="hidden" name="value" value="si"><button class="btn ghost sm" name="action" value="correggi">Barrata</button></form>
+        <form method="post" action="/pratica/{{ row.case_id }}/campo" class="fix"><input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="field" value="{{ fid }}"><input type="hidden" name="value" value="no"><button class="btn ghost sm" name="action" value="correggi">Vuota</button></form>
+      {% endif %}</td><td>{{ m.meter(r.confidence, r.agent) }}</td><td class="small muted">{% if r.evidence.ink is defined %}{{ (r.evidence.ink * 100) | round(1) }}%{% endif %}</td></tr>
+    {% endif %}{% endfor %}{% endfor %}
+    </tbody></table></div>
+  </details>
+</section>
+
+<section class="section grid2">
+  <div class="card">
+    <h2>{{ m.icon('timeline') }} Passaggi</h2>
+    {% set maxms = (res.steps | map(attribute='ms') | max) or 1 %}
+    {% set rows = [] %}{% for s in res.steps %}{% set _ = rows.append((STEP_LABEL.get(s.step, s.step), (s.ms / 1000) | round(2), 's-look' if s.step in ('handwriting', 'sketch', 'verifier') else 's-ok')) %}{% endfor %}
+    {{ m.hchart(rows, (((maxms / 1000) * 1.15) | round(1)) or 1, ' s', 130, 560, 'Durata di ogni passaggio') }}
+    <ul class="steps small muted">{% for s in res.steps if s.input_tokens or not s.ok or s.note %}
+      <li><span>{{ STEP_LABEL.get(s.step, s.step) }}</span><span class="mono">{% if s.input_tokens %}{{ s.input_tokens }}+{{ s.output_tokens }} token{% endif %}{% if s.note.startswith('cache') %} · risposta registrata{% endif %}</span><span>{% if not s.ok %}{{ s.note[:60] }}{% elif 'discordanti' in s.note %}{{ s.note }}{% endif %}</span></li>
+    {% endfor %}</ul>
+    <p class="small muted">Costo del modello per questa pratica: {{ '%.4f' % cost }} $.</p>
+  </div>
+  <div class="card">
+    <h2>{{ m.icon('route') }} Dinamica dal grafico</h2>
+    {% set sc = R.get('scenario') %}
+    {% if sc and sc.value %}<p><b>{{ sc.value | replace('_', ' ') }}</b> {{ m.meter(sc.confidence) }}</p>
+      <p class="small muted">{{ sc.evidence.descrizione }}</p>
+      <p class="small">Punto d'urto: A {{ show_value('A.impatto', R['A.impatto'].value) }}, B {{ show_value('B.impatto', R['B.impatto'].value) }}</p>
+    {% else %}<p class="muted">Grafico non letto.</p>{% endif %}
+    <p class="small muted">Un controllo incrociato con le caselle della sezione 12, non una decisione sulla responsabilità.</p>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,72 @@
+[project]
+name = "cai-lens"
+version = "0.1.0"
+description = "Reads the Italian accident report form (CAI): computer vision for crosses and signatures, a vision model for handwriting, plain code for rules, art. 148 deadlines and routing. Synthetic data, measured with evals."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mykhailo Zvir" }]
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic>=2.11",
+  "mcp>=2.3",
+  "fastapi>=0.165",
+  "uvicorn>=0.38",
+  "jinja2>=3.1",
+  "python-multipart>=0.0.20",
+  "pydantic>=2.14",
+  "numpy>=2.0",
+  "pillow>=11.0",
+  "opencv-python-headless>=4.10",
+  "tzdata>=2025.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=6", "hypothesis>=6.135", "httpx>=0.28", "ruff>=0.14", "mypy>=1.18", "pip-audit>=2.9", "bandit>=1.8"]
+
+[project.scripts]
+cai-eval = "cailens.evals:main"
+cai-web = "cailens.web:main"
+cai-mcp = "cailens.mcp_server:main"
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cailens = ["templates/*.html", "static/*", "static/fonts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.coverage.run]
+branch = true
+source = ["cailens"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+exclude_also = ['if __name__ == .__main__.:', 'def main\(\)']
+
+[tool.ruff]
+line-length = 130
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM", "RUF"]
+ignore = ["S101", "S311", "RUF001", "RUF002", "RUF003", "B008"]  # S311: random only shapes synthetic forms
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "B", "RUF012", "E501"]
+"scripts/*" = ["S", "E501", "E402"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+ignore_missing_imports = true
+mypy_path = "src"
+packages = ["cailens"]

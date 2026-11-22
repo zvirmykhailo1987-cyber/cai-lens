@@ -1,0 +1,33 @@
+{
+ "split": "dev",
+ "n": 40,
+ "at": "2026-11-21T20:44:18+00:00",
+ "comparison": {
+  "ibrido": {
+   "documents": 40,
+   "failed_calls": 0,
+   "box_wrong": 0,
+   "boxes": 1596,
+   "box_sent_to_review": 1,
+   "scratched_flagged": "4/4",
+   "signature_wrong": 0,
+   "signatures": 80,
+   "text_exact_pct": 99.5,
+   "usd_per_doc": 0.0392,
+   "seconds_per_doc": 11.06
+  },
+  "solo_modello": {
+   "documents": 40,
+   "failed_calls": 0,
+   "box_wrong": 8,
+   "boxes": 1596,
+   "box_sent_to_review": 0,
+   "scratched_flagged": "0/4",
+   "signature_wrong": 0,
+   "signatures": 80,
+   "text_exact_pct": 99.7,
+   "usd_per_doc": 0.0252,
+   "seconds_per_doc": 6.02
+  }
+ }
+}

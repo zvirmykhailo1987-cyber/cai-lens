@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Accedi · CAI-Lens{% endblock %}
+{% block content %}
+<div class="grid2">
+<section class="card reg">
+  <p class="eyebrow">Accesso</p>
+  <h1>Area del liquidatore</h1>
+  <p class="muted">Per correggere le letture e costruire nuovi casi. La consultazione è libera.</p>
+  {% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+  <form method="post" action="/accesso">
+    <input type="hidden" name="next" value="{{ next }}">
+    <p><label>Utente <input type="text" name="username" autocomplete="username" required maxlength="40"></label></p>
+    <p><label>Password <input type="password" name="password" autocomplete="current-password" required maxlength="200"></label></p>
+    <button class="btn primary" type="submit">{{ m.icon('lock') }} Entra</button>
+  </form>
+</section>
+{% if demo_password %}<aside class="note">Demo pubblica: <span class="mono">{{ demo_password }}</span>. Ogni visitatore lavora in uno spazio suo: le tue correzioni e i casi che generi non li vede nessun altro.</aside>{% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{# Shared pieces of the design system (docs/DESIGN.md). #}
+{% macro icon(name, cls='') -%}
+<svg class="i {{ cls }}" aria-hidden="true" focusable="false"><use href="/static/icons.svg#{{ name }}"></use></svg>
+{%- endmacro %}
+
+{# confidence: five ticks; colour says who can act on it #}
+{% macro meter(c, agent='') -%}
+{%- set n = (c * 5) | round(0, 'ceil') | int -%}
+{%- set cls = 'rev' if agent == 'revisore' else ('hi' if c >= 0.8 else ('mid' if c >= 0.5 else 'lo')) -%}
+<span class="meter {{ cls }}" role="img" aria-label="affidabilità {{ (c * 100) | round | int }}%">{% for i in range(5) %}<i class="{{ 'on' if i < n }}"></i>{% endfor %}</span>
+{%- endmacro %}
+
+{% macro route_chip(route, status='') -%}
+{%- if status == 'pronta' -%}<span class="chip done">{{ icon('approve') }} pronta dopo revisione</span>
+{%- elif route == 'automatico' -%}<span class="chip auto">{{ icon('check') }} automatico</span>
+{%- else -%}<span class="chip look">{{ icon('alert') }} da rivedere</span>{%- endif -%}
+{%- endmacro %}
+
+{% macro due(c) -%}
+{%- if c.left is none -%}<span class="muted">—</span>
+{%- else -%}
+<span class="due {{ 'late' if c.left < 0 else ('soon' if c.left <= 7 else '') }}">
+  <b>{% if c.left < 0 %}scaduto da {{ -c.left }} g{% else %}{{ c.left }} giorni{% endif %}</b>
+  <span class="small muted">{{ c.due | itdate }} · art. 148, {{ c.days }} g{% if c.provisional %} · provvisorio{% endif %}</span>
+</span>
+{%- endif -%}
+{%- endmacro %}
+
+{# horizontal bar as SVG (the CSP allows no inline style) #}
+{% macro bar(value, total, cls='bar-fill') -%}
+{%- set w = (100 * value / total) if total else 0 -%}
+<svg viewBox="0 0 100 8" preserveAspectRatio="none" aria-hidden="true"><rect class="bar-bg" x="0" y="0" width="100" height="8" rx="4"/><rect class="{{ cls }}" x="0" y="0" width="{{ '%.2f' % w }}" height="8" rx="4"/></svg>
+{%- endmacro %}
+
+{% macro pct(v) -%}{% if v is none %}<span class="muted">n/d</span>{% else %}{{ v }}<small>%</small>{% endif %}{%- endmacro %}
+
+{# horizontal bar chart with a scale: rows = [(label, value, cls)], vmax = right end of the axis #}
+{% macro hchart(rows, vmax, unit='', label_w=150, width=620, title='') -%}
+{%- set bw = width - label_w - 70 -%}{%- set rh = 26 -%}{%- set h = 28 + rows | length * rh -%}
+<svg class="chart" viewBox="0 0 {{ width }} {{ h }}" role="img" aria-label="{{ title }}">
+  {%- for t in range(5) %}{% set x = label_w + bw * t / 4 %}
+  <line class="grid" x1="{{ '%.1f' % x }}" y1="4" x2="{{ '%.1f' % x }}" y2="{{ h - 18 }}"/>
+  <text x="{{ '%.1f' % x }}" y="{{ h - 4 }}" text-anchor="middle">{{ ((vmax * t / 4) | round(1)) | string | replace('.0', '') }}{{ unit }}</text>
+  {%- endfor %}
+  <line class="axis" x1="{{ label_w }}" y1="4" x2="{{ label_w }}" y2="{{ h - 18 }}"/>
+  {%- for label, value, cls in rows %}{% set y = 8 + loop.index0 * rh %}{% set w = (bw * (value or 0) / vmax) if vmax else 0 %}
+  <text class="lbl" x="0" y="{{ y + 13 }}">{{ label }}</text>
+  <rect class="{{ cls }}" x="{{ label_w }}" y="{{ y }}" width="{{ '%.1f' % w }}" height="16" rx="2"/>
+  <text class="lbl" x="{{ '%.1f' % (label_w + w + 6) }}" y="{{ y + 13 }}">{{ value if value is not none else 'n/d' }}{{ unit }}</text>
+  {%- endfor %}
+</svg>
+{%- endmacro %}

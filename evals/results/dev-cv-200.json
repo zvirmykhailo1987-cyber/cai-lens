@@ -1,0 +1,83 @@
+{
+ "split": "dev",
+ "n": 200,
+ "use_llm": false,
+ "at": "2026-11-21T19:04:03+00:00",
+ "seconds": 140.4,
+ "summary": {
+  "documents": 200,
+  "registered_pct": 100.0,
+  "checkbox": {
+   "marked": 1002,
+   "empty": 6985,
+   "scratched_out": 13,
+   "marked_read_si_pct": 99.9,
+   "marked_read_no": 0,
+   "empty_read_no_pct": 100.0,
+   "empty_read_si": 0,
+   "sent_to_review": 1,
+   "scratched_sent_to_review_pct": 100.0
+  },
+  "signature": {
+   "no->no": 49,
+   "si->si": 351
+  },
+  "text": {
+   "fields_scored": 0,
+   "exact_pct": null,
+   "per_field_pct": {},
+   "high_confidence_exact_pct": null
+  },
+  "deadline": {
+   "scored": 200,
+   "correct_pct": 100.0,
+   "never_later_pct": 100.0,
+   "provisional": 0
+  },
+  "defects_flagged_pct": {
+   "campo_B_mancante": 0.0,
+   "cf_errato": 0.0,
+   "correzione": 100.0,
+   "data_successiva": 0.0,
+   "denuncia_unilaterale": 0.0,
+   "firma_A_mancante": 100.0,
+   "firma_B_mancante": 100.0,
+   "totale_errato": 0.0
+  },
+  "defects_n": {
+   "campo_B_mancante": 17,
+   "cf_errato": 20,
+   "correzione": 13,
+   "data_successiva": 7,
+   "denuncia_unilaterale": 9,
+   "firma_A_mancante": 12,
+   "firma_B_mancante": 28,
+   "totale_errato": 22
+  },
+  "scenario_pct": null,
+  "impact_pct": null,
+  "routing": {
+   "automatico_pct": 0.0,
+   "automatico": 0,
+   "automatico_with_wrong_key_field": 0,
+   "wrong_fields": {}
+  },
+  "cost": {
+   "usd_per_doc_live": null,
+   "llm_seconds_per_doc_live": null,
+   "cv_ms_per_doc": 146,
+   "usd_total_recorded": 0.0
+  },
+  "by_capture": {
+   "scansione": {
+    "documents": 93,
+    "automatico_pct": 0.0
+   },
+   "foto": {
+    "documents": 107,
+    "automatico_pct": 0.0
+   }
+  }
+ },
+ "failures": []
+}

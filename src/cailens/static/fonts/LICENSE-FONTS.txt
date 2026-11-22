@@ -1,0 +1,2 @@
+Geist, Geist Mono, IBM Plex Serif: SIL Open Font License 1.1.
+Sources: github.com/google/fonts/ofl/geist, /geistmono, /ibmplexserif

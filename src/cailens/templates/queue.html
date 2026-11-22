@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Coda · CAI-Lens{% endblock %}
+{% block content %}
+<p class="eyebrow">Coda del liquidatore</p>
+<h1>Prima le pratiche con il termine più vicino</h1>
+<p class="lead">Ogni riga dice perché la pratica è in coda. Quelle «automatiche» hanno i dati pronti: nessun campo da ricontrollare, nessuna incoerenza.</p>
+<nav class="filters" aria-label="Filtra per motivo">
+  <a href="/coda" {% if not filtro %}aria-current="true"{% endif %}>Tutte <b>{{ total }}</b></a>
+  {% for k, n in kinds %}<a href="/coda?filtro={{ k | urlencode }}" {% if filtro == k %}aria-current="true"{% endif %}>{{ k }} <b>{{ n }}</b></a>{% endfor %}
+  <a href="/coda?filtro=automatico" {% if filtro == 'automatico' %}aria-current="true"{% endif %}>Automatiche <b>{{ auto }}</b></a>
+</nav>
+<div class="table">
+<table>
+  <thead><tr><th>Pratica</th><th>Esito</th><th>Termine per l'offerta</th><th>Da guardare</th><th>Motivi</th></tr></thead>
+  <tbody>
+  {% for c in queue %}
+    <tr {% if c.route != 'automatico' %}data-state="partial"{% endif %}>
+      <td><a class="mono" href="/pratica/{{ c.id }}">{{ c.id }}</a><br><span class="small muted">{{ c.plates or '—' }}{% if c.source == 'generata' %} · <span class="tag">tuo</span>{% endif %}</span></td>
+      <td>{{ m.route_chip(c.route, c.status) }}</td>
+      <td>{{ m.due(c) }}</td>
+      <td class="num">{% if c.to_look %}<b>{{ c.to_look }}</b> <span class="small muted">{{ "campo" if c.to_look == 1 else "campi" }}</span>{% else %}<span class="muted">—</span>{% endif %}</td>
+      <td><ul class="reasons">{% for k in c.kinds %}<li class="tag">{{ k }}</li>{% endfor %}</ul></td>
+    </tr>
+  {% else %}<tr data-state="empty"><td colspan="5" class="muted">Nessuna pratica con questo filtro. <a href="/coda">Mostra tutte</a> o <a href="/genera">genera un caso</a>.</td></tr>{% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

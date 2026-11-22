@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Genera un caso · CAI-Lens{% endblock %}
+{% block content %}
+<p class="eyebrow">Banco di prova</p>
+<h1>Costruisci un modulo e guarda come viene letto</h1>
+<p class="lead">Il generatore scrive un modulo CAI sintetico con la dinamica e i difetti che scegli, lo «fotografa» e lo passa alla stessa pipeline della coda. Nessun dato reale: non c'è un caricamento di foto vere, di proposito.</p>
+{% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+{% if not user %}<p class="note">{{ m.icon('lock') }} <a href="/accesso?next=/genera">Accedi</a> per generare un caso (limite di pochi casi all'ora per visitatore).</p>{% endif %}
+<form method="post" action="/genera" class="card reg">
+  <input type="hidden" name="csrf" value="{{ csrf or '' }}">
+  <fieldset><legend>Dinamica</legend>
+    <div class="choices">
+      <label class="choice"><input type="radio" name="scenario" value="" checked> a caso</label>
+      {% for s in scenarios %}<label class="choice"><input type="radio" name="scenario" value="{{ s }}"> {{ s | replace('_', ' ') }}</label>{% endfor %}
+    </div>
+  </fieldset>
+  <fieldset><legend>Difetti da inserire</legend>
+    <div class="choices">{% for code, text in defects %}<label class="choice"><input type="checkbox" name="defects" value="{{ code }}"> {{ text }}</label>{% endfor %}
+      <label class="choice"><input type="checkbox" name="feriti" value="si"> Ci sono feriti (termine 90 giorni)</label>
+    </div>
+  </fieldset>
+  <fieldset><legend>Come arriva il modulo</legend>
+    <div class="choices">{% for q, text in qualities %}<label class="choice"><input type="radio" name="quality" value="{{ q }}" {% if q == 'foto' %}checked{% endif %}> {{ text }}</label>{% endfor %}</div>
+    <p class="small muted">«Foto mossa e scura» mette alla prova il controllo di qualità: il sistema deve accorgersene e chiedere una verifica, non leggere male in silenzio.</p>
+  </fieldset>
+  <button class="btn primary" type="submit" {% if not user %}disabled{% endif %}>{{ m.icon('scan') }} Genera e leggi</button>
+  <span class="small muted">{% if live_llm %}La scrittura a mano viene letta dal modello in tempo reale (circa 10–20 secondi).{% else %}Modello non attivo in questo ambiente: caselle, firme, regole e termine funzionano, i campi di testo vanno in revisione.{% endif %}</span>
+</form>
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+{% set hold = results.get('holdout-llm-100') %}
+{% set cvh = results.get('holdout-cv-100') %}
+{% set base = results.get('baseline-dev-40') %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">Constatazione amichevole · art. 148 CAP</p>
+    <h1>Legge il modulo CAI e dice cosa non ha letto con certezza.</h1>
+    <p class="lead">Croci e firme le misurano i pixel, la scrittura a mano la legge un modello, le regole e i termini sono codice. Ogni campo arriva con la sua affidabilità; quello che è incerto va a una persona, insieme al motivo e al termine per l'offerta.</p>
+    <div class="actions">
+      <a class="btn primary" href="/coda">{{ m.icon('tasks') }} Apri la coda · {{ cases }} pratiche</a>
+      <a class="btn ghost" href="/genera">{{ m.icon('scan') }} Genera un caso</a>
+    </div>
+  </div>
+  <aside class="proof reg" aria-label="Risultati misurati">
+    <p class="eyebrow">Misurato sul set di prova (holdout)</p>
+    {% set h = hold.summary if hold else (cvh.summary if cvh else none) %}
+    {% if h %}
+    <div class="row"><span>Croci lette sbagliate senza avviso</span><b>{{ h.checkbox.marked_read_no + h.checkbox.empty_read_si }} su {{ h.checkbox.marked + h.checkbox.empty }}</b></div>
+    <div class="row"><span>Croci annullate mandate a una persona</span><b>{{ h.checkbox.scratched_sent_to_review_pct | pct0 }}</b></div>
+    <div class="row"><span>Termine art. 148 esatto, mai oltre il dovuto</span><b>{{ h.deadline.correct_pct | pct0 }}</b></div>
+    {% if hold %}
+    <div class="row"><span>Scrittura a mano trascritta esatta</span><b>{{ h.text.exact_pct | pct0 }}</b></div>
+    <div class="row"><span>Pratiche passate senza revisione</span><b>{{ h.routing.automatico_pct | pct0 }}</b></div>
+    <div class="row"><span>…di queste, con un campo chiave sbagliato</span><b>{{ h.routing.automatico_with_wrong_key_field }} su {{ h.routing.automatico }}</b></div>
+    {% endif %}
+    {{ m.hchart([('Caselle', 100 - ((h.checkbox.marked_read_no + h.checkbox.empty_read_si) * 100 / (h.checkbox.marked + h.checkbox.empty)) | round(1), 's-ok'),
+                 ('Firme', ((h.signature.get('si->si', 0) + h.signature.get('no->no', 0)) * 100 / (h.documents * 2)) | round(1), 's-ok'),
+                 ('Termine art. 148', h.deadline.correct_pct, 's-ok'),
+                 ('Scrittura a mano', h.text.exact_pct, 's-look'),
+                 ('Grafico', h.scenario_pct, 's-look')], 100, '%', 130, 440, 'Letture esatte per tipo sul set di prova') }}
+    <p class="small muted">{{ h.documents }} moduli sintetici, mai visti in fase di taratura, con foto più difficili e due grafie nuove. <a href="/qualita">Tutti i numeri</a></p>
+    {% else %}<p class="muted">Valutazioni non ancora eseguite.</p>{% endif %}
+  </aside>
+</section>
+
+<section class="section">
+  <h2>Nove agenti, un ordine fisso</h2>
+  <ol class="pipeline">
+    <li class="cv"><b>{{ m.icon('scan') }} Allineamento</b><span class="kind">visione artificiale</span><p>Trova pagina e cornice del modulo, raddrizza la foto, misura nitidezza: se non si fida, nessuno legge.</p></li>
+    <li class="cv"><b>{{ m.icon('square-check') }} Caselle</b><span class="kind">visione artificiale</span><p>Inchiostro dentro ciascuna delle 40 caselle, al netto di righe di piega e punti di penna.</p></li>
+    <li class="cv"><b>{{ m.icon('pen') }} Firme</b><span class="kind">visione artificiale</span><p>Presenza, non identità: decide se il termine è di 30 o di 60 giorni.</p></li>
+    <li class="vlm"><b>{{ m.icon('type') }} Scrittura</b><span class="kind">modello visivo</span><p>Trascrive i campi in stampatello, uno per striscia, in uno schema rigido.</p></li>
+    <li class="vlm"><b>{{ m.icon('route') }} Grafico</b><span class="kind">modello visivo</span><p>Classifica la dinamica e il punto d'urto: un controllo incrociato, non una decisione.</p></li>
+    <li class="vlm"><b>{{ m.icon('search') }} Seconda lettura</b><span class="kind">modello visivo</span><p>Prima di far passare una pratica senza revisione rilegge targhe, polizze e codici fiscali: se le due letture non coincidono, decide una persona.</p></li>
+    <li class="code"><b>{{ m.icon('check') }} Regole</b><span class="kind">codice</span><p>Totale delle croci, codice fiscale, targhe, date, dati obbligatori del veicolo B.</p></li>
+    <li class="code"><b>{{ m.icon('clock') }} Termine</b><span class="kind">codice</span><p>Art. 148 CAP: 30, 60 o 90 giorni. Se un dato è incerto vale il termine più breve.</p></li>
+    <li class="code"><b>{{ m.icon('arrow') }} Instradamento</b><span class="kind">codice</span><p>Pronta per il liquidatore, o in coda con l'elenco dei campi da guardare.</p></li>
+  </ol>
+</section>
+
+<section class="section grid2">
+  <div class="card">
+    <h2>{{ m.icon('flask') }} Perché ibrido</h2>
+    {% if base %}{% set b = base.comparison %}
+    <p>Sugli stessi {{ base.n }} moduli, un'unica chiamata al modello su tutta la pagina ha sbagliato <b>{{ b.solo_modello.box_wrong }}</b> caselle su {{ b.solo_modello.boxes }} e <b>{{ b.solo_modello.signature_wrong }}</b> firme; la pipeline ibrida <b>{{ b.ibrido.box_wrong }}</b> e <b>{{ b.ibrido.signature_wrong }}</b>.</p>
+    <p class="muted small">Costo per modulo: {{ b.ibrido.usd_per_doc }} $ ibrido, {{ b.solo_modello.usd_per_doc }} $ solo modello.</p>
+    {% else %}
+    <p>I modelli visivi sono deboli proprio sulle caselle: nel benchmark pubblico CheckboxQA (2025) il migliore arriva a 83 su 100, una persona a 97,5. Qui le croci le conta il codice, e il confronto con il «solo modello» è nella pagina Qualità.</p>
+    {% endif %}
+  </div>
+  <div class="card">
+    <h2>{{ m.icon('alert') }} Da rivedere adesso</h2>
+    {% if urgent %}
+    <ul class="issues">{% for c in urgent %}<li><a href="/pratica/{{ c.id }}" class="mono">{{ c.id }}</a> {{ m.due(c) }}</li>{% endfor %}</ul>
+    {% else %}<p class="muted">Nessuna pratica in attesa.</p>{% endif %}
+    <p class="small muted">{{ auto }} pratiche su {{ cases }} sono passate senza revisione.</p>
+  </div>
+</section>
+{% endblock %}

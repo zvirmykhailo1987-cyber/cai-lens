@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Processo · CAI-Lens{% endblock %}
+{% block content %}
+<p class="eyebrow">Monitor del processo</p>
+<h1>Dove va il tempo e perché le pratiche finiscono in coda</h1>
+<p class="lead">Calcolato dal registro dei passaggi e delle correzioni delle {{ mon.cases }} pratiche visibili a te. Nessun minuto stimato: solo ciò che è stato misurato.</p>
+<div class="grid3">
+  <div class="stat accent"><span class="v">{{ mon.auto_pct }}<small>%</small></span><span class="k">pratiche automatiche ({{ mon.routes.get('automatico', 0) }} su {{ mon.cases }})</span></div>
+  <div class="stat"><span class="v">{{ mon.reviews }}</span><span class="k">correzioni e conferme registrate</span></div>
+  <div class="stat"><span class="v">{% if mon.agent_right_pct is not none %}{{ mon.agent_right_pct }}<small>%</small>{% else %}—{% endif %}</span><span class="k">letture che il revisore ha confermato così com'erano</span></div>
+</div>
+<section class="section grid2">
+  <div class="card">
+    <h2>{{ m.icon('timeline') }} Tempo per passaggio (mediana)</h2>
+    {% set rows = [] %}{% for s in mon.steps if s.runs %}{% set _ = rows.append((STEP_LABEL.get(s.step, s.step), ((s.median_ms or 0) / 1000) | round(2), 's-look' if s.step in ('handwriting', 'sketch', 'verifier') else 's-ok')) %}{% endfor %}
+    {{ m.hchart(rows, (((mon.max_median_ms / 1000) * 1.15) | round(1)) or 1, ' s', 130, 560, 'Durata mediana di ogni passaggio') }}
+    {% set fails = mon.steps | selectattr('failures') | list %}{% if fails %}<p class="small">{% for s in fails %}{{ STEP_LABEL.get(s.step, s.step) }}: {{ s.failures }} errori. {% endfor %}</p>{% endif %}
+    <p class="small muted">I passaggi del modello mostrano 0 ms quando la risposta viene dalla cache delle valutazioni.</p>
+  </div>
+  <div class="card">
+    <h2>{{ m.icon('filter') }} Perché vanno in coda</h2>
+    <div class="table"><table><thead><tr><th>Motivo</th><th class="num">Pratiche</th><th>Cosa lo eliminerebbe</th></tr></thead><tbody>
+    {% for k in mon.reason_kinds %}<tr data-state="partial"><td>{{ k.label }}</td><td class="num">{{ k.cases }} <span class="small muted">{{ k.pct }}%</span></td><td class="small">{{ k.fix }}</td></tr>
+    {% else %}<tr data-state="empty"><td colspan="3" class="muted">Nessuna pratica in coda. <a href="/genera">Genera un caso</a>.</td></tr>{% endfor %}
+    </tbody></table></div>
+  </div>
+</section>
+{% if mon.corrected or mon.confirmed %}
+<section class="section grid2">
+  <div class="card"><h2>Campi corretti più spesso</h2><ul class="issues">{% for f, n in mon.corrected %}<li><span class="mono">{{ f }}</span> <b>{{ n }}</b></li>{% else %}<li class="muted">Nessuna correzione.</li>{% endfor %}</ul></div>
+  <div class="card"><h2>Campi confermati più spesso</h2><ul class="issues">{% for f, n in mon.confirmed %}<li><span class="mono">{{ f }}</span> <b>{{ n }}</b></li>{% else %}<li class="muted">Nessuna conferma.</li>{% endfor %}</ul></div>
+</section>
+{% endif %}
+{% endblock %}

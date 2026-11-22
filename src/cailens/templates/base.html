@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
+<title>{% block title %}CAI-Lens{% endblock %}</title>
+<link rel="preload" href="/static/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/app.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+{% import "_macros.html" as m %}
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="/">
+      <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M3 8V3h5M16 3h5v5M21 16v5h-5M8 21H3v-5"/><path d="M8 12.5l2.6 2.6L16 9.5"/>
+      </svg>
+      CAI-Lens <small>sinistri RCA</small>
+    </a>
+    <nav aria-label="Principale">
+      {% set p = path %}
+      <a href="/" {% if p == '/' %}aria-current="page"{% endif %}>Panoramica</a>
+      <a href="/coda" {% if p.startswith('/coda') or p.startswith('/pratica') %}aria-current="page"{% endif %}>Coda</a>
+      <a href="/genera" {% if p == '/genera' %}aria-current="page"{% endif %}>Genera un caso</a>
+      <a href="/qualita" {% if p == '/qualita' %}aria-current="page"{% endif %}>Qualità</a>
+      <a href="/processo" {% if p == '/processo' %}aria-current="page"{% endif %}>Processo</a>
+      <a href="/stato" {% if p == '/stato' %}aria-current="page"{% endif %}>Stato</a>
+      <span class="sep" aria-hidden="true"></span>
+      {% if user %}<form method="post" action="/esci" class="inline"><input type="hidden" name="csrf" value="{{ user.csrf }}"><button class="link" type="submit">{{ m.icon('logout') }} Esci</button></form>
+      {% else %}<a href="/accesso" {% if p == '/accesso' %}aria-current="page"{% endif %}>{{ m.icon('lock') }} Accedi</a>{% endif %}
+    </nav>
+  </div>
+</header>
+<main class="wrap" data-state="{{ state | default('ready') }}">
+{% block content %}{% endblock %}
+</main>
+<footer class="wrap foot">
+  <p>Dimostrazione tecnica su <strong>dati sintetici</strong>: nessun documento, persona, targa o compagnia reale. Il modulo è un fac-simile della struttura prevista dal Reg. IVASS n. 56/2025.</p>
+  <p>Il sistema prepara i dati e segnala cosa guardare: responsabilità e offerta restano decisioni del liquidatore.</p>
+  <p>© 2026 Mykhailo Zvir · MIT</p>
+</footer>
+</body>
+</html>

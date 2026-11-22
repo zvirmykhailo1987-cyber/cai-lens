@@ -1,0 +1,578 @@
+{
+ "split": "dev",
+ "n": 200,
+ "use_llm": true,
+ "at": "2026-11-21T21:02:02+00:00",
+ "seconds": 151.8,
+ "summary": {
+  "documents": 200,
+  "registered_pct": 100.0,
+  "checkbox": {
+   "marked": 1002,
+   "empty": 6985,
+   "scratched_out": 13,
+   "marked_read_si_pct": 99.9,
+   "marked_read_no": 0,
+   "empty_read_no_pct": 100.0,
+   "empty_read_si": 0,
+   "sent_to_review": 1,
+   "scratched_sent_to_review_pct": 100.0
+  },
+  "signature": {
+   "no->no": 49,
+   "si->si": 351
+  },
+  "text": {
+   "fields_scored": 5600,
+   "exact_pct": 99.4,
+   "per_field_pct": {
+    "A.cf": 99.5,
+    "A.cognome": 100.0,
+    "A.compagnia": 100.0,
+    "A.cond_cognome": 100.0,
+    "A.cond_nome": 100.0,
+    "A.danni": 99.0,
+    "A.nome": 100.0,
+    "A.osservazioni": 100.0,
+    "A.patente": 96.5,
+    "A.polizza": 96.0,
+    "A.targa": 100.0,
+    "A.totale": 100.0,
+    "B.cf": 99.5,
+    "B.cognome": 100.0,
+    "B.compagnia": 100.0,
+    "B.cond_cognome": 100.0,
+    "B.cond_nome": 100.0,
+    "B.danni": 99.0,
+    "B.nome": 100.0,
+    "B.osservazioni": 100.0,
+    "B.patente": 98.0,
+    "B.polizza": 98.0,
+    "B.targa": 99.0,
+    "B.totale": 100.0,
+    "data": 99.0,
+    "luogo": 99.0,
+    "ora": 100.0,
+    "testimoni": 100.0
+   },
+   "high_confidence_exact_pct": 99.7
+  },
+  "deadline": {
+   "scored": 200,
+   "correct_pct": 100.0,
+   "never_later_pct": 100.0,
+   "provisional": 0
+  },
+  "defects_flagged_pct": {
+   "campo_B_mancante": 100.0,
+   "cf_errato": 100.0,
+   "correzione": 100.0,
+   "data_successiva": 100.0,
+   "denuncia_unilaterale": 100.0,
+   "firma_A_mancante": 100.0,
+   "firma_B_mancante": 100.0,
+   "totale_errato": 100.0
+  },
+  "defects_n": {
+   "campo_B_mancante": 17,
+   "cf_errato": 20,
+   "correzione": 13,
+   "data_successiva": 7,
+   "denuncia_unilaterale": 9,
+   "firma_A_mancante": 12,
+   "firma_B_mancante": 28,
+   "totale_errato": 21
+  },
+  "scenario_pct": 100.0,
+  "impact_pct": 100.0,
+  "routing": {
+   "automatico_pct": 49.0,
+   "automatico": 98,
+   "automatico_with_wrong_key_field": 1,
+   "wrong_fields": {
+    "B.targa": 1
+   }
+  },
+  "cost": {
+   "usd_per_doc_live": 0.03956,
+   "llm_seconds_per_doc_live": 9.64,
+   "cv_ms_per_doc": 168,
+   "usd_total_recorded": 7.9118
+  },
+  "by_capture": {
+   "scansione": {
+    "documents": 93,
+    "automatico_pct": 48.4
+   },
+   "foto": {
+    "documents": 107,
+    "automatico_pct": 49.5
+   }
+  }
+ },
+ "failures": [
+  {
+   "case_id": "dev-10003",
+   "defects": [
+    "totale_mancante",
+    "correzione"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "25M8347650",
+     "25M83476650"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10006",
+   "defects": [
+    "firma_B_mancante"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.targa": [
+     "MN552TS",
+     null
+    ],
+    "B.patente": [
+     "DV4086619R",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10017",
+   "defects": [
+    "correzione"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "luogo": [
+     "BERGAMO, VIA GARIBALDI 171",
+     "BERGAMO, VIA GARIBALDI 17"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10029",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "53N6971511",
+     "53N6971571"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10033",
+   "defects": [
+    "totale_mancante"
+   ],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "BE6287811A",
+     "BE6287611A"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10046",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.polizza": [
+     "75E3733665",
+     "76E3733665"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10054",
+   "defects": [
+    "campo_B_mancante"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "38S4952421",
+     "3884952421"
+    ],
+    "A.patente": [
+     "TD7529775F",
+     "TD7629775F"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10062",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "AM9224363Z",
+     "AM92243632"
+    ],
+    "B.polizza": [
+     "13G7623130",
+     "13G762313O"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10064",
+   "defects": [],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.danni": [
+     "PARAURTI POSTERIORE",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10070",
+   "defects": [
+    "correzione"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "luogo": [
+     "FIRENZE, VIA MILANO 126",
+     "FIRENZE VIA MILANO 126"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10074",
+   "defects": [
+    "campo_B_mancante",
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "data"
+   ],
+   "text_errors": {
+    "data": [
+     "18/05/2026",
+     "18/05/202"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10075",
+   "defects": [
+    "correzione"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "RR4244224Z",
+     "RR42442247"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10079",
+   "defects": [
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.cf": [
+     "GRCCHR86E68A944K",
+     null
+    ],
+    "B.polizza": [
+     "23T9529517",
+     null
+    ],
+    "B.patente": [
+     "CE9201571G",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10080",
+   "defects": [
+    "cf_errato",
+    "denuncia_unilaterale"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "22S9477838",
+     "2289477838"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10097",
+   "defects": [],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.danni": [
+     "PARAURTI POSTERIORE",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10102",
+   "defects": [
+    "segno_debole",
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "47S6509965",
+     "4786509965"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10112",
+   "defects": [
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.patente": [
+     "VB4974590S",
+     "VB49745908"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10114",
+   "defects": [],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "AR9487879P",
+     "AR94887879P"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10118",
+   "defects": [
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "92S9221675",
+     "9289221675"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10119",
+   "defects": [],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "DR3112928Z",
+     "DR31129287"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10125",
+   "defects": [
+    "firma_A_mancante",
+    "data_successiva"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "21S3636871",
+     "2IS3636871"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10126",
+   "defects": [
+    "firma_A_mancante",
+    "campo_B_mancante",
+    "cf_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.danni": [
+     "FANALE POST. SX",
+     "FANALE POST.SX"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10149",
+   "defects": [],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.patente": [
+     "CA6251252G",
+     "CA62512526"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10161",
+   "defects": [
+    "firma_B_mancante"
+   ],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.polizza": [
+     "29L5655460",
+     "29L565546O"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10162",
+   "defects": [
+    "data_successiva",
+    "cf_errato",
+    "denuncia_unilaterale",
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "84S6516510",
+     "8486516510"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10165",
+   "defects": [
+    "firma_B_mancante",
+    "firma_A_mancante",
+    "segno_debole",
+    "firma_sigla"
+   ],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "ET1839149S",
+     "ET1639149S"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10170",
+   "defects": [
+    "firma_B_mancante",
+    "segno_debole"
+   ],
+   "route": "automatico",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.targa": [
+     "DH155FK",
+     "DH165FK"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10173",
+   "defects": [
+    "firma_B_mancante"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.danni": [
+     "PARAFANGO ANT. DX",
+     "PARAFANGO ANT.DX"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10180",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [
+    "data"
+   ],
+   "text_errors": {
+    "data": [
+     "09/03/2026",
+     "09/03/202"
+    ]
+   }
+  },
+  {
+   "case_id": "dev-10193",
+   "defects": [
+    "firma_A_mancante",
+    "campo_B_mancante"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.cf"
+   ],
+   "text_errors": {
+    "A.cf": [
+     "BRBRRT66P68A944O",
+     "BRBRRT66P68A9440"
+    ]
+   }
+  }
+ ]
+}

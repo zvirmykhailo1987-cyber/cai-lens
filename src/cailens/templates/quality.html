@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}Qualità · CAI-Lens{% endblock %}
+{% block content %}
+{% set dev = r.get('dev-llm-200') or r.get('dev-cv-200') %}
+{% set hold = r.get('holdout-llm-100') or r.get('holdout-cv-100') %}
+<p class="eyebrow">Valutazioni</p>
+<h1>Quanto legge bene, e quando sbaglia senza dirlo</h1>
+<p class="lead">Ogni numero viene da <span class="mono">cai-eval</span> su moduli sintetici con verità nota. Il set di sviluppo è servito a tarare le soglie; il set di prova no, ed è più duro: foto più storte e mosse, due grafie mai viste.</p>
+{% if not hold %}<p class="note">Valutazioni non ancora eseguite in questo ambiente.</p>{% else %}
+{% set h = hold.summary %}
+<div class="grid4">
+  <div class="stat accent"><span class="v">{{ h.checkbox.marked_read_no + h.checkbox.empty_read_si }}</span><span class="k">croci lette sbagliate senza avviso, su {{ h.checkbox.marked + h.checkbox.empty }}</span></div>
+  <div class="stat"><span class="v">{{ m.pct(h.deadline.never_later_pct) }}</span><span class="k">termini mai più tardi del dovuto ({{ h.deadline.correct_pct }}% esatti)</span></div>
+  <div class="stat"><span class="v">{{ m.pct(h.text.exact_pct) }}</span><span class="k">campi scritti a mano trascritti esatti{% if not r.get('holdout-llm-100') %} (modello non eseguito){% endif %}</span></div>
+  <div class="stat good"><span class="v">{{ h.routing.automatico_with_wrong_key_field }}<small>su {{ h.routing.automatico }}</small></span><span class="k">pratiche passate senza revisione con un campo chiave sbagliato ({{ h.routing.automatico_pct | pct0 }} delle pratiche è automatica)</span></div>
+</div>
+
+<section class="section">
+  <h2>Sviluppo e prova a confronto</h2>
+  <div class="table"><table>
+    <thead><tr><th>Misura</th><th class="num">Sviluppo ({{ dev.summary.documents }})</th><th class="num">Prova ({{ h.documents }})</th></tr></thead>
+    <tbody>
+    {% set d = dev.summary %}
+    <tr><td>Croci vere lette come barrate</td><td class="num">{{ d.checkbox.marked_read_si_pct }}%</td><td class="num">{{ h.checkbox.marked_read_si_pct }}%</td></tr>
+    <tr><td>Caselle vuote lette come vuote</td><td class="num">{{ d.checkbox.empty_read_no_pct }}%</td><td class="num">{{ h.checkbox.empty_read_no_pct }}%</td></tr>
+    <tr><td>Croci annullate mandate a una persona</td><td class="num">{{ d.checkbox.scratched_sent_to_review_pct }}%</td><td class="num">{{ h.checkbox.scratched_sent_to_review_pct }}%</td></tr>
+    <tr><td>Firme: assenti lette assenti · presenti lette presenti</td><td class="num">{{ d.signature.get('no->no', 0) }} · {{ d.signature.get('si->si', 0) }}</td><td class="num">{{ h.signature.get('no->no', 0) }} · {{ h.signature.get('si->si', 0) }}</td></tr>
+    <tr><td>Termine art. 148 esatto</td><td class="num">{{ d.deadline.correct_pct }}%</td><td class="num">{{ h.deadline.correct_pct }}%</td></tr>
+    <tr><td>Scrittura a mano esatta (tutti i campi)</td><td class="num">{{ d.text.exact_pct if d.text.exact_pct is not none else 'n/d' }}{% if d.text.exact_pct is not none %}%{% endif %}</td><td class="num">{{ h.text.exact_pct if h.text.exact_pct is not none else 'n/d' }}{% if h.text.exact_pct is not none %}%{% endif %}</td></tr>
+    <tr><td>Scrittura esatta quando il sistema la dà per affidabile</td><td class="num">{{ d.text.high_confidence_exact_pct or 'n/d' }}{% if d.text.high_confidence_exact_pct %}%{% endif %}</td><td class="num">{{ h.text.high_confidence_exact_pct or 'n/d' }}{% if h.text.high_confidence_exact_pct %}%{% endif %}</td></tr>
+    <tr><td>Dinamica dal grafico · punto d'urto</td><td class="num">{{ d.scenario_pct or 'n/d' }} · {{ d.impact_pct or 'n/d' }}</td><td class="num">{{ h.scenario_pct or 'n/d' }} · {{ h.impact_pct or 'n/d' }}</td></tr>
+    <tr><td>Pratiche automatiche</td><td class="num">{{ d.routing.automatico_pct }}%</td><td class="num">{{ h.routing.automatico_pct }}%</td></tr>
+    <tr><td>Costo del modello per pratica · secondi</td><td class="num">{{ '%.3f' % d.cost.usd_per_doc_live if d.cost.usd_per_doc_live else 'n/d' }} $ · {{ d.cost.llm_seconds_per_doc_live or 'n/d' }} s</td><td class="num">{{ '%.3f' % h.cost.usd_per_doc_live if h.cost.usd_per_doc_live else 'n/d' }} $ · {{ h.cost.llm_seconds_per_doc_live or 'n/d' }} s</td></tr>
+    <tr><td>Visione artificiale per pratica (mediana)</td><td class="num">{{ d.cost.cv_ms_per_doc }} ms</td><td class="num">{{ h.cost.cv_ms_per_doc }} ms</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="section grid2">
+  <div class="card">
+    <h2>Difetti inseriti, quanti segnalati</h2>
+    <div class="table"><table><thead><tr><th>Difetto</th><th class="num">Sviluppo</th><th class="num">Prova</th></tr></thead><tbody>
+    {% for k, v in h.defects_flagged_pct.items() %}<tr><td>{{ k | replace('_', ' ') }}</td><td class="num">{{ d.defects_flagged_pct.get(k, 'n/d') }}% <span class="small muted">/{{ d.defects_n.get(k, 0) }}</span></td><td class="num">{{ v }}% <span class="small muted">/{{ h.defects_n.get(k, 0) }}</span></td></tr>{% endfor %}
+    </tbody></table></div>
+    <p class="small muted">Codice fiscale, data e dati di B si scoprono solo leggendo la scrittura: senza il modello restano a zero.</p>
+  </div>
+  {% set b = r.get('baseline-dev-40') %}
+  <div class="card">
+    <h2>{{ m.icon('flask') }} Ibrido contro «solo modello»</h2>
+    {% if b %}{% set c = b.comparison %}
+    <div class="table"><table><thead><tr><th></th><th class="num">Ibrido</th><th class="num">Solo modello</th></tr></thead><tbody>
+      <tr><td>Caselle sbagliate senza avviso</td><td class="num">{{ c.ibrido.box_wrong }} / {{ c.ibrido.boxes }}</td><td class="num">{{ c.solo_modello.box_wrong }} / {{ c.solo_modello.boxes }}</td></tr>
+      <tr><td>Croci annullate segnalate</td><td class="num">{{ c.ibrido.scratched_flagged }}</td><td class="num">{{ c.solo_modello.scratched_flagged }}</td></tr>
+      <tr><td>Firme sbagliate</td><td class="num">{{ c.ibrido.signature_wrong }} / {{ c.ibrido.signatures }}</td><td class="num">{{ c.solo_modello.signature_wrong }} / {{ c.solo_modello.signatures }}</td></tr>
+      <tr><td>Scrittura esatta</td><td class="num">{{ c.ibrido.text_exact_pct }}%</td><td class="num">{{ c.solo_modello.text_exact_pct }}%</td></tr>
+      <tr><td>Costo per pratica</td><td class="num">{{ c.ibrido.usd_per_doc }} $</td><td class="num">{{ c.solo_modello.usd_per_doc }} $</td></tr>
+    </tbody></table></div>
+    <p class="small muted">Stessi {{ b.n }} moduli del set di sviluppo; il «solo modello» riceve la pagina intera raddrizzata.</p>
+    {% else %}<p class="muted">Confronto non ancora eseguito.</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% set s = r.get('stress') %}
+{% if s %}
+<section class="section card">
+  <h2>{{ m.icon('camera') }} Quando la foto peggiora</h2>
+  <p class="muted">Cinque livelli di foto sempre peggiori, {{ s[0].documenti }} moduli per livello. Conta solo l'ultima colonna: errori su caselle o firme che nessuno ha segnalato.</p>
+  {% set rowh = 34 %}{% set bx = 120 %}{% set bw = 640 %}
+  <svg class="chart" viewBox="0 0 1100 {{ 56 + rowh * s | length }}" role="img" aria-label="Esiti per livello di qualità della foto">
+    <rect class="s-ok" x="{{ bx }}" y="6" width="12" height="12" rx="2"/><text x="{{ bx + 18 }}" y="16">letti con fiducia</text>
+    <rect class="s-look" x="{{ bx + 150 }}" y="6" width="12" height="12" rx="2"/><text x="{{ bx + 168 }}" y="16">segnalati: «verifica a vista»</text>
+    <rect class="s-off" x="{{ bx + 380 }}" y="6" width="12" height="12" rx="2"/><text x="{{ bx + 398 }}" y="16">rifiutati dal registrar</text>
+    {% set n0 = s[0].documenti %}{% set yb = 32 + rowh * s | length %}
+    {% for t in range(5) %}{% set x = bx + bw * t / 4 %}<line class="grid" x1="{{ x }}" y1="28" x2="{{ x }}" y2="{{ yb - 8 }}"/><text x="{{ x }}" y="{{ yb + 8 }}" text-anchor="middle">{{ (n0 * t / 4) | round | int }}</text>{% endfor %}
+    <text x="0" y="{{ yb + 8 }}">moduli</text>
+    {% for lv in s %}{% set y = 32 + loop.index0 * rowh %}{% set n = lv.documenti %}
+      {% set ok = n - lv.rifiutati_dal_registrar - lv.segnalati_qualita_bassa %}
+      <text class="lbl" x="0" y="{{ y + 15 }}">{{ lv.livello }}</text>
+      <rect class="s-ok" x="{{ bx }}" y="{{ y }}" width="{{ bw * ok / n }}" height="20"/>
+      <rect class="s-look" x="{{ bx + bw * ok / n }}" y="{{ y }}" width="{{ bw * lv.segnalati_qualita_bassa / n }}" height="20"/>
+      <rect class="s-off" x="{{ bx + bw * (ok + lv.segnalati_qualita_bassa) / n }}" y="{{ y }}" width="{{ bw * lv.rifiutati_dal_registrar / n }}" height="20"/>
+      <text class="lbl" x="{{ bx + bw + 24 }}" y="{{ y + 15 }}">{{ lv.errori_silenziosi }} errori silenziosi</text>
+    {% endfor %}
+  </svg>
+  <p class="small muted">Nel livello «scarsa» le croci erano lette quasi tutte bene, ma la foto è sotto la soglia di nitidezza: il sistema preferisce chiedere. Prima del controllo di nitidezza, il livello «pessima» aveva 36 errori silenziosi su 1000 caselle: il registrar raddrizzava la pagina, ma le croci sfocate sparivano. Ora quelle foto vanno a una persona con il motivo scritto.</p>
+</section>
+{% endif %}
+
+{% if hold and hold.summary.text.per_field_pct %}
+<section class="section">
+  <h2>Campi scritti a mano più difficili (prova)</h2>
+  <div class="table"><table><thead><tr><th>Campo</th><th class="num">Esatti</th></tr></thead><tbody>
+  {% for f, v in (hold.summary.text.per_field_pct.items() | sort(attribute=1))[:10] %}<tr {% if v < 100 %}data-state="partial"{% endif %}><td class="mono">{{ f }}</td><td class="num">{{ v }}%</td></tr>{% endfor %}
+  </tbody></table></div>
+</section>
+{% endif %}
+
+<section class="section card">
+  <h2>Limiti, detti chiaramente</h2>
+  <ul>
+    <li>I moduli sono sintetici: la grafia è simulata a partire da caratteri tipografici deformati. Sui moduli veri i numeri saranno diversi; il primo passo con un cliente è un set reale etichettato.</li>
+    <li>La visione artificiale conosce la struttura del modulo: un modello di modulo diverso richiede una nuova mappa dei campi (un file, non un nuovo addestramento).</li>
+    <li>La firma è rilevata come presenza, non verificata come identità.</li>
+  </ul>
+</section>
+{% endblock %}

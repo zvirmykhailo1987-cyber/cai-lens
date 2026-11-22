@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Stato · CAI-Lens{% endblock %}
+{% block content %}
+<p class="eyebrow">Stato</p>
+<h1>Modello, costi e limiti</h1>
+<div class="grid3">
+  <div class="stat"><span class="v mono">{{ model }}</span><span class="k">modello per scrittura e grafico{% if prices %} · {{ prices[0] }} / {{ prices[1] }} $ per milione di token{% endif %}</span></div>
+  <div class="stat"><span class="v">{{ 'attivo' if live_llm else 'solo cache' }}</span><span class="k">chiamate al modello in questo ambiente</span></div>
+  <div class="stat"><span class="v">{{ gen_per_ip }}<small>/ora</small></span><span class="k">casi generati per visitatore · {{ gen_daily }} al giorno in tutto</span></div>
+</div>
+<section class="section">
+  <h2>Chiamate al modello negli ultimi 30 giorni</h2>
+  <div class="table" data-state="partial" title="solo gli ultimi 30 giorni"><table>
+    <thead><tr><th>Scopo</th><th>Modello</th><th class="num">Chiamate</th><th class="num">Token in / out</th><th class="num">Latenza media</th><th class="num">Errori</th></tr></thead>
+    <tbody>{% for r in llm_stats %}<tr><td>{{ r.purpose }}</td><td class="mono">{{ r.model }}</td><td class="num">{{ r.n }}</td><td class="num">{{ r.i }} / {{ r.o }}</td><td class="num">{{ (r.ms / 1000) | round(1) }} s</td><td class="num">{{ r.errors }}</td></tr>
+    {% else %}<tr data-state="empty"><td colspan="6" class="muted">Nessuna chiamata dal vivo: le pratiche della coda usano le risposte registrate (cassette) delle valutazioni. <a href="/genera">Genera un caso</a> per vederne una.</td></tr>{% endfor %}</tbody>
+  </table></div>
+</section>
+<section class="section card">
+  <h2>{{ m.icon('lock') }} Dati e sicurezza</h2>
+  <ul>
+    <li>Solo moduli sintetici: la demo non accetta foto reali (dati personali e, con i feriti, dati sanitari).</li>
+    <li>Ogni correzione è aggiunta a un registro, mai sovrascritta; nella demo pubblica ogni visitatore ha il suo spazio.</li>
+    <li>Content-Security-Policy senza script esterni né stili inline, cookie di sessione HttpOnly, token CSRF su ogni modifica, limiti per indirizzo.</li>
+    <li>Soglia di affidabilità per i campi chiave: {{ thresholds.min_text }}.</li>
+  </ul>
+</section>
+{% endblock %}

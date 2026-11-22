@@ -1,0 +1,102 @@
+[
+ {
+  "livello": "buona",
+  "rotazione_max": 3,
+  "sfocatura": [
+   0.3,
+   0.6
+  ],
+  "jpeg": [
+   80,
+   90
+  ],
+  "documenti": 25,
+  "rifiutati_dal_registrar": 0,
+  "segnalati_qualita_bassa": 0,
+  "errori_silenziosi": 0,
+  "errori_in_documenti_segnalati": 0,
+  "caselle_lette": 1000,
+  "caselle_mandate_a_revisione": 0,
+  "firme_incerte": 0
+ },
+ {
+  "livello": "media",
+  "rotazione_max": 6,
+  "sfocatura": [
+   0.8,
+   1.2
+  ],
+  "jpeg": [
+   55,
+   70
+  ],
+  "documenti": 25,
+  "rifiutati_dal_registrar": 0,
+  "segnalati_qualita_bassa": 0,
+  "errori_silenziosi": 0,
+  "errori_in_documenti_segnalati": 0,
+  "caselle_lette": 1000,
+  "caselle_mandate_a_revisione": 0,
+  "firme_incerte": 0
+ },
+ {
+  "livello": "scarsa",
+  "rotazione_max": 9,
+  "sfocatura": [
+   1.4,
+   1.8
+  ],
+  "jpeg": [
+   35,
+   50
+  ],
+  "documenti": 25,
+  "rifiutati_dal_registrar": 0,
+  "segnalati_qualita_bassa": 25,
+  "errori_silenziosi": 0,
+  "errori_in_documenti_segnalati": 1,
+  "caselle_lette": 1000,
+  "caselle_mandate_a_revisione": 1,
+  "firme_incerte": 0
+ },
+ {
+  "livello": "pessima",
+  "rotazione_max": 12,
+  "sfocatura": [
+   2.0,
+   2.6
+  ],
+  "jpeg": [
+   20,
+   30
+  ],
+  "documenti": 25,
+  "rifiutati_dal_registrar": 0,
+  "segnalati_qualita_bassa": 25,
+  "errori_silenziosi": 0,
+  "errori_in_documenti_segnalati": 36,
+  "caselle_lette": 1000,
+  "caselle_mandate_a_revisione": 5,
+  "firme_incerte": 0
+ },
+ {
+  "livello": "estrema",
+  "rotazione_max": 15,
+  "sfocatura": [
+   2.8,
+   3.4
+  ],
+  "jpeg": [
+   10,
+   18
+  ],
+  "documenti": 25,
+  "rifiutati_dal_registrar": 17,
+  "segnalati_qualita_bassa": 8,
+  "errori_silenziosi": 0,
+  "errori_in_documenti_segnalati": 6,
+  "caselle_lette": 320,
+  "caselle_mandate_a_revisione": 8,
+  "firme_incerte": 0
+ }
+]

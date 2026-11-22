@@ -1,0 +1,25 @@
+name: ci
+on: [push, pull_request]
+permissions: {contents: read}
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -c requirements.lock -e ".[dev]"
+      - name: Lint
+        run: ruff check src tests scripts
+      - name: Types
+        run: mypy
+      - name: "Tests (offline: synthetic forms, fake vision model)"
+        run: pytest --cov --cov-report=term-missing
+      - name: Evals replay from the cassette (no API calls)
+        run: CAI_REPLAY_ONLY=1 python -m cailens.evals --split dev --n 20 --replay
+      - name: Security
+        run: |
+          bandit -q -r src -s B104,B311
+          pip-audit --skip-editable
+      - name: Mutation check (every injected bug must break a test)
+        run: python scripts/mutation_check.py

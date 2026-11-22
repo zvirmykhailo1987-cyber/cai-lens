@@ -1,0 +1,235 @@
+{
+  "measured": "2026-11-22",
+  "bugs_injected": 38,
+  "caught": 38,
+  "results": [
+    {
+      "bug": "Declared total never compared with the crosses",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_mcp_props.py::test_total_check_matches_the_count"
+    },
+    {
+      "bug": "Both signatures no longer give 30 days",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_evals.py::test_eval_run_writes_a_report"
+    },
+    {
+      "bug": "An uncertain signature gets the longer term",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_mcp_props.py::test_deadline_is_never_later_than_any_term_the_facts_allow"
+    },
+    {
+      "bug": "Injuries no longer give 90 days",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_mcp_props.py::test_deadline_is_never_later_than_any_term_the_facts_allow"
+    },
+    {
+      "bug": "A poor photo is not sent to a person",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_rules.py::test_routing_reasons"
+    },
+    {
+      "bug": "Uncertain boxes are not sent to a person",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_pipeline.py::test_defects_are_flagged"
+    },
+    {
+      "bug": "Codice fiscale checksum ignored",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_pipeline.py::test_model_mistake_is_caught_by_the_checksum"
+    },
+    {
+      "bug": "Accident date after receipt accepted",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_rules.py::test_identifiers_dates_and_vehicle_b"
+    },
+    {
+      "bug": "Missing plate or insurer of B accepted",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_rules.py::test_identifiers_dates_and_vehicle_b"
+    },
+    {
+      "bug": "Same plate for A and B accepted",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_rules.py::test_identifiers_dates_and_vehicle_b"
+    },
+    {
+      "bug": "Sketch never compared with the boxes",
+      "file": "src/cailens/agents/rules.py",
+      "caught": true,
+      "caught_by": "tests/test_rules.py::test_sketch_must_tell_the_same_story"
+    },
+    {
+      "bug": "A scratched-out cross read as a cross",
+      "file": "src/cailens/agents/checkbox.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_marks_and_signatures_match_the_truth"
+    },
+    {
+      "bug": "Pen dots counted as strokes",
+      "file": "src/cailens/agents/checkbox.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_fold_line_and_dots_are_not_crosses"
+    },
+    {
+      "bug": "Fold lines not removed before measuring",
+      "file": "src/cailens/agents/checkbox.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_fold_line_and_dots_are_not_crosses"
+    },
+    {
+      "bug": "Poor photo keeps full confidence on crosses",
+      "file": "src/cailens/agents/checkbox.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_blur_trips_the_quality_gate_and_caps_confidence"
+    },
+    {
+      "bug": "Poor photo keeps full confidence on signatures",
+      "file": "src/cailens/agents/signature.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_blur_trips_the_quality_gate_and_caps_confidence"
+    },
+    {
+      "bug": "An empty signature box is never 'no'",
+      "file": "src/cailens/agents/signature.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_marks_and_signatures_match_the_truth"
+    },
+    {
+      "bug": "Registrar trusts a page without the printed frame",
+      "file": "src/cailens/agents/registrar.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_blank_or_noise_is_refused"
+    },
+    {
+      "bug": "Quality gate always passes",
+      "file": "src/cailens/agents/registrar.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_blur_trips_the_quality_gate_and_caps_confidence"
+    },
+    {
+      "bug": "An illegible field gets high confidence",
+      "file": "src/cailens/agents/handwriting.py",
+      "caught": true,
+      "caught_by": "tests/test_handwriting.py::test_confidence_comes_from_readability_and_shape"
+    },
+    {
+      "bug": "A value with the wrong shape gets high confidence",
+      "file": "src/cailens/agents/handwriting.py",
+      "caught": true,
+      "caught_by": "tests/test_handwriting.py::test_confidence_comes_from_readability_and_shape"
+    },
+    {
+      "bug": "Cassette never replayed (every eval pays again)",
+      "file": "src/cailens/llm.py",
+      "caught": true,
+      "caught_by": "tests/test_llm.py::test_cassette_is_replayed"
+    },
+    {
+      "bug": "A model refusal is treated as an answer",
+      "file": "src/cailens/llm.py",
+      "caught": true,
+      "caught_by": "tests/test_llm.py::test_bad_answers_become_unavailable[msg0-rifiutato]"
+    },
+    {
+      "bug": "Schema not closed for structured output",
+      "file": "src/cailens/llm.py",
+      "caught": true,
+      "caught_by": "tests/test_llm.py::test_strict_schema_closes_objects"
+    },
+    {
+      "bug": "Pipeline reads a page it could not align",
+      "file": "src/cailens/pipeline.py",
+      "caught": true,
+      "caught_by": "tests/test_pipeline.py::test_unreadable_image_stops_after_registration"
+    },
+    {
+      "bug": "A review stores the old value",
+      "file": "src/cailens/review.py",
+      "caught": true,
+      "caught_by": "tests/test_pipeline.py::test_review_recomputes_deadline_and_route"
+    },
+    {
+      "bug": "CSRF token not checked",
+      "file": "src/cailens/web.py",
+      "caught": true,
+      "caught_by": "tests/test_web.py::test_review_needs_login_and_csrf"
+    },
+    {
+      "bug": "Demo visitors share one scope",
+      "file": "src/cailens/web.py",
+      "caught": true,
+      "caught_by": "tests/test_web.py::test_review_flow_and_visitor_isolation"
+    },
+    {
+      "bug": "Generation not rate limited",
+      "file": "src/cailens/web.py",
+      "caught": true,
+      "caught_by": "tests/test_web.py::test_generation_is_rate_limited"
+    },
+    {
+      "bug": "Login attempts never blocked",
+      "file": "src/cailens/web.py",
+      "caught": true,
+      "caught_by": "tests/test_web.py::test_login_limiter_counts_only_failures"
+    },
+    {
+      "bug": "Open redirect after sign-in",
+      "file": "src/cailens/web.py",
+      "caught": true,
+      "caught_by": "tests/test_web.py::test_logout_and_safe_next"
+    },
+    {
+      "bug": "Content-Security-Policy header dropped",
+      "file": "src/cailens/web.py",
+      "caught": true,
+      "caught_by": "tests/test_web.py::test_pages_render_with_security_headers"
+    },
+    {
+      "bug": "Any image name served from the case folder",
+      "file": "src/cailens/web.py",
+      "caught": true,
+      "caught_by": "tests/test_web.py::test_case_page_image_and_api"
+    },
+    {
+      "bug": "MCP tool opens files outside its inbox",
+      "file": "src/cailens/mcp_server.py",
+      "caught": true,
+      "caught_by": "tests/test_mcp_props.py::test_mcp_tools"
+    },
+    {
+      "bug": "A disagreement between the two readings is ignored",
+      "file": "src/cailens/agents/verifier.py",
+      "caught": true,
+      "caught_by": "tests/test_pipeline.py::test_second_reading_catches_a_plausible_digit_swap"
+    },
+    {
+      "bug": "Review view drops the second reading's veto",
+      "file": "src/cailens/review.py",
+      "caught": true,
+      "caught_by": "tests/test_pipeline.py::test_review_view_keeps_the_second_readings_veto"
+    },
+    {
+      "bug": "Cassette write failure loses a paid answer",
+      "file": "src/cailens/llm.py",
+      "caught": true,
+      "caught_by": "tests/test_llm.py::test_read_only_cassette_does_not_lose_a_paid_answer"
+    },
+    {
+      "bug": "Verifier down: identifiers keep full confidence",
+      "file": "src/cailens/agents/verifier.py",
+      "caught": true,
+      "caught_by": "tests/test_cv.py::test_classify_bands"
+    }
+  ]
+}

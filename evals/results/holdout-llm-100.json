@@ -1,0 +1,721 @@
+{
+ "split": "holdout",
+ "n": 100,
+ "use_llm": true,
+ "at": "2026-11-21T21:03:29+00:00",
+ "seconds": 87.1,
+ "summary": {
+  "documents": 100,
+  "registered_pct": 100.0,
+  "checkbox": {
+   "marked": 495,
+   "empty": 3496,
+   "scratched_out": 9,
+   "marked_read_si_pct": 100.0,
+   "marked_read_no": 0,
+   "empty_read_no_pct": 100.0,
+   "empty_read_si": 0,
+   "sent_to_review": 0,
+   "scratched_sent_to_review_pct": 100.0
+  },
+  "signature": {
+   "no->no": 24,
+   "si->si": 176
+  },
+  "text": {
+   "fields_scored": 2800,
+   "exact_pct": 97.6,
+   "per_field_pct": {
+    "A.cf": 95.0,
+    "A.cognome": 100.0,
+    "A.compagnia": 100.0,
+    "A.cond_cognome": 99.0,
+    "A.cond_nome": 100.0,
+    "A.danni": 100.0,
+    "A.nome": 100.0,
+    "A.osservazioni": 100.0,
+    "A.patente": 94.0,
+    "A.polizza": 94.0,
+    "A.targa": 98.0,
+    "A.totale": 100.0,
+    "B.cf": 90.0,
+    "B.cognome": 100.0,
+    "B.compagnia": 100.0,
+    "B.cond_cognome": 99.0,
+    "B.cond_nome": 100.0,
+    "B.danni": 99.0,
+    "B.nome": 100.0,
+    "B.osservazioni": 100.0,
+    "B.patente": 89.0,
+    "B.polizza": 87.0,
+    "B.targa": 92.0,
+    "B.totale": 100.0,
+    "data": 97.0,
+    "luogo": 99.0,
+    "ora": 100.0,
+    "testimoni": 100.0
+   },
+   "high_confidence_exact_pct": 99.5
+  },
+  "deadline": {
+   "scored": 100,
+   "correct_pct": 100.0,
+   "never_later_pct": 100.0,
+   "provisional": 0
+  },
+  "defects_flagged_pct": {
+   "campo_B_mancante": 100.0,
+   "cf_errato": 100.0,
+   "correzione": 100.0,
+   "data_successiva": 100.0,
+   "denuncia_unilaterale": 100.0,
+   "firma_A_mancante": 100.0,
+   "firma_B_mancante": 100.0,
+   "totale_errato": 100.0
+  },
+  "defects_n": {
+   "campo_B_mancante": 7,
+   "cf_errato": 5,
+   "correzione": 9,
+   "data_successiva": 4,
+   "denuncia_unilaterale": 7,
+   "firma_A_mancante": 6,
+   "firma_B_mancante": 11,
+   "totale_errato": 19
+  },
+  "scenario_pct": 100.0,
+  "impact_pct": 100.0,
+  "routing": {
+   "automatico_pct": 39.0,
+   "automatico": 39,
+   "automatico_with_wrong_key_field": 1,
+   "wrong_fields": {
+    "B.targa": 1
+   }
+  },
+  "cost": {
+   "usd_per_doc_live": 0.03891,
+   "llm_seconds_per_doc_live": 9.57,
+   "cv_ms_per_doc": 167,
+   "usd_total_recorded": 3.8914
+  },
+  "by_capture": {
+   "scansione": {
+    "documents": 24,
+    "automatico_pct": 37.5
+   },
+   "foto": {
+    "documents": 76,
+    "automatico_pct": 39.5
+   }
+  }
+ },
+ "failures": [
+  {
+   "case_id": "holdout-90001",
+   "defects": [
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.cf": [
+     "CPPLSN00M05A794W",
+     null
+    ],
+    "B.targa": [
+     "MJ494KD",
+     null
+    ],
+    "B.polizza": [
+     "17T6562561",
+     null
+    ],
+    "B.patente": [
+     "TU5078866E",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90002",
+   "defects": [
+    "segno_debole"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.cf"
+   ],
+   "text_errors": {
+    "A.cf": [
+     "SRRFNC57S14F205Z",
+     "SRRFNC67S14F205Z"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90008",
+   "defects": [
+    "denuncia_unilaterale"
+   ],
+   "route": "automatico",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.targa": [
+     "AV431EK",
+     "AV481EK"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90010",
+   "defects": [
+    "totale_errato",
+    "segno_debole"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "data",
+    "B.targa",
+    "A.polizza",
+    "A.cf"
+   ],
+   "text_errors": {
+    "data": [
+     "20/09/2026",
+     null
+    ],
+    "A.cf": [
+     "RNLSFN87C19F839O",
+     null
+    ],
+    "A.polizza": [
+     "93S3683136",
+     null
+    ],
+    "A.patente": [
+     "UV2445106Z",
+     null
+    ],
+    "B.targa": [
+     "FR507WT",
+     null
+    ],
+    "B.polizza": [
+     "29H7629668",
+     null
+    ],
+    "B.patente": [
+     "EA9844351C",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90012",
+   "defects": [
+    "segno_debole"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.cf": [
+     "MRTCHR64C64H501O",
+     "MRTCHR64C64H5010"
+    ],
+    "B.danni": [
+     "FANALE POST.",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90015",
+   "defects": [
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.cf": [
+     "RCCSMN72R06L219O",
+     "RCCSMN72R06L2190"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90016",
+   "defects": [
+    "firma_B_mancante",
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.cf": [
+     "MRNMTN68B60G224Q",
+     null
+    ],
+    "B.patente": [
+     "CT4324036F",
+     "CT4324836F"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90020",
+   "defects": [
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.cf": [
+     "GRCRRT71D58L781K",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90022",
+   "defects": [
+    "campo_B_mancante"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "DC7207945T",
+     "DC7207946T"
+    ],
+    "B.patente": [
+     "DD4597015G",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90031",
+   "defects": [
+    "campo_B_mancante"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.cf": [
+     "CPPSFN64A27F839Y",
+     null
+    ],
+    "B.polizza": [
+     "54N5913041",
+     null
+    ],
+    "B.patente": [
+     "MC3510263M",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90032",
+   "defects": [
+    "firma_B_mancante"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.cf"
+   ],
+   "text_errors": {
+    "A.cf": [
+     "CSTRRT63A19F839O",
+     "CSTRRT63A19F8390"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90037",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.cf": [
+     "MRNSLV58S66H501Q",
+     null
+    ],
+    "B.polizza": [
+     "70S8582796",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90038",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "luogo": [
+     "MILANO, VIA DANTE 179",
+     "MILANO VIA DANTE 179"
+    ],
+    "B.polizza": [
+     "74B8072904",
+     "7488072904"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90042",
+   "defects": [],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.polizza": [
+     "26S2229104",
+     "2882229104"
+    ],
+    "B.patente": [
+     "BV4795712C",
+     "BV4798712C"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90043",
+   "defects": [
+    "totale_errato",
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "76T5873350",
+     "76T6873350"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90044",
+   "defects": [
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "data"
+   ],
+   "text_errors": {
+    "data": [
+     "01/05/2026",
+     "01/06/2026"
+    ],
+    "B.polizza": [
+     "70M9099247",
+     "70M9089247"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90046",
+   "defects": [
+    "correzione",
+    "segno_debole"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.targa": [
+     "CA068AD",
+     null
+    ],
+    "B.polizza": [
+     "51D4474119",
+     null
+    ],
+    "B.patente": [
+     "TV8972109B",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90048",
+   "defects": [
+    "correzione",
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.targa",
+    "B.targa",
+    "A.polizza",
+    "A.cf"
+   ],
+   "text_errors": {
+    "A.cf": [
+     "MRNLNZ84S18F205H",
+     null
+    ],
+    "A.targa": [
+     "CR013EY",
+     null
+    ],
+    "A.polizza": [
+     "60T2993839",
+     null
+    ],
+    "A.patente": [
+     "MB3643597H",
+     null
+    ],
+    "B.cf": [
+     "CSTLCU97A19L219G",
+     null
+    ],
+    "B.targa": [
+     "XM804YS",
+     null
+    ],
+    "B.polizza": [
+     "52V1508942",
+     null
+    ],
+    "B.patente": [
+     "MD4437707E",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90053",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "95M3903401",
+     "95M8903401"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90054",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.polizza": [
+     "87L4373127",
+     "87L4873127"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90055",
+   "defects": [
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "data"
+   ],
+   "text_errors": {
+    "data": [
+     "02/01/2026",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90060",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.cf": [
+     "BRBLSS60E43F205M",
+     null
+    ],
+    "B.targa": [
+     "TB493GX",
+     null
+    ],
+    "B.polizza": [
+     "99E1852360",
+     null
+    ],
+    "B.patente": [
+     "BC6581546E",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90061",
+   "defects": [
+    "denuncia_unilaterale"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.targa",
+    "A.polizza",
+    "A.cf"
+   ],
+   "text_errors": {
+    "A.cf": [
+     "GNTGLI01L44D612Z",
+     null
+    ],
+    "A.targa": [
+     "DB826RF",
+     null
+    ],
+    "A.polizza": [
+     "48S7522131",
+     null
+    ],
+    "A.patente": [
+     "VT6998153S",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90071",
+   "defects": [
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.patente": [
+     "RR8318351M",
+     "RR8318361M"
+    ],
+    "B.polizza": [
+     "83V2991282",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90077",
+   "defects": [
+    "campo_B_mancante",
+    "firma_sigla"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.cf": [
+     "MRNFRC00B16L781T",
+     "MRNFRC08B16L781T"
+    ],
+    "B.targa": [
+     "YL568GW",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90080",
+   "defects": [
+    "firma_A_mancante",
+    "totale_errato"
+   ],
+   "route": "revisione",
+   "wrong_critical": [
+    "B.targa"
+   ],
+   "text_errors": {
+    "B.targa": [
+     "HS270LJ",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90085",
+   "defects": [],
+   "route": "revisione",
+   "wrong_critical": [
+    "A.polizza"
+   ],
+   "text_errors": {
+    "A.polizza": [
+     "97G9120940",
+     null
+    ],
+    "A.patente": [
+     "UE9357748Z",
+     null
+    ],
+    "B.polizza": [
+     "74S6384298",
+     "7456384298"
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90090",
+   "defects": [
+    "segno_debole"
+   ],
+   "route": "automatico",
+   "wrong_critical": [],
+   "text_errors": {
+    "A.cond_cognome": [
+     "MANCINI",
+     null
+    ],
+    "B.cond_cognome": [
+     "MARTINI",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90092",
+   "defects": [
+    "data_successiva"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.patente": [
+     "TR7518993Z",
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "holdout-90096",
+   "defects": [
+    "totale_errato",
+    "data_successiva"
+   ],
+   "route": "revisione",
+   "wrong_critical": [],
+   "text_errors": {
+    "B.patente": [
+     "ET8163151M",
+     "ET8168151M"
+    ]
+   }
+  }
+ ]
+}
