@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10109:ver",
+ "answer": {
+  "data": "19/05/2026",
+  "A.targa": "PE722GV",
+  "B.targa": "WL458VB",
+  "A.polizza": "41P1368992",
+  "B.polizza": "",
+  "A.cf": "VTLLSN57C01L736K",
+  "B.cf": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 85,
+  "ms": 2374,
+  "cost_usd": 0.007536,
+  "cached": false,
+  "image_sha": [
+   "c48d90795083d497"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90070:ver",
+ "answer": {
+  "data": "20/07/2026",
+  "A.targa": "LH170EB",
+  "B.targa": "AF758WJ",
+  "A.polizza": "17S3098864",
+  "B.polizza": "41L4360661",
+  "A.cf": "GNTNNA55H42F839L",
+  "B.cf": "CPPLSN80H26F839E"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2440,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "049213161082aaf5"
+  ]
+ }
+}

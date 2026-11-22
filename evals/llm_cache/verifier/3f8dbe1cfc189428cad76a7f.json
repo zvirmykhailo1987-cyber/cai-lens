@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10141:ver",
+ "answer": {
+  "data": "17/08/2026",
+  "A.targa": "PP196TP",
+  "B.targa": "YX682XC",
+  "A.polizza": "91S4471998",
+  "B.polizza": "33A2580928",
+  "A.cf": "FRRNDR78R05H501L",
+  "B.cf": "CPPLSS65A50D612L"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 21512,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "abdab2eca565cac9"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10191:ver",
+ "answer": {
+  "data": "29/06/2026",
+  "A.targa": "LK323MY",
+  "B.targa": "JM942CW",
+  "A.polizza": "43G6669563",
+  "B.polizza": "11H3902953",
+  "A.cf": "GRCSMN86L17A794M",
+  "B.cf": "GNTNDR82S08F205Y"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 7750,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "50aaf50631f66a6a"
+  ]
+ }
+}

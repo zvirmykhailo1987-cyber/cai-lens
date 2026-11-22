@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10037:ver",
+ "answer": {
+  "data": "24/06/2026",
+  "A.targa": "RA271JB",
+  "B.targa": "PH745KP",
+  "A.polizza": "43A3010321",
+  "B.polizza": "",
+  "A.cf": "DSNLNE90M49L781Y",
+  "B.cf": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 86,
+  "ms": 2260,
+  "cost_usd": 0.007556,
+  "cached": false,
+  "image_sha": [
+   "21a1cbcc3892f435"
+  ]
+ }
+}

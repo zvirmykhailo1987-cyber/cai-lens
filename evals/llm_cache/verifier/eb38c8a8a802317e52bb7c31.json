@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10164:ver",
+ "answer": {
+  "data": "05/03/2026",
+  "A.targa": "TR301EL",
+  "B.targa": "CA446HK",
+  "A.polizza": "11C1765480",
+  "B.polizza": "15A4332616",
+  "A.cf": "LNGMRC61L17D612M",
+  "B.cf": "DNGLSE82L63H501Q"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 3929,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "e63860e0a90b2824"
+  ]
+ }
+}

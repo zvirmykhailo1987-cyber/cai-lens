@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90011:ver",
+ "answer": {
+  "data": "20/02/2026",
+  "A.targa": "TP798CZ",
+  "B.targa": "YN201MK",
+  "A.polizza": "91L5399431",
+  "B.polizza": "93G2163236",
+  "A.cf": "LMBGPP60T28A794V",
+  "B.cf": "LNEFRC60S08L781T"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2425,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "3a611dd4527db950"
+  ]
+ }
+}

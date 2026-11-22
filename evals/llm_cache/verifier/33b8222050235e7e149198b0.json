@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10002:ver",
+ "answer": {
+  "data": "28/03/2026",
+  "A.targa": "XE735MY",
+  "B.targa": "VF310FR",
+  "A.polizza": "98L1042706",
+  "B.polizza": "35E8585646",
+  "A.cf": "RMNNNA50P49F839G",
+  "B.cf": "RSSMTN03E45H501X"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2433,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "2cb633e49de4dfb8"
+  ]
+ }
+}

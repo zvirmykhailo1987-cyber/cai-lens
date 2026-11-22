@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10153:ver",
+ "answer": {
+  "data": "01/02/2026",
+  "A.targa": "VN472VW",
+  "B.targa": "GM107VJ",
+  "A.polizza": "47L8269911",
+  "B.polizza": "62C4500558",
+  "A.cf": "GRCLNE58A66L736F",
+  "B.cf": "GRCLSE71H45L781W"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 5479,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "b4946c10f01f199a"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10108:ver",
+ "answer": {
+  "data": "05/07/2026",
+  "A.targa": "ZR597PF",
+  "B.targa": "MW022MZ",
+  "A.polizza": "25M7002900",
+  "B.polizza": "18S5114456",
+  "A.cf": "LMBNCL79D13F205F",
+  "B.cf": "MRTSMN68R20D612A"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 105,
+  "ms": 2716,
+  "cost_usd": 0.007936,
+  "cached": false,
+  "image_sha": [
+   "925dc6855751de66"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10117:ver",
+ "answer": {
+  "data": "09/07/2026",
+  "A.targa": "AS459GE",
+  "B.targa": "AA436RP",
+  "A.polizza": "70D1256815",
+  "B.polizza": "88H7204401",
+  "A.cf": "BRBPLA61E64A794H",
+  "B.cf": "FNTMRC85E04G224W"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2632,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "09183977c9f064bc"
+  ]
+ }
+}

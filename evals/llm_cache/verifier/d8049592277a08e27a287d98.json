@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10169:ver",
+ "answer": {
+  "data": "07/07/2026",
+  "A.targa": "MT284YJ",
+  "B.targa": "XC097CM",
+  "A.polizza": "36N7776074",
+  "B.polizza": "51P8249284",
+  "A.cf": "MRCPLA75P17L736S",
+  "B.cf": "CNTDVD69E03G224G"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2511,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "b5a6f27421ef1f24"
+  ]
+ }
+}

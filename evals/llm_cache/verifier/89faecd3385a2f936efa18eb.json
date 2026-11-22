@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10015:ver",
+ "answer": {
+  "data": "18/01/2026",
+  "A.targa": "DD132PX",
+  "B.targa": "HB622VP",
+  "A.polizza": "72E3351941",
+  "B.polizza": "50G1315730",
+  "A.cf": "DNGGNN69C19F839R",
+  "B.cf": "MNCSLV72S58L736Y"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2413,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "cb0fba2194d61bf9"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "demo-500001:ver",
+ "answer": {
+  "data": "02/11/2026",
+  "A.targa": "DP665XD",
+  "B.targa": "HZ986VD",
+  "A.polizza": "47M2071817",
+  "B.polizza": "65E5096934",
+  "A.cf": "MRNCHR84M57A944G",
+  "B.cf": "CLMMNC68D45L219X"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2307,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "94f0eaac13b2143f"
+  ]
+ }
+}

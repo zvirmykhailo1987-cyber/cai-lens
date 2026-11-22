@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10031:ver",
+ "answer": {
+  "data": "19/05/2026",
+  "A.targa": "ED269YJ",
+  "B.targa": "GJ356YZ",
+  "A.polizza": "77M7899656",
+  "B.polizza": "36H4574863",
+  "A.cf": "GRDMTN58C67G224T",
+  "B.cf": "DNGPLA95A61F839F"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 106,
+  "ms": 2565,
+  "cost_usd": 0.007956,
+  "cached": false,
+  "image_sha": [
+   "4bde5f33d769add7"
+  ]
+ }
+}

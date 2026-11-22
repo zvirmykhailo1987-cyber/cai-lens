@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10050:ver",
+ "answer": {
+  "data": "30/04/2026",
+  "A.targa": "BF724DY",
+  "B.targa": "TD457ML",
+  "A.polizza": "47G8544490",
+  "B.polizza": "70L9776443",
+  "A.cf": "RCCPLA58H48A794A",
+  "B.cf": "FNTPLA54T27G224B"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2416,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "8ea9348e2efb121f"
+  ]
+ }
+}

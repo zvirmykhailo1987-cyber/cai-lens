@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10063:ver",
+ "answer": {
+  "data": "14/08/2026",
+  "A.targa": "TP670PV",
+  "B.targa": "HW081YS",
+  "A.polizza": "78P2274712",
+  "B.polizza": "58L5309686",
+  "A.cf": "CSTFNC52H10A794D",
+  "B.cf": "LNGSFN72D23D612F"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2328,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "f15d31e4bf4f2b1e"
+  ]
+ }
+}

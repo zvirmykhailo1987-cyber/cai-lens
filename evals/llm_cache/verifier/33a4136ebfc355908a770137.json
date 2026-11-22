@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90069:ver",
+ "answer": {
+  "data": "29/06/2026",
+  "A.targa": "PJ540CW",
+  "B.targa": "DL797MT",
+  "A.polizza": "32E7252298",
+  "B.polizza": "92M6613087",
+  "A.cf": "LNGFRC59P56F205L",
+  "B.cf": "GNTNDR65P15A944U"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2705,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "64e9661f7a4e8635"
+  ]
+ }
+}

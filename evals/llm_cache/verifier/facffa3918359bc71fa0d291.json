@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10060:ver",
+ "answer": {
+  "data": "09/11/2026",
+  "A.targa": "JE716BZ",
+  "B.targa": "GK754BS",
+  "A.polizza": "38T1648827",
+  "B.polizza": "67L434723",
+  "A.cf": "CSTFNC84M57A794G",
+  "B.cf": "MRTNDR01T10A794J"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2252,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "05df3cf0eac86ddd"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90072:ver",
+ "answer": {
+  "data": "24/08/2026",
+  "A.targa": "GK191KV",
+  "B.targa": "HP588AV",
+  "A.polizza": "13T1158275",
+  "B.polizza": "94A5580680",
+  "A.cf": "BRBLSE79A50L781J",
+  "B.cf": "RSSLNZ84P03D612V"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2827,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "98c4e0ef0c771b98"
+  ]
+ }
+}

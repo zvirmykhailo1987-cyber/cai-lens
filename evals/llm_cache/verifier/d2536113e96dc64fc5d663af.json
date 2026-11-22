@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10064:ver",
+ "answer": {
+  "data": "21/10/2026",
+  "A.targa": "EC553NA",
+  "B.targa": "CK655FK",
+  "A.polizza": "77L5276584",
+  "B.polizza": "11C8274990",
+  "A.cf": "MRCLRA85P50L736I",
+  "B.cf": "RMNCHR86B52D612F"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2735,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "3a574710d5335aa4"
+  ]
+ }
+}

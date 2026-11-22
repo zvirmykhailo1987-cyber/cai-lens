@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "demo-500012:ver",
+ "answer": {
+  "data": "19/10/2026",
+  "A.targa": "HX278ER",
+  "B.targa": "KP309WA",
+  "A.polizza": "11R4505796",
+  "B.polizza": "49N2239362",
+  "A.cf": "GRDSLV80H66A944R",
+  "B.cf": "DNGGNN64L19G224L"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 4515,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "50b866683db0303e"
+  ]
+ }
+}

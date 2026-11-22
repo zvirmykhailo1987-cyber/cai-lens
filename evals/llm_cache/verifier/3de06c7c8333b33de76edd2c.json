@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10007:ver",
+ "answer": {
+  "data": "24/02/2026",
+  "A.targa": "DA324SL",
+  "B.targa": "EG027CW",
+  "A.polizza": "82D6560011",
+  "B.polizza": "46D3328583",
+  "A.cf": "DLCNNA74E55L219M",
+  "B.cf": "RZZPLA58H21H501F"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 3048,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "f43f645faf4baf94"
+  ]
+ }
+}

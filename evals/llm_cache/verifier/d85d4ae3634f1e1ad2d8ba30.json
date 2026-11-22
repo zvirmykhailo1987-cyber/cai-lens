@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90021:ver",
+ "answer": {
+  "data": "17/05/2026",
+  "A.targa": "CL878XY",
+  "B.targa": "LR329LE",
+  "A.polizza": "45E3079046",
+  "B.polizza": "29L6769481",
+  "A.cf": "MNCRRT65D07L781E",
+  "B.cf": "FNTMTT79C12A794B"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2185,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "0d2498da9176f35a"
+  ]
+ }
+}

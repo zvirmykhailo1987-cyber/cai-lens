@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90037:ver",
+ "answer": {
+  "data": "09/08/2026",
+  "A.targa": "GW617PA",
+  "B.targa": "EC790RB",
+  "A.polizza": "54E2999955",
+  "B.polizza": "7088582796",
+  "A.cf": "SNTFNC96A23D612X",
+  "B.cf": "MRNSLV58S66H501Q"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2635,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "c909334bc44360ca"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10033:ver",
+ "answer": {
+  "data": "13/04/2026",
+  "A.targa": "PX105XR",
+  "B.targa": "PM879LH",
+  "A.polizza": "86E4934197",
+  "B.polizza": "56R2662074",
+  "A.cf": "GRDRRT82M13D612Y",
+  "B.cf": "GLLNCL85M27G224M"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2655,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "840bd5e9b87e5013"
+  ]
+ }
+}

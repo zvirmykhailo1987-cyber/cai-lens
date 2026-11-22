@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10128:ver",
+ "answer": {
+  "data": "24/06/2026",
+  "A.targa": "GW351GB",
+  "B.targa": "LR549GX",
+  "A.polizza": "53C9487688",
+  "B.polizza": "83F6471467",
+  "A.cf": "MRTGNN73A10H501B",
+  "B.cf": "GRCPLA84A26L736N"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2553,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "ee034d27487104b1"
+  ]
+ }
+}

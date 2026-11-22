@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10187:ver",
+ "answer": {
+  "data": "16/10/2026",
+  "A.targa": "FZ830DG",
+  "B.targa": "RB215BG",
+  "A.polizza": "76P4130308",
+  "B.polizza": "61F8359015",
+  "A.cf": "MRTLSE77D54L219D",
+  "B.cf": "VTLMRC02E03F839S"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2293,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "09a15214f5a7d3ca"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10009:ver",
+ "answer": {
+  "data": "11/06/2026",
+  "A.targa": "HJ564CN",
+  "B.targa": "VY439YJ",
+  "A.polizza": "79B4994073",
+  "B.polizza": "81A4701598",
+  "A.cf": "SRRPLA67M41A944E",
+  "B.cf": "DLCSFN93P27A794S"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 105,
+  "ms": 2458,
+  "cost_usd": 0.007936,
+  "cached": false,
+  "image_sha": [
+   "9e4733ba09672e1e"
+  ]
+ }
+}

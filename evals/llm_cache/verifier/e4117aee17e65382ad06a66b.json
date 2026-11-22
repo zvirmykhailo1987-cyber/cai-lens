@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10131:ver",
+ "answer": {
+  "data": "16/04/2026",
+  "A.targa": "ET572DM",
+  "B.targa": "BE085LH",
+  "A.polizza": "16B2009084",
+  "B.polizza": "43B1662320",
+  "A.cf": "LNEMRC89C16G224P",
+  "B.cf": "GRDSFN90D14D612P"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2579,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "fa017365036128cd"
+  ]
+ }
+}

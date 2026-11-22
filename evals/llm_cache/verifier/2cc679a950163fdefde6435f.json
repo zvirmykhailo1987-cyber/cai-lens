@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90045:ver",
+ "answer": {
+  "data": "10/09/2026",
+  "A.targa": "WS801FN",
+  "B.targa": "WJ886PX",
+  "A.polizza": "26E5116075",
+  "B.polizza": "28N8000918",
+  "A.cf": "LNGDVD92B12G224V",
+  "B.cf": "BRNFRC77A07G224M"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2533,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "60bc1de8ba3b518e"
+  ]
+ }
+}

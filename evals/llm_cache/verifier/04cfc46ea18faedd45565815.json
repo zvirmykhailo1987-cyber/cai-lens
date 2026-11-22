@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10029:ver",
+ "answer": {
+  "data": "16/07/2026",
+  "A.targa": "JR680AE",
+  "B.targa": "TW888TB",
+  "A.polizza": "53N697151",
+  "B.polizza": "60A3175246",
+  "A.cf": "RZZLSE97P68A794S",
+  "B.cf": "MRTDVD68C07A794P"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 102,
+  "ms": 2248,
+  "cost_usd": 0.007876,
+  "cached": false,
+  "image_sha": [
+   "6524ec9e1bf33ab5"
+  ]
+ }
+}

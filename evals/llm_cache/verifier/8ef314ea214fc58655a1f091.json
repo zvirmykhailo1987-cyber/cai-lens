@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10043:ver",
+ "answer": {
+  "data": "11/04/2026",
+  "A.targa": "VT571EH",
+  "B.targa": "MY851HV",
+  "A.polizza": "49E4297347",
+  "B.polizza": "29V4700239",
+  "A.cf": "BRBMTN87P56L736V",
+  "B.cf": "CSTSFN91C06L219F"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2213,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "f7606981487ab57b"
+  ]
+ }
+}

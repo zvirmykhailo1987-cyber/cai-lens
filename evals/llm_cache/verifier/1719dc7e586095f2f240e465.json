@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10038:ver",
+ "answer": {
+  "data": "12/09/2026",
+  "A.targa": "AE265GZ",
+  "B.targa": "MN820WM",
+  "A.polizza": "63N9922093",
+  "B.polizza": "52V8574886",
+  "A.cf": "GRDPLA90H18F839I",
+  "B.cf": "MRNLNE65H59H501R"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2812,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "aa4c1751574d8a30"
+  ]
+ }
+}

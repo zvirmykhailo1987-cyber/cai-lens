@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90057:ver",
+ "answer": {
+  "data": "28/06/2026",
+  "A.targa": "VH685RD",
+  "B.targa": "BM682SE",
+  "A.polizza": "85F1339386",
+  "B.polizza": "37A5717589",
+  "A.cf": "DSNLNZ83A03H501V",
+  "B.cf": "CNTSFN69C27A794D"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2752,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "7cf043edf24d32dc"
+  ]
+ }
+}

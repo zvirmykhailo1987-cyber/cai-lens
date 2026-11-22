@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90005:ver",
+ "answer": {
+  "data": "10/07/2026",
+  "A.targa": "TF286EB",
+  "B.targa": "NK402KP",
+  "A.polizza": "99N7395278",
+  "B.polizza": "93F7018916",
+  "A.cf": "CLMRRT72T53L781D",
+  "B.cf": "GRDRRT57D60L736H"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2648,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "70f2927eaa4f6358"
+  ]
+ }
+}

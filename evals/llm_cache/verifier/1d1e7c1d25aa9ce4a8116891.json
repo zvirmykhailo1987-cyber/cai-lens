@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90018:ver",
+ "answer": {
+  "data": "03/06/2026",
+  "A.targa": "GV268VG",
+  "B.targa": "CY890ZL",
+  "A.polizza": "12L5037696",
+  "B.polizza": "68N9851462",
+  "A.cf": "BRBLNE99D55G224Z",
+  "B.cf": "GRDPLA79B01L781Q"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 106,
+  "ms": 2463,
+  "cost_usd": 0.007956,
+  "cached": false,
+  "image_sha": [
+   "4040746b75b784dc"
+  ]
+ }
+}

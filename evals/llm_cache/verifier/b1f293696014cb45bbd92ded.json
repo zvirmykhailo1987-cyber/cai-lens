@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10146:ver",
+ "answer": {
+  "data": "15/06/2026",
+  "A.targa": "LF680RW",
+  "B.targa": "VK858LY",
+  "A.polizza": "61E4271210",
+  "B.polizza": "63V9281962",
+  "A.cf": "FNTLNE97S53D612V",
+  "B.cf": "MRTLNZ59C15A794Z"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 105,
+  "ms": 3935,
+  "cost_usd": 0.007936,
+  "cached": false,
+  "image_sha": [
+   "d8e96afee47ab671"
+  ]
+ }
+}

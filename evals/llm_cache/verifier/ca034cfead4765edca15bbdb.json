@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10186:ver",
+ "answer": {
+  "data": "29/12/2025",
+  "A.targa": "VN542EP",
+  "B.targa": "WP269DX",
+  "A.polizza": "62R5220107",
+  "B.polizza": "86T1638708",
+  "A.cf": "RZZGNN58R12G224W",
+  "B.cf": "MRTSFN84E28D612O"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2221,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "d1b4f06b9f305836"
+  ]
+ }
+}

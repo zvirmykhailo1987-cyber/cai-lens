@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10199:ver",
+ "answer": {
+  "data": "18/03/2026",
+  "A.targa": "GD397PP",
+  "B.targa": "FZ985BA",
+  "A.polizza": "76M3214644",
+  "B.polizza": "42A8218649",
+  "A.cf": "MRTCHR98M47F205U",
+  "B.cf": "GNTSMN75T24L219U"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2878,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "dbc855f00512a825"
+  ]
+ }
+}

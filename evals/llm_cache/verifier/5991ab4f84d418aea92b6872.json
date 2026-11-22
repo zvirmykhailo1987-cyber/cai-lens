@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10120:ver",
+ "answer": {
+  "data": "03/01/2026",
+  "A.targa": "BB905RM",
+  "B.targa": "KC277VJ",
+  "A.polizza": "71N1170186",
+  "B.polizza": "48V4132725",
+  "A.cf": "MRTNNA79H41L781J",
+  "B.cf": "BRNNNA80L61A944D"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2637,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "be5c066aeca64407"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90063:ver",
+ "answer": {
+  "data": "17/06/2026",
+  "A.targa": "RM220PE",
+  "B.targa": "SR208YN",
+  "A.polizza": "86E5778793",
+  "B.polizza": "37M3327513",
+  "A.cf": "MNCGNN72S11F205A",
+  "B.cf": "RMNMTN69B54A794W"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2541,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "e6d4492bc75c1da8"
+  ]
+ }
+}

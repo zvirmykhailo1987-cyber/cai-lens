@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90049:ver",
+ "answer": {
+  "data": "16/03/2026",
+  "A.targa": "FG619RM",
+  "B.targa": "BS524VZ",
+  "A.polizza": "56R1294874",
+  "B.polizza": "43L9032666",
+  "A.cf": "CSTNNA84H62L219D",
+  "B.cf": "MNCNCL75A05F205U"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2539,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "edb0c8923ba46cf5"
+  ]
+ }
+}

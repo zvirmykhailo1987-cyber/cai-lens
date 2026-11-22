@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10116:ver",
+ "answer": {
+  "data": "07/02/2026",
+  "A.targa": "HD354KE",
+  "B.targa": "HH891XC",
+  "A.polizza": "49L3061218",
+  "B.polizza": "30G4603693",
+  "A.cf": "MRCRRT58S03F205R",
+  "B.cf": "FRRFRC89E17L219Q"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 3089,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "c1bdcf9f7ee35dbe"
+  ]
+ }
+}

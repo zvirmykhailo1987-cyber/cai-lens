@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10139:ver",
+ "answer": {
+  "data": "22/10/2026",
+  "A.targa": "GK549CH",
+  "B.targa": "AG620XT",
+  "A.polizza": "23A2628146",
+  "B.polizza": "30C1208405",
+  "A.cf": "SNTLSE56P57G224C",
+  "B.cf": "CPPLNE54D54L736M"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 3719,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "fff6921f65475565"
+  ]
+ }
+}

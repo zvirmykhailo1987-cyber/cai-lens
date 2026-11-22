@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90042:ver",
+ "answer": {
+  "data": "19/01/2026",
+  "A.targa": "GF676KT",
+  "B.targa": "AX883CC",
+  "A.polizza": "56R1355824",
+  "B.polizza": "2882229104",
+  "A.cf": "CRSPLA75D03G224H",
+  "B.cf": "CPPLSN64R26H501T"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 102,
+  "ms": 2588,
+  "cost_usd": 0.007876,
+  "cached": false,
+  "image_sha": [
+   "70ee71fa6c1905c4"
+  ]
+ }
+}

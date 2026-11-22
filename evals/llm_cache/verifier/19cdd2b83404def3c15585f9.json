@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90019:ver",
+ "answer": {
+  "data": "04/11/2026",
+  "A.targa": "WL248SN",
+  "B.targa": "XG5O2GB",
+  "A.polizza": "10D8523923",
+  "B.polizza": "",
+  "A.cf": "RMNPLA02E13D612Z",
+  "B.cf": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 88,
+  "ms": 2284,
+  "cost_usd": 0.007596,
+  "cached": false,
+  "image_sha": [
+   "f54e8230287ea11e"
+  ]
+ }
+}

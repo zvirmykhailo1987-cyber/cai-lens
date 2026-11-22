@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10047:ver",
+ "answer": {
+  "data": "13/02/2026",
+  "A.targa": "HV818WY",
+  "B.targa": "RR134WR",
+  "A.polizza": "81D8725114",
+  "B.polizza": "23H8794756",
+  "A.cf": "BRBLRA99E62L736C",
+  "B.cf": "GNTNNA62E43G224E"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2602,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "067a9f46fd28b4f0"
+  ]
+ }
+}

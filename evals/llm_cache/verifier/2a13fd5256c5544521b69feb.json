@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10014:ver",
+ "answer": {
+  "data": "11/10/2026",
+  "A.targa": "TE781GE",
+  "B.targa": "RM230HP",
+  "A.polizza": "40N5530785",
+  "B.polizza": "67P4401573",
+  "A.cf": "MRTLSS76P66H501B",
+  "B.cf": "GNTFNC00D68G224U"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2706,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "988997a3bc1e668f"
+  ]
+ }
+}

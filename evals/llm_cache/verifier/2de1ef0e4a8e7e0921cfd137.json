@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10181:ver",
+ "answer": {
+  "data": "01/08/2026",
+  "A.targa": "CK740FW",
+  "B.targa": "HP413NK",
+  "A.polizza": "8ON6310932",
+  "B.polizza": "68P3036793",
+  "A.cf": "BRBRRT66T67A944X",
+  "B.cf": "DSNLSE76M47F205B"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2823,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "b98a92930a1e82e0"
+  ]
+ }
+}

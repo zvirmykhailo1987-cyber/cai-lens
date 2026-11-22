@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90073:ver",
+ "answer": {
+  "data": "01/06/2026",
+  "A.targa": "PD810SF",
+  "B.targa": "PE023RM",
+  "A.polizza": "50M2545818",
+  "B.polizza": "77B4983722",
+  "A.cf": "RCCFNC57A28A794P",
+  "B.cf": "MRCPLA64A14D612J"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2510,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "f1b46633f802c147"
+  ]
+ }
+}

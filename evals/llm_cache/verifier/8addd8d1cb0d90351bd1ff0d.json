@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10045:ver",
+ "answer": {
+  "data": "14/05/2026",
+  "A.targa": "RT940EL",
+  "B.targa": "ZV492SE",
+  "A.polizza": "66T1927882",
+  "B.polizza": "65A6050147",
+  "A.cf": "LMBRRT58S11A944Y",
+  "B.cf": "VTLPLA97M18F839K"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 105,
+  "ms": 2320,
+  "cost_usd": 0.007936,
+  "cached": false,
+  "image_sha": [
+   "cb354db65e83a07c"
+  ]
+ }
+}

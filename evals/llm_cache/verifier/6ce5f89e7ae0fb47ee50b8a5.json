@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10147:ver",
+ "answer": {
+  "data": "02/06/2026",
+  "A.targa": "VK266BV",
+  "B.targa": "EC787GB",
+  "A.polizza": "86D1862787",
+  "B.polizza": "55R3658861",
+  "A.cf": "BRNLRA99P49L219W",
+  "B.cf": "GNTLSS97T61D612Z"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 3680,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "b6e0d6b456d33c32"
+  ]
+ }
+}

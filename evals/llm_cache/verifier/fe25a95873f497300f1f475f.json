@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10059:ver",
+ "answer": {
+  "data": "01/10/2026",
+  "A.targa": "KC322PX",
+  "B.targa": "HT232PC",
+  "A.polizza": "74C3676362",
+  "B.polizza": "28R1036801",
+  "A.cf": "DLCSFN76B24A794G",
+  "B.cf": "BRBGPP63A18G224Y"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2426,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "539936a74f74df54"
+  ]
+ }
+}

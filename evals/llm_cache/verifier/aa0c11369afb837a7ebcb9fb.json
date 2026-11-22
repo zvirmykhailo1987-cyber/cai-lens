@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10119:ver",
+ "answer": {
+  "data": "07/11/2026",
+  "A.targa": "TW503LY",
+  "B.targa": "FE258LB",
+  "A.polizza": "21P3482313",
+  "B.polizza": "49L6160079",
+  "A.cf": "LNGGNN79M22A794B",
+  "B.cf": "GNTMRC02L23F205Z"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2688,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "4da829830907efdb"
+  ]
+ }
+}

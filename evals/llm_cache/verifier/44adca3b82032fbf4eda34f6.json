@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90003:ver",
+ "answer": {
+  "data": "11/07/2026",
+  "A.targa": "CE300LV",
+  "B.targa": "SD565BC",
+  "A.polizza": "54B9005070",
+  "B.polizza": "",
+  "A.cf": "DLCFRC65T04L781N",
+  "B.cf": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 85,
+  "ms": 2778,
+  "cost_usd": 0.007536,
+  "cached": false,
+  "image_sha": [
+   "69b88674a3aacdc1"
+  ]
+ }
+}

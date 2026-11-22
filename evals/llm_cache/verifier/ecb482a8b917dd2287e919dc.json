@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10177:ver",
+ "answer": {
+  "data": "23/05/2026",
+  "A.targa": "HY505MF",
+  "B.targa": "EH261CT",
+  "A.polizza": "93F8067096",
+  "B.polizza": "67L8592952",
+  "A.cf": "RMNLNZ72B19D612F",
+  "B.cf": "CSTPLA57L63A944X"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2562,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "a7437e5c72e33d75"
+  ]
+ }
+}

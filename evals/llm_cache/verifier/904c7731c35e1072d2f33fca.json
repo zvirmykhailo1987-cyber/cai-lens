@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10077:ver",
+ "answer": {
+  "data": "01/08/2026",
+  "A.targa": "DG537FL",
+  "B.targa": "VP528KE",
+  "A.polizza": "39V8688404",
+  "B.polizza": "45G7841937",
+  "A.cf": "GNTSLV99H66F839T",
+  "B.cf": "CNTSLV59D64H501J"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2720,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "171d942f02f9d875"
+  ]
+ }
+}

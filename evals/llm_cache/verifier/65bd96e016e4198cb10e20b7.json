@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10155:ver",
+ "answer": {
+  "data": "25/08/2026",
+  "A.targa": "HP671WH",
+  "B.targa": "MN468JH",
+  "A.polizza": "59P8883524",
+  "B.polizza": "14V9031528",
+  "A.cf": "MRNLSS84B67H501G",
+  "B.cf": "SNTDVD61P26D612L"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 3148,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "8224cbfc4974eab8"
+  ]
+ }
+}

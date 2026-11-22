@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90025:ver",
+ "answer": {
+  "data": "15/04/2026",
+  "A.targa": "LZ670DW",
+  "B.targa": "NX404AN",
+  "A.polizza": "33D4860667",
+  "B.polizza": "66C1695712",
+  "A.cf": "DLCFNC95H19G224H",
+  "B.cf": "MRTLNZ56D11G224Y"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 106,
+  "ms": 2432,
+  "cost_usd": 0.007956,
+  "cached": false,
+  "image_sha": [
+   "a642f7a32db2d529"
+  ]
+ }
+}

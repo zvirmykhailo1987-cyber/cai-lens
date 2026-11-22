@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90008:ver",
+ "answer": {
+  "data": "20/09/2026",
+  "A.targa": "YR081WA",
+  "B.targa": "Av481EK",
+  "A.polizza": "34S2130178",
+  "B.polizza": "",
+  "A.cf": "CPPGNN60H24H501V",
+  "B.cf": ""
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 85,
+  "ms": 4304,
+  "cost_usd": 0.007536,
+  "cached": false,
+  "image_sha": [
+   "3006c397b102fdcd"
+  ]
+ }
+}

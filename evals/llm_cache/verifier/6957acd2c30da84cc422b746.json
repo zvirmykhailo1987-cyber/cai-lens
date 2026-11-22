@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90075:ver",
+ "answer": {
+  "data": "25/06/2026",
+  "A.targa": "NF100DF",
+  "B.targa": "DZ503HF",
+  "A.polizza": "98N9362505",
+  "B.polizza": "72D2921543",
+  "A.cf": "GLLGNN67A21L736K",
+  "B.cf": "FRRLSS78D61F205K"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 3103,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "3ba7e5ff45c84d0a"
+  ]
+ }
+}

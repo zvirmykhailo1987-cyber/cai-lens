@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90017:ver",
+ "answer": {
+  "data": "08/11/2026",
+  "A.targa": "AG713LH",
+  "B.targa": "CW512CM",
+  "A.polizza": "27R2708867",
+  "B.polizza": "48C9807407",
+  "A.cf": "DLCLSN62D11F839C",
+  "B.cf": "MRNMNC58D65A944O"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2204,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "11ad6aa719a5d1be"
+  ]
+ }
+}

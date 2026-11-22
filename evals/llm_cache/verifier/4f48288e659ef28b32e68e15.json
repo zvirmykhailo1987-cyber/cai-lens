@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "demo-500000:ver",
+ "answer": {
+  "data": "05/11/2026",
+  "A.targa": "ND479SN",
+  "B.targa": "HV767EP",
+  "A.polizza": "33P6915730",
+  "B.polizza": "98V8863674",
+  "A.cf": "VTLNDR66C16L736C",
+  "B.cf": "CRSDVD89R13H501K"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2795,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "57a7ecdfba840249"
+  ]
+ }
+}

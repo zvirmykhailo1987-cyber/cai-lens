@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10013:ver",
+ "answer": {
+  "data": "28/01/2026",
+  "A.targa": "DX621GJ",
+  "B.targa": "WK867PT",
+  "A.polizza": "95B6427705",
+  "B.polizza": "30B5107432",
+  "A.cf": "GRDDVD75S28A794P",
+  "B.cf": "SNTPLA77B46L219J"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2484,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "706439624e27646e"
+  ]
+ }
+}

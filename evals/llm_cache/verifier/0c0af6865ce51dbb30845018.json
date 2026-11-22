@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10030:ver",
+ "answer": {
+  "data": "20/05/2026",
+  "A.targa": "NV387ZY",
+  "B.targa": "NJ440RZ",
+  "A.polizza": "20F9368196",
+  "B.polizza": "57B1803810",
+  "A.cf": "DSNMTT83H07F205N",
+  "B.cf": "DSNSMN73M10F205B"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 106,
+  "ms": 3311,
+  "cost_usd": 0.007956,
+  "cached": false,
+  "image_sha": [
+   "dce3427b0df8ea55"
+  ]
+ }
+}

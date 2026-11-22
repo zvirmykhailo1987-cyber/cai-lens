@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10088:ver",
+ "answer": {
+  "data": "03/08/2026",
+  "A.targa": "PM721RV",
+  "B.targa": "YH282LE",
+  "A.polizza": "70A9240443",
+  "B.polizza": "79S2787203",
+  "A.cf": "LNGLNZ77M27L781D",
+  "B.cf": "CLMLRA04B43L736L"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 2337,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "b6701b82698e5200"
+  ]
+ }
+}

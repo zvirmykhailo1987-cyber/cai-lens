@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10057:ver",
+ "answer": {
+  "data": "04/10/2026",
+  "A.targa": "TS559XA",
+  "B.targa": "SV730KA",
+  "A.polizza": "95D1977038",
+  "B.polizza": "34D3612152",
+  "A.cf": "MRCGNN74D23F205J",
+  "B.cf": "RCCGLI68A51F205H"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2435,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "9ba81afce4b79a8a"
+  ]
+ }
+}

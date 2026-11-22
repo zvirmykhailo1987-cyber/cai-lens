@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90094:ver",
+ "answer": {
+  "data": "29/03/2026",
+  "A.targa": "CM153YS",
+  "B.targa": "TR627MG",
+  "A.polizza": "65B1115625",
+  "B.polizza": "18N2308251",
+  "A.cf": "DSNCHR54C44F205J",
+  "B.cf": "MNCFRC81D22F205E"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2305,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "6d321ea5def046b8"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "holdout-90020:ver",
+ "answer": {
+  "data": "20/05/2026",
+  "A.targa": "CR362KA",
+  "B.targa": "EF408PK",
+  "A.polizza": "89T7689084",
+  "B.polizza": "97C1244951",
+  "A.cf": "DNGFNC52L27F839S",
+  "B.cf": "GRCRAT71D58L781K"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2363,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "f28a6dd37b7e70fc"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10079:ver",
+ "answer": {
+  "data": "20/10/2026",
+  "A.targa": "KE913YZ",
+  "B.targa": "PC532LE",
+  "A.polizza": "25T7498666",
+  "B.polizza": "23T9529517",
+  "A.cf": "GLLSRA88A54L219G",
+  "B.cf": "GRCCHR66E66A944K"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 104,
+  "ms": 3004,
+  "cost_usd": 0.007916,
+  "cached": false,
+  "image_sha": [
+   "b33ac6134631a699"
+  ]
+ }
+}

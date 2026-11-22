@@ -1,0 +1,25 @@
+{
+ "purpose": "verifier",
+ "prompt_version": "ver-v1",
+ "cache_id": "dev-10046:ver",
+ "answer": {
+  "data": "02/06/2026",
+  "A.targa": "GH603NN",
+  "B.targa": "TA521HD",
+  "A.polizza": "22V6023861",
+  "B.polizza": "75E3733665",
+  "A.cf": "GRCSLV01C45G224W",
+  "B.cf": "DNGNNA57C61G224R"
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 1459,
+  "output_tokens": 103,
+  "ms": 2666,
+  "cost_usd": 0.007896,
+  "cached": false,
+  "image_sha": [
+   "384110e6242821e4"
+  ]
+ }
+}
