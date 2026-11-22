@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10018:hw",
+ "answer": {
+  "data": "07/05/2026",
+  "ora": "19:45",
+  "luogo": "TORINO, VIA DANTE 149",
+  "testimoni": "",
+  "A.cognome": "CONTI",
+  "A.nome": "ROBERTO",
+  "A.cf": "CNTRRT99P07F205T",
+  "A.targa": "FL290NP",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "88C1503118",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "ROBERTO",
+  "A.patente": "BC1880457H",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "SERRA",
+  "B.nome": "GIULIA",
+  "B.cf": "SRRGLI95L47L219O",
+  "B.targa": "XN321VG",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "25D4051944",
+  "B.cond_cognome": "MARINO",
+  "B.cond_nome": "ANNA",
+  "B.patente": "AR4154078F",
+  "B.danni": "PARAURTI ANTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 412,
+  "ms": 4630,
+  "cost_usd": 0.02458,
+  "cached": false,
+  "image_sha": [
+   "c07109db5b7493d3"
+  ]
+ }
+}

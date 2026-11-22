@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10093:hw",
+ "answer": {
+  "data": "29/08/2026",
+  "ora": "08:10",
+  "luogo": "TORINO, VIALE MONZA 134",
+  "testimoni": "ROMANO STEFANO",
+  "A.cognome": "VITALE",
+  "A.nome": "LUCA",
+  "A.cf": "VTLLCU83E04F205C",
+  "A.targa": "FK462LY",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "97N2309609",
+  "A.cond_cognome": "VITALE",
+  "A.cond_nome": "LUCA",
+  "A.patente": "BD5742487N",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "ROMANO",
+  "B.nome": "GIULIA",
+  "B.cf": "RMNGLI04L46L736C",
+  "B.targa": "VY558NF",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "49N7090891",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "GIULIA",
+  "B.patente": "AB9145037F",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 408,
+  "ms": 5071,
+  "cost_usd": 0.0245,
+  "cached": false,
+  "image_sha": [
+   "a771eb102c8811ce"
+  ]
+ }
+}

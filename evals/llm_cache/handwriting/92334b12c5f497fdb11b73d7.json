@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10108:hw",
+ "answer": {
+  "data": "05/07/2026",
+  "ora": "17:00",
+  "luogo": "NAPOLI, VIA ROMA 31",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LOMBARDI",
+  "A.nome": "NICOLA",
+  "A.cf": "LMBNCL79D13F205F",
+  "A.targa": "ZR597PF",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "25M7002900",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "NICOLA",
+  "A.patente": "MB2148548V",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARTINI",
+  "B.nome": "SIMONE",
+  "B.cf": "MRTSMN68R20D612A",
+  "B.targa": "MW022MZ",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "18S5114456",
+  "B.cond_cognome": "MARTINI",
+  "B.cond_nome": "SIMONE",
+  "B.patente": "UC1462127F",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 4732,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "1441027efbaaacd6"
+  ]
+ }
+}

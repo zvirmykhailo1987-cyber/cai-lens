@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10158:hw",
+ "answer": {
+  "data": "25/08/2026",
+  "ora": "14:15",
+  "luogo": "NAPOLI, VIALE EUROPA 30",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "MATTEO",
+  "A.cf": "MRCMTT88D23F839U",
+  "A.targa": "SM526RN",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "17T8023938",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "FRANCESCO",
+  "A.patente": "CD8587565D",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "LUCA",
+  "B.cf": "MRNLCU84C05L736W",
+  "B.targa": "GL456JV",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "30T9584018",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "ALESSIA",
+  "B.patente": "BU6487565E",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 5573,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "1d4f7123c20a0dc1"
+  ]
+ }
+}

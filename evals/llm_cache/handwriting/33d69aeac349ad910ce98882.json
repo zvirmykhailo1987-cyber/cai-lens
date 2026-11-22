@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10102:hw",
+ "answer": {
+  "data": "15/07/2026",
+  "ora": "18:50",
+  "luogo": "BOLOGNA, VIALE MONZA 45",
+  "testimoni": "GRECO PAOLA",
+  "A.cognome": "VITALE",
+  "A.nome": "ELENA",
+  "A.cf": "VTLLNE86E51F839Z",
+  "A.targa": "JC274NH",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "4786509965",
+  "A.cond_cognome": "VITALE",
+  "A.cond_nome": "SARA",
+  "A.patente": "MV6743254S",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "SANTORO",
+  "B.nome": "SILVIA",
+  "B.cf": "SNTSLV73S45F839X",
+  "B.targa": "DB239MD",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "65V9692215",
+  "B.cond_cognome": "SANTORO",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "TR7938441T",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 4559,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "38826bfbc7140f28"
+  ]
+ }
+}

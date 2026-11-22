@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10023:hw",
+ "answer": {
+  "data": "22/05/2026",
+  "ora": "18:45",
+  "luogo": "BOLOGNA, CORSO ITALIA 3",
+  "testimoni": "SERRA ALESSIA",
+  "A.cognome": "SANTORO",
+  "A.nome": "FEDERICO",
+  "A.cf": "SNTFRC04M24F839G",
+  "A.targa": "YK482XX",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "32B5613565",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "TA4197814V",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GALLI",
+  "B.nome": "GIOVANNI",
+  "B.cf": "GLLGNN65S21H501T",
+  "B.targa": "DY768PB",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "69R1475236",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "MARCO",
+  "B.patente": "DU7187987L",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 427,
+  "ms": 5227,
+  "cost_usd": 0.02488,
+  "cached": false,
+  "image_sha": [
+   "c8f68fa3348c0893"
+  ]
+ }
+}

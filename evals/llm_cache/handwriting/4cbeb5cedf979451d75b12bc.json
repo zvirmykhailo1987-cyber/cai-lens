@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10045:hw",
+ "answer": {
+  "data": "14/05/2026",
+  "ora": "07:10",
+  "luogo": "FIRENZE, VIA VERDI 56",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LOMBARDI",
+  "A.nome": "ROBERTO",
+  "A.cf": "LMBRRT58S11A944Y",
+  "A.targa": "RT940EL",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "66T1927882",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "ROBERTO",
+  "A.patente": "MU2559210F",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "VITALE",
+  "B.nome": "PAOLO",
+  "B.cf": "VTLPLA97M18F839K",
+  "B.targa": "ZV492SE",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "65A6050147",
+  "B.cond_cognome": "FERRARI",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "UV1281049P",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 5119,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "63a70ebfad3b5d3a"
+  ]
+ }
+}

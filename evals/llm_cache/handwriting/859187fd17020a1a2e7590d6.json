@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10187:hw",
+ "answer": {
+  "data": "16/10/2026",
+  "ora": "11:50",
+  "luogo": "MILANO, VIA GARIBALDI 177",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARTINELLI",
+  "A.nome": "ELISA",
+  "A.cf": "MRTLSE77D54L219D",
+  "A.targa": "FZ830DG",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "76P4130308",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "ELISA",
+  "A.patente": "BD5101675V",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "VITALE",
+  "B.nome": "MARCO",
+  "B.cf": "VTLMRC02E03F839S",
+  "B.targa": "RB215BG",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "61F8359015",
+  "B.cond_cognome": "VITALE",
+  "B.cond_nome": "MARCO",
+  "B.patente": "AB2114782C",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 4274,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "c74c049e25a1d2fa"
+  ]
+ }
+}

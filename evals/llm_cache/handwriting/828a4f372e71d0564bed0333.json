@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10059:hw",
+ "answer": {
+  "data": "01/10/2026",
+  "ora": "10:40",
+  "luogo": "NAPOLI, VIA MAZZINI 97",
+  "testimoni": "",
+  "A.cognome": "DE LUCA",
+  "A.nome": "STEFANO",
+  "A.cf": "DLCSFN76B24A794G",
+  "A.targa": "KC322PX",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "74C3676362",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "BT5609473L",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "BARBIERI",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "BRBGPP63A18G224Y",
+  "B.targa": "HT232PC",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "28R1036801",
+  "B.cond_cognome": "BARBIERI",
+  "B.cond_nome": "GIUSEPPE",
+  "B.patente": "BV4224922B",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 440,
+  "ms": 4527,
+  "cost_usd": 0.02514,
+  "cached": false,
+  "image_sha": [
+   "6d0772a9c86bb79e"
+  ]
+ }
+}

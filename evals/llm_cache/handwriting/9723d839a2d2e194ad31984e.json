@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90053:hw",
+ "answer": {
+  "data": "19/04/2026",
+  "ora": "20:40",
+  "luogo": "VENEZIA, VIALE EUROPA 5",
+  "testimoni": "GENTILE ROBERTO",
+  "A.cognome": "GRECO",
+  "A.nome": "DAVIDE",
+  "A.cf": "GRCDVD03E26L781P",
+  "A.targa": "LN957MT",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "95M8903401",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "DAVIDE",
+  "A.patente": "DT1869685M",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "GALLO",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "GLLGPP90L04H501E",
+  "B.targa": "GE852MS",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "47L2400523",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "FRANCESCO",
+  "B.patente": "EB9932648V",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 437,
+  "ms": 5594,
+  "cost_usd": 0.02508,
+  "cached": false,
+  "image_sha": [
+   "4d627e0fa35b1129"
+  ]
+ }
+}

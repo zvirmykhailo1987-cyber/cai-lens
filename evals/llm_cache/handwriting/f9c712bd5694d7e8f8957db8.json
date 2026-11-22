@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10148:hw",
+ "answer": {
+  "data": "22/02/2026",
+  "ora": "15:15",
+  "luogo": "PADOVA, VIA TORINO 152",
+  "testimoni": "",
+  "A.cognome": "GALLI",
+  "A.nome": "MONICA",
+  "A.cf": "GLLMNC55E50F839A",
+  "A.targa": "WK100HG",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "21A6088772",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "MARCO",
+  "A.patente": "TD8070830L",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "COPPOLA",
+  "B.nome": "ANDREA",
+  "B.cf": "CPPNDR82B16D612R",
+  "B.targa": "ER530BF",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "55V4884761",
+  "B.cond_cognome": "COPPOLA",
+  "B.cond_nome": "ANDREA",
+  "B.patente": "CR9350981Z",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 393,
+  "ms": 4374,
+  "cost_usd": 0.0242,
+  "cached": false,
+  "image_sha": [
+   "3a6042e8f06b469c"
+  ]
+ }
+}

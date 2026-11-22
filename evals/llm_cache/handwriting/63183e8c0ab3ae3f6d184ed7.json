@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90058:hw",
+ "answer": {
+  "data": "28/04/2026",
+  "ora": "08:15",
+  "luogo": "MILANO, VIA MARCONI 16",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LEONE",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "LNEGPP87M27G224F",
+  "A.targa": "TC594DG",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "69C9746974",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "UM5160877Z",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "MORETTI",
+  "B.nome": "LAURA",
+  "B.cf": "MRTLRA93E43L781S",
+  "B.targa": "ZK521YA",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "23F9634418",
+  "B.cond_cognome": "MORETTI",
+  "B.cond_nome": "LAURA",
+  "B.patente": "VU6955377T",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "2",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 419,
+  "ms": 4866,
+  "cost_usd": 0.02472,
+  "cached": false,
+  "image_sha": [
+   "4d955be7d1a87624"
+  ]
+ }
+}

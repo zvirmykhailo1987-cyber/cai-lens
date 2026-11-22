@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90021:hw",
+ "answer": {
+  "data": "17/05/2026",
+  "ora": "20:20",
+  "luogo": "VENEZIA, PIAZZA CAVOUR 114",
+  "testimoni": "",
+  "A.cognome": "MANCINI",
+  "A.nome": "ROBERTO",
+  "A.cf": "MNCRRT65D07L781E",
+  "A.targa": "CL878XY",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "45E3079046",
+  "A.cond_cognome": "MANCINI",
+  "A.cond_nome": "ROBERTO",
+  "A.patente": "VD4047976C",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "FONTANA",
+  "B.nome": "MATTEO",
+  "B.cf": "FNTMTT79C12A794B",
+  "B.targa": "LR329LE",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "29L6769481",
+  "B.cond_cognome": "FONTANA",
+  "B.cond_nome": "MATTEO",
+  "B.patente": "CC8914390H",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 406,
+  "ms": 4606,
+  "cost_usd": 0.02446,
+  "cached": false,
+  "image_sha": [
+   "2e880401b6a75eb2"
+  ]
+ }
+}

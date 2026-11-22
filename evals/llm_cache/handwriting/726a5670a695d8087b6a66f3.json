@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10020:hw",
+ "answer": {
+  "data": "26/05/2026",
+  "ora": "16:45",
+  "luogo": "BERGAMO, VIA ROMA 60",
+  "testimoni": "",
+  "A.cognome": "MANCINI",
+  "A.nome": "MATTEO",
+  "A.cf": "MNCMTT90E07F205A",
+  "A.targa": "YY090MK",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "35H2874763",
+  "A.cond_cognome": "MANCINI",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "BA3063162T",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "RIZZO",
+  "B.nome": "DAVIDE",
+  "B.cf": "RZZDVD66C02H501T",
+  "B.targa": "VY934HX",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "41P9812163",
+  "B.cond_cognome": "RIZZO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "AU3446074M",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 396,
+  "ms": 4499,
+  "cost_usd": 0.02426,
+  "cached": false,
+  "image_sha": [
+   "dda2a7344ff38d5c"
+  ]
+ }
+}

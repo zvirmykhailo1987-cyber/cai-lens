@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10071:hw",
+ "answer": {
+  "data": "14/03/2026",
+  "ora": "22:00",
+  "luogo": "FIRENZE, VIA GARIBALDI 93",
+  "testimoni": "GRECO GIUSEPPE",
+  "A.cognome": "BIANCHI",
+  "A.nome": "LUCA",
+  "A.cf": "BNCLCU04L25F205X",
+  "A.targa": "TB776EK",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "80B1632062",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "ANNA",
+  "A.patente": "BB4098688S",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "ALESSANDRO",
+  "B.cf": "GRDLSN95S13L781B",
+  "B.targa": "WA982YN",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "14N7674112",
+  "B.cond_cognome": "RICCI",
+  "B.cond_nome": "FRANCESCO",
+  "B.patente": "EA7263931T",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 444,
+  "ms": 4747,
+  "cost_usd": 0.02522,
+  "cached": false,
+  "image_sha": [
+   "798c2378b131730a"
+  ]
+ }
+}

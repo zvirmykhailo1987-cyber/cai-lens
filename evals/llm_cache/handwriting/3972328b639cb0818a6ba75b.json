@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90050:hw",
+ "answer": {
+  "data": "06/10/2026",
+  "ora": "21:50",
+  "luogo": "FIRENZE, VIA MILANO 58",
+  "testimoni": "ROMANO GIOVANNI",
+  "A.cognome": "FONTANA",
+  "A.nome": "PAOLO",
+  "A.cf": "FNTPLA00B15F839S",
+  "A.targa": "VR838DX",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "50B1317602",
+  "A.cond_cognome": "FONTANA",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "RA3504841L",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "FONTANA",
+  "B.nome": "ANDREA",
+  "B.cf": "FNTNDR53M23L736K",
+  "B.targa": "HY299RP",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "47D1526613",
+  "B.cond_cognome": "MARINO",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "RV2977127R",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 403,
+  "ms": 5475,
+  "cost_usd": 0.0244,
+  "cached": false,
+  "image_sha": [
+   "b3eabd00e2133526"
+  ]
+ }
+}

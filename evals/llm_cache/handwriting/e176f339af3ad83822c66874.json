@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90009:hw",
+ "answer": {
+  "data": "26/03/2026",
+  "ora": "21:40",
+  "luogo": "ROMA, VIA DANTE 27",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GALLI",
+  "A.nome": "FRANCESCA",
+  "A.cf": "GLLFNC62P53L736F",
+  "A.targa": "WS671DH",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "60D3443452",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "FRANCESCA",
+  "A.patente": "CD7212588Z",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "TE417NN",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 368,
+  "ms": 4726,
+  "cost_usd": 0.0237,
+  "cached": false,
+  "image_sha": [
+   "18340d4b0559452e"
+  ]
+ }
+}

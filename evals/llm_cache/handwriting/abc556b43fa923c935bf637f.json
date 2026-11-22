@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10110:hw",
+ "answer": {
+  "data": "24/07/2026",
+  "ora": "14:45",
+  "luogo": "BERGAMO, VIA VERDI 173",
+  "testimoni": "LEONE ROBERTO",
+  "A.cognome": "VITALE",
+  "A.nome": "SIMONE",
+  "A.cf": "VTLSMN87S11A794A",
+  "A.targa": "FK785XN",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "47H3042505",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "MARTINA",
+  "A.patente": "MB7400577L",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "NICOLA",
+  "B.cf": "MRNNCL67E15L781J",
+  "B.targa": "PR624GR",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "74R3530974",
+  "B.cond_cognome": "MARIANI",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "MR2302776F",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 417,
+  "ms": 5126,
+  "cost_usd": 0.02468,
+  "cached": false,
+  "image_sha": [
+   "a8824a5ba4422d2e"
+  ]
+ }
+}

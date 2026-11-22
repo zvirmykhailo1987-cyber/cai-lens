@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10035:hw",
+ "answer": {
+  "data": "24/01/2026",
+  "ora": "17:50",
+  "luogo": "BERGAMO, VIALE EUROPA 180",
+  "testimoni": "",
+  "A.cognome": "DE LUCA",
+  "A.nome": "PAOLO",
+  "A.cf": "DLCPLA72L21G224L",
+  "A.targa": "HA359EG",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "28E7207806",
+  "A.cond_cognome": "LEONE",
+  "A.cond_nome": "GIUSEPPE",
+  "A.patente": "CV6104035V",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "LOMBARDI",
+  "B.nome": "FEDERICA",
+  "B.cf": "LMBFRC61E50F839G",
+  "B.targa": "JC530BS",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "37H9343653",
+  "B.cond_cognome": "LOMBARDI",
+  "B.cond_nome": "FEDERICA",
+  "B.patente": "AR1018404H",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 4852,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "a0884dfb00c55796"
+  ]
+ }
+}

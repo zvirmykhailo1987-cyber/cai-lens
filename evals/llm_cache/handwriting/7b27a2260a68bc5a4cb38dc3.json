@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10076:hw",
+ "answer": {
+  "data": "26/09/2026",
+  "ora": "17:00",
+  "luogo": "ROMA, PIAZZA CAVOUR 82",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COLOMBO",
+  "A.nome": "SARA",
+  "A.cf": "CLMSRA92D68A944A",
+  "A.targa": "XG745VL",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "94T5615140",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "BE2298069V",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "CARUSO",
+  "B.nome": "STEFANO",
+  "B.cf": "CRSSFN69L08A944D",
+  "B.targa": "TT996BX",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "77P4703519",
+  "B.cond_cognome": "MARTINI",
+  "B.cond_nome": "ROBERTO",
+  "B.patente": "UV9996835N",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 412,
+  "ms": 4795,
+  "cost_usd": 0.02458,
+  "cached": false,
+  "image_sha": [
+   "35af64dec35d5956"
+  ]
+ }
+}

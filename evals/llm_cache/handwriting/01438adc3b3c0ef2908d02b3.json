@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10043:hw",
+ "answer": {
+  "data": "11/04/2026",
+  "ora": "08:50",
+  "luogo": "FIRENZE, VIA ROMA 2",
+  "testimoni": "MORETTI GIUSEPPE",
+  "A.cognome": "BARBIERI",
+  "A.nome": "MARTINA",
+  "A.cf": "BRBMTN87P56L736V",
+  "A.targa": "VT571EH",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "49E4297347",
+  "A.cond_cognome": "RIZZO",
+  "A.cond_nome": "ANDREA",
+  "A.patente": "EE9642211F",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "COSTA",
+  "B.nome": "STEFANO",
+  "B.cf": "CSTSFN91C06L219F",
+  "B.targa": "MY851HV",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "29V4700239",
+  "B.cond_cognome": "COSTA",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "CU7187538G",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 5043,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "e6dc502f6de99e72"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10109:hw",
+ "answer": {
+  "data": "19/05/2026",
+  "ora": "06:20",
+  "luogo": "MILANO, VIA MAZZINI 152",
+  "testimoni": "GIORDANO MATTEO",
+  "A.cognome": "VITALE",
+  "A.nome": "ALESSANDRO",
+  "A.cf": "VTLLSN57C01L736K",
+  "A.targa": "PE722GV",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "41P1368992",
+  "A.cond_cognome": "VITALE",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "EE1735589B",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "WL458VB",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 364,
+  "ms": 4342,
+  "cost_usd": 0.02362,
+  "cached": false,
+  "image_sha": [
+   "95515a64535c4d0b"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90003:hw",
+ "answer": {
+  "data": "11/07/2026",
+  "ora": "21:00",
+  "luogo": "VERONA, VIA GARIBALDI 180",
+  "testimoni": "MARCHETTI ALESSIA",
+  "A.cognome": "DE LUCA",
+  "A.nome": "FEDERICO",
+  "A.cf": "DLCFRC65T04L781N",
+  "A.targa": "CE300LV",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "54B9005070",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "CM4900514T",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "SD565BC",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 372,
+  "ms": 4657,
+  "cost_usd": 0.02378,
+  "cached": false,
+  "image_sha": [
+   "23cbeb2685d91633"
+  ]
+ }
+}

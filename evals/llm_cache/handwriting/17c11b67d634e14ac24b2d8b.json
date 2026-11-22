@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10069:hw",
+ "answer": {
+  "data": "29/01/2026",
+  "ora": "10:50",
+  "luogo": "VENEZIA, VIA VERDI 50",
+  "testimoni": "",
+  "A.cognome": "GRECO",
+  "A.nome": "GIULIA",
+  "A.cf": "GRCGLI02H61H501X",
+  "A.targa": "HZ710GC",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "93D8452339",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "GIULIA",
+  "A.patente": "RC7179585F",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "DE LUCA",
+  "B.nome": "STEFANO",
+  "B.cf": "DLCSFN94H22F839I",
+  "B.targa": "HH537JF",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "40D8845251",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "VD7154419D",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 5075,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "af80714c1ea238d4"
+  ]
+ }
+}

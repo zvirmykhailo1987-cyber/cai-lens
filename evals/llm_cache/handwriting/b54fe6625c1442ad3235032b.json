@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10000:hw",
+ "answer": {
+  "data": "31/05/2026",
+  "ora": "08:30",
+  "luogo": "TORINO, PIAZZA CAVOUR 139",
+  "testimoni": "GALLI SIMONE",
+  "A.cognome": "SANTORO",
+  "A.nome": "LUCA",
+  "A.cf": "SNTLCU94B23F205C",
+  "A.targa": "YA267TL",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "23R1099888",
+  "A.cond_cognome": "SANTORO",
+  "A.cond_nome": "LUCA",
+  "A.patente": "EA4775021A",
+  "A.danni": "PORTELLONE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "COPPOLA",
+  "B.nome": "ALESSANDRO",
+  "B.cf": "CPPLSN95B22H501I",
+  "B.targa": "PY814EB",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "69S5259479",
+  "B.cond_cognome": "COPPOLA",
+  "B.cond_nome": "ALESSANDRO",
+  "B.patente": "MR9807793V",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 431,
+  "ms": 5967,
+  "cost_usd": 0.02496,
+  "cached": false,
+  "image_sha": [
+   "fdac721b8f7854cb"
+  ]
+ }
+}

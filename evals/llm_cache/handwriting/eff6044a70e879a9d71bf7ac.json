@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10198:hw",
+ "answer": {
+  "data": "24/07/2026",
+  "ora": "20:45",
+  "luogo": "VENEZIA, VIA VERDI 80",
+  "testimoni": "",
+  "A.cognome": "ROSSI",
+  "A.nome": "ELISA",
+  "A.cf": "RSSLSE81S58D612P",
+  "A.targa": "DT291BC",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "86M4197297",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "ELISA",
+  "A.patente": "BE7419649Z",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "CONTI",
+  "B.nome": "LORENZO",
+  "B.cf": "CNTLNZ04A12L219I",
+  "B.targa": "GZ773JG",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "25M1069032",
+  "B.cond_cognome": "CONTI",
+  "B.cond_nome": "LORENZO",
+  "B.patente": "RD3833532P",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 4626,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "724eb5559a752bd7"
+  ]
+ }
+}

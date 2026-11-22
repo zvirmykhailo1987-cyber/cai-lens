@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90002:hw",
+ "answer": {
+  "data": "03/05/2026",
+  "ora": "11:40",
+  "luogo": "TORINO, PIAZZA CAVOUR 48",
+  "testimoni": "BRUNO ALESSIA",
+  "A.cognome": "SERRA",
+  "A.nome": "FRANCESCO",
+  "A.cf": "SRRFNC67S14F205Z",
+  "A.targa": "WX650KS",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "38V9974118",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "RC6746377G",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "MARTINI",
+  "B.nome": "LAURA",
+  "B.cf": "MRTLRA99S62A944Z",
+  "B.targa": "NM851PZ",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "39C6339921",
+  "B.cond_cognome": "MARTINI",
+  "B.cond_nome": "LAURA",
+  "B.patente": "CA4700510R",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 436,
+  "ms": 5009,
+  "cost_usd": 0.02506,
+  "cached": false,
+  "image_sha": [
+   "cf8361086487ada4"
+  ]
+ }
+}

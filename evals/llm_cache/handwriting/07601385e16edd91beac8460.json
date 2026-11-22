@@ -1,0 +1,50 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10006:hw",
+ "answer": {
+  "data": "29/08/2026",
+  "ora": "10:15",
+  "luogo": "MILANO, VIA MILANO 99",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARIANI",
+  "A.nome": "GIULIA",
+  "A.cf": "MRNGLI67L46A794X",
+  "A.targa": "FL637AB",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "55F2565302",
+  "A.cond_cognome": "MARIANI",
+  "A.cond_nome": "GIULIA",
+  "A.patente": "BV6060500M",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "2",
+  "B.cognome": "MARCHETTI",
+  "B.nome": "FRANCESCO",
+  "B.cf": "MRCFNC79P19L219A",
+  "B.targa": "",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "61V8942742",
+  "B.cond_cognome": "MARCHETTI",
+  "B.cond_nome": "FRANCESCO",
+  "B.patente": "",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": [
+   "B.targa",
+   "B.patente"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 427,
+  "ms": 5247,
+  "cost_usd": 0.02488,
+  "cached": false,
+  "image_sha": [
+   "bcd82249792578cb"
+  ]
+ }
+}

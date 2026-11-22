@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10078:hw",
+ "answer": {
+  "data": "04/09/2026",
+  "ora": "12:45",
+  "luogo": "PADOVA, VIA VERDI 167",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COSTA",
+  "A.nome": "STEFANO",
+  "A.cf": "CSTSFN57P27L219F",
+  "A.targa": "GR430ET",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "62N4674717",
+  "A.cond_cognome": "COSTA",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "EC2999141M",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "0",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "MARCO",
+  "B.cf": "DNGMRC97S11L219G",
+  "B.targa": "EY778FG",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "86E4636645",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "MONICA",
+  "B.patente": "BD9105186P",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 430,
+  "ms": 5646,
+  "cost_usd": 0.02494,
+  "cached": false,
+  "image_sha": [
+   "850b40d21ee5e5af"
+  ]
+ }
+}

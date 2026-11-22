@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10174:hw",
+ "answer": {
+  "data": "01/11/2026",
+  "ora": "06:20",
+  "luogo": "NAPOLI, VIA DANTE 72",
+  "testimoni": "",
+  "A.cognome": "MARINO",
+  "A.nome": "ELENA",
+  "A.cf": "MRNLNE63R58A794T",
+  "A.targa": "LL403AB",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "63R4274137",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "ELENA",
+  "A.patente": "TR4175852T",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "ROBERTA",
+  "B.cf": "MRNRRT99L41F839D",
+  "B.targa": "EF130PH",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "34E4844545",
+  "B.cond_cognome": "MARIANI",
+  "B.cond_nome": "ROBERTA",
+  "B.patente": "CB2086045D",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 5534,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "7edbbc27e8f26645"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10129:hw",
+ "answer": {
+  "data": "15/01/2026",
+  "ora": "20:50",
+  "luogo": "TORINO, VIA ROMA 118",
+  "testimoni": "",
+  "A.cognome": "LEONE",
+  "A.nome": "MARTINA",
+  "A.cf": "LNEMTN99M43G224Q",
+  "A.targa": "BG910ZT",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "52F8690270",
+  "A.cond_cognome": "LEONE",
+  "A.cond_nome": "MARTINA",
+  "A.patente": "TB4563530R",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "ROSSI",
+  "B.nome": "GIOVANNI",
+  "B.cf": "RSSGNN76B07L219Z",
+  "B.targa": "YA569NK",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "56P5087418",
+  "B.cond_cognome": "LEONE",
+  "B.cond_nome": "ANDREA",
+  "B.patente": "MT8510276N",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 4708,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "1477f20cb5078b1a"
+  ]
+ }
+}

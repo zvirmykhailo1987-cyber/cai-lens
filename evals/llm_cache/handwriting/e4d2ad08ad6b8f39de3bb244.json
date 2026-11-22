@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10159:hw",
+ "answer": {
+  "data": "17/05/2026",
+  "ora": "15:10",
+  "luogo": "PADOVA, VIA TORINO 176",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GALLO",
+  "A.nome": "SARA",
+  "A.cf": "GLLSRA59M62A944L",
+  "A.targa": "ZP772HH",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "53B7386079",
+  "A.cond_cognome": "GALLO",
+  "A.cond_nome": "SARA",
+  "A.patente": "AT7292095E",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "MARCO",
+  "B.cf": "GRDMRC50A05F839G",
+  "B.targa": "EF774SD",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "20E2106201",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "MARCO",
+  "B.patente": "EV6436439A",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 404,
+  "ms": 4892,
+  "cost_usd": 0.02442,
+  "cached": false,
+  "image_sha": [
+   "b006c8d7f80e1be5"
+  ]
+ }
+}

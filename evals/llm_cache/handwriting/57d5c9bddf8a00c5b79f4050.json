@@ -1,0 +1,55 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90010:hw",
+ "answer": {
+  "data": "",
+  "ora": "08:00",
+  "luogo": "ROMA, CORSO ITALIA 107",
+  "testimoni": "MARTINI FRANCESCO",
+  "A.cognome": "RINALDI",
+  "A.nome": "STEFANO",
+  "A.cf": "",
+  "A.targa": "BJ411EP",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "",
+  "A.cond_cognome": "RINALDI",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "GENTILE",
+  "B.nome": "PAOLO",
+  "B.cf": "GNTPLA74C24F205R",
+  "B.targa": "",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "0",
+  "illeggibili": [
+   "data",
+   "A.cf",
+   "A.polizza",
+   "A.patente",
+   "B.targa",
+   "B.polizza",
+   "B.patente"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 399,
+  "ms": 5718,
+  "cost_usd": 0.02432,
+  "cached": false,
+  "image_sha": [
+   "e40f330f4d4452b2"
+  ]
+ }
+}

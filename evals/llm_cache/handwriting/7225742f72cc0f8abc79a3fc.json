@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90094:hw",
+ "answer": {
+  "data": "29/03/2026",
+  "ora": "11:20",
+  "luogo": "PADOVA, VIALE MONZA 179",
+  "testimoni": "MARINO PAOLO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "CHIARA",
+  "A.cf": "DSNCHR54C44F205J",
+  "A.targa": "CM153YS",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "65B1115625",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "DC2513042L",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "MANCINI",
+  "B.nome": "FEDERICO",
+  "B.cf": "MNCFRC81D22F205E",
+  "B.targa": "TR627MG",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "18N2308251",
+  "B.cond_cognome": "SANTORO",
+  "B.cond_nome": "FEDERICA",
+  "B.patente": "CU9505218B",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 443,
+  "ms": 4798,
+  "cost_usd": 0.0252,
+  "cached": false,
+  "image_sha": [
+   "401d8ee5e9e1e508"
+  ]
+ }
+}

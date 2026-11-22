@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10126:hw",
+ "answer": {
+  "data": "29/09/2026",
+  "ora": "22:40",
+  "luogo": "BOLOGNA, VIA TORINO 40",
+  "testimoni": "",
+  "A.cognome": "CONTI",
+  "A.nome": "NICOLA",
+  "A.cf": "CNTNCL81C04F205A",
+  "A.targa": "DY792RG",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "61M5322646",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "ALESSIA",
+  "A.patente": "AM5102080H",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "SIMONE",
+  "B.cf": "GRDSMN91L21F205J",
+  "B.targa": "EE953EL",
+  "B.compagnia": "",
+  "B.polizza": "19R8491134",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "SIMONE",
+  "B.patente": "TE2659955D",
+  "B.danni": "FANALE POST.SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 4590,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "3cca6a9b1516ff91"
+  ]
+ }
+}

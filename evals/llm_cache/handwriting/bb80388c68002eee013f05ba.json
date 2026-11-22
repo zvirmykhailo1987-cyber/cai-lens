@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10139:hw",
+ "answer": {
+  "data": "22/10/2026",
+  "ora": "16:15",
+  "luogo": "BOLOGNA, VIA MILANO 110",
+  "testimoni": "ROSSI FEDERICO",
+  "A.cognome": "SANTORO",
+  "A.nome": "ELISA",
+  "A.cf": "SNTLSE56P57G224C",
+  "A.targa": "GK549CH",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "23A2628146",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "FEDERICA",
+  "A.patente": "TE9689234R",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "COPPOLA",
+  "B.nome": "ELENA",
+  "B.cf": "CPPLNE54D54L736M",
+  "B.targa": "AG620XT",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "30C1208405",
+  "B.cond_cognome": "LOMBARDI",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "UB6019525A",
+  "B.danni": "SPECCHIETTO SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 4879,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "b581ea909e07a268"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500007:hw",
+ "answer": {
+  "data": "30/10/2026",
+  "ora": "09:20",
+  "luogo": "TORINO, VIA GARIBALDI 51",
+  "testimoni": "SERRA FEDERICO",
+  "A.cognome": "RINALDI",
+  "A.nome": "ROBERTA",
+  "A.cf": "RNLRRT87D61G224A",
+  "A.targa": "KK719FM",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "21V3036854",
+  "A.cond_cognome": "RINALDI",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "DR8626254E",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "SANTORO",
+  "B.nome": "GIULIA",
+  "B.cf": "SNTGLI99T64H501G",
+  "B.targa": "CR014HH",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "50H6444023",
+  "B.cond_cognome": "RIZZO",
+  "B.cond_nome": "VALENTINA",
+  "B.patente": "CB4913362R",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 435,
+  "ms": 5186,
+  "cost_usd": 0.02504,
+  "cached": false,
+  "image_sha": [
+   "67b4141870e52120"
+  ]
+ }
+}

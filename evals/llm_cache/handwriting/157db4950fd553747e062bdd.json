@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90041:hw",
+ "answer": {
+  "data": "02/03/2026",
+  "ora": "10:10",
+  "luogo": "NAPOLI, VIA MAZZINI 134",
+  "testimoni": "FERRARI ANNA",
+  "A.cognome": "FERRARI",
+  "A.nome": "ROBERTO",
+  "A.cf": "FRRRRT85C19L219P",
+  "A.targa": "ZH920EA",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "97T8677866",
+  "A.cond_cognome": "SANTORO",
+  "A.cond_nome": "SILVIA",
+  "A.patente": "MV5281866D",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "FONTANA",
+  "B.nome": "NICOLA",
+  "B.cf": "FNTNCL58H16F839P",
+  "B.targa": "HA458CL",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "40C1177529",
+  "B.cond_cognome": "FONTANA",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "VD2880882S",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 433,
+  "ms": 5307,
+  "cost_usd": 0.025,
+  "cached": false,
+  "image_sha": [
+   "2aa7c3557644a35e"
+  ]
+ }
+}

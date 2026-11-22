@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90020:hw",
+ "answer": {
+  "data": "20/05/2026",
+  "ora": "14:50",
+  "luogo": "BOLOGNA, VIA MILANO 31",
+  "testimoni": "",
+  "A.cognome": "D'ANGELO",
+  "A.nome": "FRANCESCO",
+  "A.cf": "DNGFNC52L27F839S",
+  "A.targa": "CR362KA",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "89T7689084",
+  "A.cond_cognome": "D'ANGELO",
+  "A.cond_nome": "FRANCESCO",
+  "A.patente": "AU4665962S",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GRECO",
+  "B.nome": "ROBERTA",
+  "B.cf": "",
+  "B.targa": "EF408PK",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "97C1244951",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "ROBERTA",
+  "B.patente": "BD2490451Z",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "0",
+  "illeggibili": [
+   "B.cf"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 409,
+  "ms": 4745,
+  "cost_usd": 0.02452,
+  "cached": false,
+  "image_sha": [
+   "acec0c01c0ff745d"
+  ]
+ }
+}

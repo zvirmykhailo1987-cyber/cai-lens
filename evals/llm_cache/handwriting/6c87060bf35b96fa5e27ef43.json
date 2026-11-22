@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90092:hw",
+ "answer": {
+  "data": "28/09/2026",
+  "ora": "06:30",
+  "luogo": "ROMA, VIA VERDI 25",
+  "testimoni": "DE LUCA FRANCESCA",
+  "A.cognome": "ROSSI",
+  "A.nome": "GIULIA",
+  "A.cf": "RSSGLI00P50G224K",
+  "A.targa": "SC186CN",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "89N8510649",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "GIULIA",
+  "A.patente": "TE3232124E",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "COLOMBO",
+  "B.nome": "SARA",
+  "B.cf": "CLMSRA98L42G224U",
+  "B.targa": "VL245HK",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "27L7894817",
+  "B.cond_cognome": "ROSSI",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": [
+   "B.patente"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 404,
+  "ms": 4737,
+  "cost_usd": 0.02442,
+  "cached": false,
+  "image_sha": [
+   "40a681c022382339"
+  ]
+ }
+}

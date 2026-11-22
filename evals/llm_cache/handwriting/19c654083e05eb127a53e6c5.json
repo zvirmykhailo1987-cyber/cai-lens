@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10004:hw",
+ "answer": {
+  "data": "05/09/2026",
+  "ora": "10:15",
+  "luogo": "VERONA, CORSO ITALIA 113",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARINO",
+  "A.nome": "STEFANO",
+  "A.cf": "MRNSFN94T26L736A",
+  "A.targa": "KT712EH",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "34P7883808",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "EM5175499C",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "SANTORO",
+  "B.nome": "SILVIA",
+  "B.cf": "SNTSLV66A46A794C",
+  "B.targa": "FX092MW",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "34V2764238",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "CU7481126D",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 4622,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "c616683421231cd2"
+  ]
+ }
+}

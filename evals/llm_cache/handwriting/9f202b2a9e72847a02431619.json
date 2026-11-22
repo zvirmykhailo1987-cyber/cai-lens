@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90013:hw",
+ "answer": {
+  "data": "18/06/2026",
+  "ora": "12:20",
+  "luogo": "VENEZIA, CORSO ITALIA 131",
+  "testimoni": "GALLI FRANCESCO",
+  "A.cognome": "GALLI",
+  "A.nome": "FEDERICO",
+  "A.cf": "GLLFRC58T14L736G",
+  "A.targa": "HA025AJ",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "75A8705620",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "BB3069914S",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "DAVIDE",
+  "B.cf": "GRDDVD50M26L736T",
+  "B.targa": "TK642BS",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "21A4214809",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "UU5316841E",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 429,
+  "ms": 5350,
+  "cost_usd": 0.02492,
+  "cached": false,
+  "image_sha": [
+   "84449c5795202dc6"
+  ]
+ }
+}

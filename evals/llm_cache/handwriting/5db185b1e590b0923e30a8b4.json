@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10152:hw",
+ "answer": {
+  "data": "15/06/2026",
+  "ora": "13:15",
+  "luogo": "PADOVA, VIALE EUROPA 23",
+  "testimoni": "",
+  "A.cognome": "COLOMBO",
+  "A.nome": "MATTEO",
+  "A.cf": "CLMMTT95T19A944T",
+  "A.targa": "DW676GD",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "84G5416670",
+  "A.cond_cognome": "COLOMBO",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "UT5514884E",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "SERRA",
+  "B.nome": "MONICA",
+  "B.cf": "SRRMNC54R43G224Z",
+  "B.targa": "LG853LG",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "73C9919814",
+  "B.cond_cognome": "GALLI",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "MC9104680S",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 4620,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "28e4c272dec036b1"
+  ]
+ }
+}

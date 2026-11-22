@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10039:hw",
+ "answer": {
+  "data": "31/07/2026",
+  "ora": "15:50",
+  "luogo": "BERGAMO, VIA VERDI 163",
+  "testimoni": "NESSUNO",
+  "A.cognome": "FONTANA",
+  "A.nome": "ANNA",
+  "A.cf": "FNTNNA84A55F205I",
+  "A.targa": "KB491BR",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "42T1374087",
+  "A.cond_cognome": "FONTANA",
+  "A.cond_nome": "ANNA",
+  "A.patente": "DA8380750T",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "LUCA",
+  "B.cf": "DNGLCU97C17L219E",
+  "B.targa": "PK660MN",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "80A1753820",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "LUCA",
+  "B.patente": "CT1324305S",
+  "B.danni": "SPECCHIETTO SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 4294,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "47d1be6117ed525b"
+  ]
+ }
+}

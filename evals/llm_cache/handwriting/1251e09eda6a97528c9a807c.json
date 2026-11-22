@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500012:hw",
+ "answer": {
+  "data": "19/10/2026",
+  "ora": "19:00",
+  "luogo": "MILANO. VIA ROMA 114",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GIORDANO",
+  "A.nome": "SILVIA",
+  "A.cf": "GRDSLV80H66A944R",
+  "A.targa": "HX278ER",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "11R4505796",
+  "A.cond_cognome": "GIORDANO",
+  "A.cond_nome": "SILVIA",
+  "A.patente": "BC5210334Z",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "GIOVANNI",
+  "B.cf": "DNGGNN64L19G224L",
+  "B.targa": "KP309WA",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "49N2239362",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "GIOVANNI",
+  "B.patente": "RM5117914Z",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 443,
+  "ms": 5139,
+  "cost_usd": 0.0252,
+  "cached": false,
+  "image_sha": [
+   "5bd7493183fe4d2b"
+  ]
+ }
+}

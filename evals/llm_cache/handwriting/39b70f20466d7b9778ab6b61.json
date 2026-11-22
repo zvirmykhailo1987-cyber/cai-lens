@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500004:hw",
+ "answer": {
+  "data": "21/10/2026",
+  "ora": "15:40",
+  "luogo": "NAPOLI, VIA MAZZINI 5",
+  "testimoni": "D'ANGELO MATTEO",
+  "A.cognome": "MARINO",
+  "A.nome": "ROBERTA",
+  "A.cf": "MRNRRT54T58L736S",
+  "A.targa": "AB604PF",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "99M1799465",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "AD9271247H",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "COLOMBO",
+  "B.nome": "GIOVANNI",
+  "B.cf": "CLMGNN94P13F205C",
+  "B.targa": "YG479VM",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "62D8204364",
+  "B.cond_cognome": "RIZZO",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "AD2742921T",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 429,
+  "ms": 7612,
+  "cost_usd": 0.02492,
+  "cached": false,
+  "image_sha": [
+   "0c227e46b24ef7fe"
+  ]
+ }
+}

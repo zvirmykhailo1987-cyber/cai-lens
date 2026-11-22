@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10021:hw",
+ "answer": {
+  "data": "06/08/2026",
+  "ora": "08:40",
+  "luogo": "VENEZIA, VIA GARIBALDI 138",
+  "testimoni": "ROMANO NICOLA",
+  "A.cognome": "GALLO",
+  "A.nome": "MARCO",
+  "A.cf": "GLLMRC02R13G224P",
+  "A.targa": "PD515ZG",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "11V8291992",
+  "A.cond_cognome": "CARUSO",
+  "A.cond_nome": "ALESSIA",
+  "A.patente": "DA1741785T",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "MANCINI",
+  "B.nome": "ROBERTO",
+  "B.cf": "MNCRRT63T17L781K",
+  "B.targa": "JA633NP",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "36V7423047",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "MU7079218G",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 4914,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "13a165e417dead2a"
+  ]
+ }
+}

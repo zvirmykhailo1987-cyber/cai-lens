@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10042:hw",
+ "answer": {
+  "data": "24/09/2026",
+  "ora": "13:00",
+  "luogo": "NAPOLI, VIA GARIBALDI 4",
+  "testimoni": "RINALDI LAURA",
+  "A.cognome": "FERRARI",
+  "A.nome": "SIMONE",
+  "A.cf": "FRRSMN90E08L781Q",
+  "A.targa": "FT174YB",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "67F8937535",
+  "A.cond_cognome": "FERRARI",
+  "A.cond_nome": "SIMONE",
+  "A.patente": "BT6688660F",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "DE LUCA",
+  "B.nome": "STEFANO",
+  "B.cf": "DLCSFN76E13G224Z",
+  "B.targa": "TG674MJ",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "49V3838921",
+  "B.cond_cognome": "DE LUCA",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "BA9858130V",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 440,
+  "ms": 5052,
+  "cost_usd": 0.02514,
+  "cached": false,
+  "image_sha": [
+   "c38d6bc836fc4810"
+  ]
+ }
+}

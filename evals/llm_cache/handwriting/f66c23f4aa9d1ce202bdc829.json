@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500009:hw",
+ "answer": {
+  "data": "16/11/2026",
+  "ora": "10:20",
+  "luogo": "PADOVA, VIALE MONZA 113",
+  "testimoni": "",
+  "A.cognome": "FONTANA",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "FNTGPP83H02G224A",
+  "A.targa": "JC591DC",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "99P8131679",
+  "A.cond_cognome": "FONTANA",
+  "A.cond_nome": "GIUSEPPE",
+  "A.patente": "BV4186732P",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "SERRA",
+  "B.nome": "MARTINA",
+  "B.cf": "SRRMTN68R56L219J",
+  "B.targa": "WK068MH",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "26P7592066",
+  "B.cond_cognome": "SERRA",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "RM9140804V",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 399,
+  "ms": 5105,
+  "cost_usd": 0.02432,
+  "cached": false,
+  "image_sha": [
+   "19198609235e03b3"
+  ]
+ }
+}

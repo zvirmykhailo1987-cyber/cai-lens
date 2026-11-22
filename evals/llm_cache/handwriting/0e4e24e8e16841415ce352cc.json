@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10050:hw",
+ "answer": {
+  "data": "30/04/2026",
+  "ora": "18:45",
+  "luogo": "MILANO, VIALE MONZA 22",
+  "testimoni": "FONTANA SARA",
+  "A.cognome": "RICCI",
+  "A.nome": "PAOLA",
+  "A.cf": "RCCPLA58H48A794A",
+  "A.targa": "BF724DY",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "47G8544490",
+  "A.cond_cognome": "RICCI",
+  "A.cond_nome": "PAOLA",
+  "A.patente": "TD3041740C",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "FONTANA",
+  "B.nome": "PAOLO",
+  "B.cf": "FNTPLA54T27G224B",
+  "B.targa": "TD457ML",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "70L9776443",
+  "B.cond_cognome": "FONTANA",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "TC5312199L",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 433,
+  "ms": 5892,
+  "cost_usd": 0.025,
+  "cached": false,
+  "image_sha": [
+   "eb39259c061dcd4a"
+  ]
+ }
+}

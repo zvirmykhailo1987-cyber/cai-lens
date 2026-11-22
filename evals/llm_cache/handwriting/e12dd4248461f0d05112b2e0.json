@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10099:hw",
+ "answer": {
+  "data": "18/07/2026",
+  "ora": "20:15",
+  "luogo": "VENEZIA, VIALE EUROPA 11",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LEONE",
+  "A.nome": "ROBERTA",
+  "A.cf": "LNERRT66E57F205P",
+  "A.targa": "AE602YJ",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "54T7177763",
+  "A.cond_cognome": "LEONE",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "VV6320925R",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "FONTANA",
+  "B.nome": "SILVIA",
+  "B.cf": "FNTSLV79L64G224U",
+  "B.targa": "CH232GK",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "19P8501587",
+  "B.cond_cognome": "FONTANA",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "BT3447070F",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 5007,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "15bbfdfd8e021fa5"
+  ]
+ }
+}

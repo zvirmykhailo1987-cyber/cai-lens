@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90097:hw",
+ "answer": {
+  "data": "01/08/2026",
+  "ora": "11:45",
+  "luogo": "BOLOGNA, VIALE EUROPA 55",
+  "testimoni": "FERRARI GIUSEPPE",
+  "A.cognome": "MARINO",
+  "A.nome": "ROBERTA",
+  "A.cf": "MRNRRT55B67G224G",
+  "A.targa": "RP187AZ",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "61R8881743",
+  "A.cond_cognome": "GIORDANO",
+  "A.cond_nome": "ANDREA",
+  "A.patente": "BM9269293N",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "VALENTINA",
+  "B.cf": "DNGVNT52T47D612N",
+  "B.targa": "TJ770NM",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "35L3901480",
+  "B.cond_cognome": "CARUSO",
+  "B.cond_nome": "LAURA",
+  "B.patente": "AR1592934S",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 429,
+  "ms": 5514,
+  "cost_usd": 0.02492,
+  "cached": false,
+  "image_sha": [
+   "cc503487028c4762"
+  ]
+ }
+}

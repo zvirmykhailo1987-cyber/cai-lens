@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10196:hw",
+ "answer": {
+  "data": "21/12/2025",
+  "ora": "09:00",
+  "luogo": "BOLOGNA, VIA VERDI 145",
+  "testimoni": "",
+  "A.cognome": "RIZZO",
+  "A.nome": "LUCA",
+  "A.cf": "RZZLCU01S22F205G",
+  "A.targa": "CM431AS",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "98F6745100",
+  "A.cond_cognome": "FONTANA",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "ER9449869V",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "COSTA",
+  "B.nome": "NICOLA",
+  "B.cf": "CSTNCL56A18H501W",
+  "B.targa": "BJ286SB",
+  "B.compagnia": "",
+  "B.polizza": "33A7824639",
+  "B.cond_cognome": "COSTA",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "DE7768450H",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 407,
+  "ms": 4740,
+  "cost_usd": 0.02448,
+  "cached": false,
+  "image_sha": [
+   "c7bdc646e79074cb"
+  ]
+ }
+}

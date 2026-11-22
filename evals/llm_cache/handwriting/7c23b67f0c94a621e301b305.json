@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90069:hw",
+ "answer": {
+  "data": "29/06/2026",
+  "ora": "15:15",
+  "luogo": "VENEZIA, PIAZZA CAVOUR 86",
+  "testimoni": "",
+  "A.cognome": "LONGO",
+  "A.nome": "FEDERICA",
+  "A.cf": "LNGFRC59P56F205L",
+  "A.targa": "PJ540CW",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "32E7252298",
+  "A.cond_cognome": "LONGO",
+  "A.cond_nome": "FEDERICA",
+  "A.patente": "RV7767575F",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GENTILE",
+  "B.nome": "ANDREA",
+  "B.cf": "GNTNDR65P15A944U",
+  "B.targa": "DL797MT",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "92M6613087",
+  "B.cond_cognome": "ROSSI",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "AC8393379S",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 4824,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "844f92bc56e72533"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90040:hw",
+ "answer": {
+  "data": "25/09/2026",
+  "ora": "08:40",
+  "luogo": "TORINO, VIALE MONZA 88",
+  "testimoni": "",
+  "A.cognome": "SANTORO",
+  "A.nome": "FRANCESCA",
+  "A.cf": "SNTFNC93R42L219P",
+  "A.targa": "WD231ME",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "28P9810364",
+  "A.cond_cognome": "CARUSO",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "BU2721186P",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARTINI",
+  "B.nome": "FEDERICA",
+  "B.cf": "MRTFRC98R48H501O",
+  "B.targa": "BN486GS",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "76M9465142",
+  "B.cond_cognome": "FERRARI",
+  "B.cond_nome": "ALESSIA",
+  "B.patente": "EA1652056D",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "2",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 398,
+  "ms": 4297,
+  "cost_usd": 0.0243,
+  "cached": false,
+  "image_sha": [
+   "a2de6e614f41bb7f"
+  ]
+ }
+}

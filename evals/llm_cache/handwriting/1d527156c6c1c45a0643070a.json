@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10164:hw",
+ "answer": {
+  "data": "05/03/2026",
+  "ora": "07:10",
+  "luogo": "FIRENZE, VIA ROMA 158",
+  "testimoni": "",
+  "A.cognome": "LONGO",
+  "A.nome": "MARCO",
+  "A.cf": "LNGMRC61L17D612M",
+  "A.targa": "TR301EL",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "11C1765480",
+  "A.cond_cognome": "LONGO",
+  "A.cond_nome": "MARCO",
+  "A.patente": "TU7887176R",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "ELISA",
+  "B.cf": "DNGLSE82L63H501Q",
+  "B.targa": "CA446HK",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "15A4332616",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "ELISA",
+  "B.patente": "DB6959724E",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 404,
+  "ms": 5545,
+  "cost_usd": 0.02442,
+  "cached": false,
+  "image_sha": [
+   "5a2bf9be4a15f778"
+  ]
+ }
+}

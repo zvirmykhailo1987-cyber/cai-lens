@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10064:hw",
+ "answer": {
+  "data": "21/10/2026",
+  "ora": "16:10",
+  "luogo": "MILANO, VIA MAZZINI 48",
+  "testimoni": "",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "LAURA",
+  "A.cf": "MRCLRA85P50L736I",
+  "A.targa": "EC553NA",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "77L5276584",
+  "A.cond_cognome": "MARCHETTI",
+  "A.cond_nome": "LAURA",
+  "A.patente": "VU5873945F",
+  "A.danni": "",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "ROMANO",
+  "B.nome": "CHIARA",
+  "B.cf": "RMNCHR86B52D612F",
+  "B.targa": "CK655FK",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "11C8274990",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "CHIARA",
+  "B.patente": "UU1939724D",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": [
+   "A.danni"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 412,
+  "ms": 6674,
+  "cost_usd": 0.02458,
+  "cached": false,
+  "image_sha": [
+   "915ba0a1df543cb0"
+  ]
+ }
+}

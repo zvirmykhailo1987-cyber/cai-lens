@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10178:hw",
+ "answer": {
+  "data": "27/01/2026",
+  "ora": "14:10",
+  "luogo": "ROMA, VIALE EUROPA 162",
+  "testimoni": "",
+  "A.cognome": "GRECO",
+  "A.nome": "STEFANO",
+  "A.cf": "GRCSFN68P17L736P",
+  "A.targa": "NB565AR",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "70G8213282",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "TU2872592T",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "SILVIA",
+  "B.cf": "DSNSLV97C68H501K",
+  "B.targa": "AB823DT",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "27M4189552",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "VT8345767P",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 409,
+  "ms": 4658,
+  "cost_usd": 0.02452,
+  "cached": false,
+  "image_sha": [
+   "c427533eb042e557"
+  ]
+ }
+}

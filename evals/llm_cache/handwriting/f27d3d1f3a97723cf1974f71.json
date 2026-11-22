@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10112:hw",
+ "answer": {
+  "data": "20/04/2026",
+  "ora": "22:00",
+  "luogo": "MILANO, VIALE EUROPA 150",
+  "testimoni": "GIORDANO VALENTINA",
+  "A.cognome": "MARTINELLI",
+  "A.nome": "NICOLA",
+  "A.cf": "MRTNCL93T06F205Y",
+  "A.targa": "JW698HW",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "46H4505785",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "NICOLA",
+  "A.patente": "UV9819792B",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "2",
+  "B.cognome": "MARIANI",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "MRNGPP93S15L781J",
+  "B.targa": "PV228BT",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "40C9879971",
+  "B.cond_cognome": "MARIANI",
+  "B.cond_nome": "GIUSEPPE",
+  "B.patente": "VB49745908",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 4889,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "90c9a6a52d4297ef"
+  ]
+ }
+}

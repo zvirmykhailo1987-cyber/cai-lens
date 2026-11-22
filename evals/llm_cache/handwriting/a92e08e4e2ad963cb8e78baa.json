@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10066:hw",
+ "answer": {
+  "data": "19/10/2026",
+  "ora": "13:45",
+  "luogo": "ROMA, PIAZZA CAVOUR 162",
+  "testimoni": "NESSUNO",
+  "A.cognome": "RICCI",
+  "A.nome": "ROBERTA",
+  "A.cf": "RCCRRT68B56A794H",
+  "A.targa": "RY627LY",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "96A7256055",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "BA4599340H",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "CARUSO",
+  "B.nome": "MARTINA",
+  "B.cf": "CRSMTN00H44D612Y",
+  "B.targa": "CB510YM",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "17V1505028",
+  "B.cond_cognome": "CARUSO",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "VT6584277R",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 411,
+  "ms": 5949,
+  "cost_usd": 0.02456,
+  "cached": false,
+  "image_sha": [
+   "e7303e12feb12d49"
+  ]
+ }
+}

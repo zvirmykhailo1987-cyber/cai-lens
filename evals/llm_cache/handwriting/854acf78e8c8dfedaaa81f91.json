@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10014:hw",
+ "answer": {
+  "data": "11/10/2026",
+  "ora": "15:00",
+  "luogo": "VENEZIA, PIAZZA CAVOUR 76",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MORETTI",
+  "A.nome": "ALESSIA",
+  "A.cf": "MRTLSS76P66H501B",
+  "A.targa": "TE781GE",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "40N5530785",
+  "A.cond_cognome": "MORETTI",
+  "A.cond_nome": "ALESSIA",
+  "A.patente": "ER3447682D",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GENTILE",
+  "B.nome": "FRANCESCA",
+  "B.cf": "GNTFNC00D68G224U",
+  "B.targa": "RM230HP",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "67P4401573",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "UE9622012N",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 432,
+  "ms": 6593,
+  "cost_usd": 0.02498,
+  "cached": false,
+  "image_sha": [
+   "f2a4f39628a7dac2"
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90077:hw",
+ "answer": {
+  "data": "22/07/2026",
+  "ora": "16:40",
+  "luogo": "FIRENZE, VIA VERDI 117",
+  "testimoni": "",
+  "A.cognome": "MARINO",
+  "A.nome": "SIMONE",
+  "A.cf": "MRNSMN51R09L736L",
+  "A.targa": "WR180GH",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "97P7282529",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "SIMONE",
+  "A.patente": "VE2739653T",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARINO",
+  "B.nome": "FEDERICO",
+  "B.cf": "MRNFRC08B16L781T",
+  "B.targa": "",
+  "B.compagnia": "",
+  "B.polizza": "36L1557417",
+  "B.cond_cognome": "MARINO",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "UR6879179R",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": [
+   "B.targa"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 401,
+  "ms": 6463,
+  "cost_usd": 0.02436,
+  "cached": false,
+  "image_sha": [
+   "7c70c21edc25b07a"
+  ]
+ }
+}

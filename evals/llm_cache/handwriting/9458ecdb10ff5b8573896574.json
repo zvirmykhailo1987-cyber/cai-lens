@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500015:hw",
+ "answer": {
+  "data": "13/11/2026",
+  "ora": "12:15",
+  "luogo": "MILANO, CORSO ITALIA 52",
+  "testimoni": "",
+  "A.cognome": "CARUSO",
+  "A.nome": "ELISA",
+  "A.cf": "CRSLSE02A67L219W",
+  "A.targa": "XX344XA",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "19B5300858",
+  "A.cond_cognome": "VITALE",
+  "A.cond_nome": "ELISA",
+  "A.patente": "TM6402377Z",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "VALENTINA",
+  "B.cf": "MRNVNT59A49A944P",
+  "B.targa": "PP794HR",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "49S8661803",
+  "B.cond_cognome": "MARIANI",
+  "B.cond_nome": "VALENTINA",
+  "B.patente": "BB9323860V",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 421,
+  "ms": 5495,
+  "cost_usd": 0.02476,
+  "cached": false,
+  "image_sha": [
+   "d4f13e8bb547780d"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90046:hw",
+ "answer": {
+  "data": "02/09/2026",
+  "ora": "11:00",
+  "luogo": "PADOVA, VIA ROMA 124",
+  "testimoni": "NESSUNO",
+  "A.cognome": "DE LUCA",
+  "A.nome": "ELENA",
+  "A.cf": "DLCLNE95H53H501D",
+  "A.targa": "WX667FM",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "48H7109437",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "ELENA",
+  "A.patente": "TB4086030G",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "LEONE",
+  "B.nome": "PAOLA",
+  "B.cf": "LNEPLA82P44L219Q",
+  "B.targa": "",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "",
+  "B.cond_cognome": "LEONE",
+  "B.cond_nome": "PAOLA",
+  "B.patente": "",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": [
+   "B.targa",
+   "B.polizza",
+   "B.patente"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 429,
+  "ms": 5041,
+  "cost_usd": 0.02492,
+  "cached": false,
+  "image_sha": [
+   "6a359de64da86fe7"
+  ]
+ }
+}

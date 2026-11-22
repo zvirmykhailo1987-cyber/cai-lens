@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90016:hw",
+ "answer": {
+  "data": "30/01/2026",
+  "ora": "21:00",
+  "luogo": "TORINO, CORSO ITALIA 9",
+  "testimoni": "NESSUNO",
+  "A.cognome": "RINALDI",
+  "A.nome": "FRANCESCO",
+  "A.cf": "RNLFNC90L01G224V",
+  "A.targa": "WR339WK",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "37R6257676",
+  "A.cond_cognome": "RINALDI",
+  "A.cond_nome": "FRANCESCO",
+  "A.patente": "EA4732591D",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "2",
+  "B.cognome": "MARINO",
+  "B.nome": "MARTINA",
+  "B.cf": "",
+  "B.targa": "DY488BY",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "63S2089468",
+  "B.cond_cognome": "COSTA",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "CT4324836F",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "0",
+  "illeggibili": [
+   "B.cf"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 4906,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "684388aa325af4a7"
+  ]
+ }
+}

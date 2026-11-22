@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10024:hw",
+ "answer": {
+  "data": "25/02/2026",
+  "ora": "20:30",
+  "luogo": "VENEZIA, VIA GARIBALDI 167",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COLOMBO",
+  "A.nome": "FEDERICO",
+  "A.cf": "CLMFRC98H10H501N",
+  "A.targa": "KG626NN",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "27M9256638",
+  "A.cond_cognome": "COLOMBO",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "UC6168376R",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "2",
+  "B.cognome": "GALLO",
+  "B.nome": "ELISA",
+  "B.cf": "GLLLSE97D64L736X",
+  "B.targa": "SY477EG",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "12E1550800",
+  "B.cond_cognome": "GALLO",
+  "B.cond_nome": "ELISA",
+  "B.patente": "MD5807223G",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 6879,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "eabec2ba2cd2e02b"
+  ]
+ }
+}

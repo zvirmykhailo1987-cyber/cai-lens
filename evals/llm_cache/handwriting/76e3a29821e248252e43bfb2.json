@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10058:hw",
+ "answer": {
+  "data": "21/10/2026",
+  "ora": "09:50",
+  "luogo": "MILANO, VIA ROMA 65",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COPPOLA",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "CPPGPP71A06F839Z",
+  "A.targa": "GX663AH",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "48A3736814",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "GIUSEPPE",
+  "A.patente": "VU8391786V",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "MARINO",
+  "B.nome": "LORENZO",
+  "B.cf": "MRNLNZ58R16H501U",
+  "B.targa": "",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "52P4132929",
+  "B.cond_cognome": "MARINO",
+  "B.cond_nome": "LORENZO",
+  "B.patente": "CA6967194C",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 412,
+  "ms": 5125,
+  "cost_usd": 0.02458,
+  "cached": false,
+  "image_sha": [
+   "bb294e7dc2f83388"
+  ]
+ }
+}

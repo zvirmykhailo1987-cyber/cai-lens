@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90074:hw",
+ "answer": {
+  "data": "24/12/2025",
+  "ora": "18:45",
+  "luogo": "VERONA, VIA GARIBALDI 65",
+  "testimoni": "MANCINI ELISA",
+  "A.cognome": "LEONE",
+  "A.nome": "FEDERICO",
+  "A.cf": "LNEFRC67D03G224V",
+  "A.targa": "NE942FC",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "77T4435973",
+  "A.cond_cognome": "LEONE",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "ET9832417H",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "VITALE",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "VTLGPP75D21A794T",
+  "B.targa": "FB885FV",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "12B1031245",
+  "B.cond_cognome": "VITALE",
+  "B.cond_nome": "GIUSEPPE",
+  "B.patente": "VA3531053M",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 431,
+  "ms": 5315,
+  "cost_usd": 0.02496,
+  "cached": false,
+  "image_sha": [
+   "26d5ea1120a6fbf8"
+  ]
+ }
+}

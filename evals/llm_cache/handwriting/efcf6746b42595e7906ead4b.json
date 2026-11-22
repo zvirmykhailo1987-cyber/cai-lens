@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10128:hw",
+ "answer": {
+  "data": "24/06/2026",
+  "ora": "06:20",
+  "luogo": "FIRENZE, VIA MILANO 159",
+  "testimoni": "BIANCHI VALENTINA",
+  "A.cognome": "MARTINI",
+  "A.nome": "GIOVANNI",
+  "A.cf": "MRTGNN73A10H501B",
+  "A.targa": "GW351GB",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "53C9487688",
+  "A.cond_cognome": "ROMANO",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "DM3472431T",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GRECO",
+  "B.nome": "PAOLO",
+  "B.cf": "GRCPLA84A26L736N",
+  "B.targa": "LR549GX",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "83F6471467",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "RB6267917E",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 4452,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "c0633f38dfbc6507"
+  ]
+ }
+}

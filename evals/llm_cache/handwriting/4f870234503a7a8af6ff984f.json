@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10084:hw",
+ "answer": {
+  "data": "17/05/2026",
+  "ora": "08:45",
+  "luogo": "PADOVA, VIA GARIBALDI 124",
+  "testimoni": "FERRARI ROBERTO",
+  "A.cognome": "GALLI",
+  "A.nome": "ANNA",
+  "A.cf": "GLLNNA95H43F205K",
+  "A.targa": "VR885CG",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "68H7378328",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "ANDREA",
+  "A.patente": "BV8484564H",
+  "A.danni": "PORTELLONE",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "MARTINA",
+  "B.cf": "MRNMTN87H59F205E",
+  "B.targa": "CM899GX",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "79A1745721",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "VALENTINA",
+  "B.patente": "MM2992641M",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 425,
+  "ms": 4887,
+  "cost_usd": 0.02484,
+  "cached": false,
+  "image_sha": [
+   "f55dbed22cbdd588"
+  ]
+ }
+}

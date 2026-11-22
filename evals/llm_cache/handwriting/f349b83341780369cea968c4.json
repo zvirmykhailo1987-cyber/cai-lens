@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10181:hw",
+ "answer": {
+  "data": "01/08/2026",
+  "ora": "06:00",
+  "luogo": "NAPOLI, VIALE EUROPA 120",
+  "testimoni": "ROMANO LUCA",
+  "A.cognome": "BARBIERI",
+  "A.nome": "ROBERTA",
+  "A.cf": "BRBRRT66T67A944X",
+  "A.targa": "CK740FW",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "80N6310932",
+  "A.cond_cognome": "BARBIERI",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "AE8836513V",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "ELISA",
+  "B.cf": "DSNLSE76M47F205B",
+  "B.targa": "HP413NK",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "68P3036793",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "ELISA",
+  "B.patente": "EE5922956P",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 431,
+  "ms": 4998,
+  "cost_usd": 0.02496,
+  "cached": false,
+  "image_sha": [
+   "4648e4e54941bd9a"
+  ]
+ }
+}

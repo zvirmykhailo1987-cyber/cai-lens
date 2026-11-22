@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10182:hw",
+ "answer": {
+  "data": "15/05/2026",
+  "ora": "11:20",
+  "luogo": "NAPOLI, VIA VERDI 26",
+  "testimoni": "CONTI LORENZO",
+  "A.cognome": "MARINO",
+  "A.nome": "DAVIDE",
+  "A.cf": "MRNDVD77H04L219D",
+  "A.targa": "CP808EL",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "92A5154086",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "DAVIDE",
+  "A.patente": "AD1724193H",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "MORETTI",
+  "B.nome": "MARTINA",
+  "B.cf": "MRTMTN73C43F839Q",
+  "B.targa": "SW114MG",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "18R5895004",
+  "B.cond_cognome": "MORETTI",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "RM2826872R",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 407,
+  "ms": 4986,
+  "cost_usd": 0.02448,
+  "cached": false,
+  "image_sha": [
+   "3fc1e53e7c1403c8"
+  ]
+ }
+}

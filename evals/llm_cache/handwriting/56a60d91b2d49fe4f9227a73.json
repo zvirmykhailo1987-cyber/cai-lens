@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10077:hw",
+ "answer": {
+  "data": "01/08/2026",
+  "ora": "10:50",
+  "luogo": "ROMA, VIA ROMA 147",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GENTILE",
+  "A.nome": "SILVIA",
+  "A.cf": "GNTSLV99H66F839T",
+  "A.targa": "DG537FL",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "39V8688404",
+  "A.cond_cognome": "GENTILE",
+  "A.cond_nome": "SILVIA",
+  "A.patente": "TU7256076A",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "CONTI",
+  "B.nome": "SILVIA",
+  "B.cf": "CNTSLV59D64H501J",
+  "B.targa": "VP528KE",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "45G7841937",
+  "B.cond_cognome": "CONTI",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "ET9247894A",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 406,
+  "ms": 6892,
+  "cost_usd": 0.02446,
+  "cached": false,
+  "image_sha": [
+   "f347ce6c67df1a56"
+  ]
+ }
+}

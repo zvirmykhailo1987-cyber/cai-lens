@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90018:hw",
+ "answer": {
+  "data": "03/06/2026",
+  "ora": "17:30",
+  "luogo": "ROMA, VIA DANTE 153",
+  "testimoni": "DE SANTIS ROBERTO",
+  "A.cognome": "BARBIERI",
+  "A.nome": "ELENA",
+  "A.cf": "BRBLNE99D55G224Z",
+  "A.targa": "GV268VG",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "12L5037696",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "MARTINA",
+  "A.patente": "RC2944036L",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "PAOLO",
+  "B.cf": "GRDPLA79B01L781Q",
+  "B.targa": "CY890ZL",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "68N9851462",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "MB7513496D",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 421,
+  "ms": 6621,
+  "cost_usd": 0.02476,
+  "cached": false,
+  "image_sha": [
+   "a4470c7b8ab8ba21"
+  ]
+ }
+}

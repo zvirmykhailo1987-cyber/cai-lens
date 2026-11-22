@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10046:hw",
+ "answer": {
+  "data": "02/06/2026",
+  "ora": "21:45",
+  "luogo": "PADOVA, VIA VERDI 99",
+  "testimoni": "",
+  "A.cognome": "GRECO",
+  "A.nome": "SILVIA",
+  "A.cf": "GRCSLV01C45G224W",
+  "A.targa": "GH603NN",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "22V6023861",
+  "A.cond_cognome": "RIZZO",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "BU5409261A",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "ANNA",
+  "B.cf": "DNGNNA57C61G224R",
+  "B.targa": "TA521HD",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "76E3733665",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "ANNA",
+  "B.patente": "UE4353346G",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 419,
+  "ms": 4661,
+  "cost_usd": 0.02472,
+  "cached": false,
+  "image_sha": [
+   "1f29157b0b05ab00"
+  ]
+ }
+}

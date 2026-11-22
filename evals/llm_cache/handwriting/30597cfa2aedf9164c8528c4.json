@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10127:hw",
+ "answer": {
+  "data": "16/10/2026",
+  "ora": "21:40",
+  "luogo": "VERONA, VIA TORINO 139",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LOMBARDI",
+  "A.nome": "ELISA",
+  "A.cf": "LMBLSE93T45L781E",
+  "A.targa": "SP906ME",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "76H6161032",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "ELISA",
+  "A.patente": "CV2298745C",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "COPPOLA",
+  "B.nome": "FRANCESCA",
+  "B.cf": "CPPFNC53R49G224R",
+  "B.targa": "NA695KX",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "25F7228803",
+  "B.cond_cognome": "COPPOLA",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "DM2563418C",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 5166,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "f5e6de4caa8bf090"
+  ]
+ }
+}

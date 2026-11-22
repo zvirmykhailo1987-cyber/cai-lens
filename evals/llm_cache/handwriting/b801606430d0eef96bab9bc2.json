@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10037:hw",
+ "answer": {
+  "data": "24/06/2026",
+  "ora": "17:15",
+  "luogo": "MILANO, CORSO ITALIA 132",
+  "testimoni": "GALLO ROBERTO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "ELENA",
+  "A.cf": "DSNLNE90M49L781Y",
+  "A.targa": "RA271JB",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "43A3010321",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "ELENA",
+  "A.patente": "VE6300016C",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "PH745KP",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 351,
+  "ms": 4295,
+  "cost_usd": 0.02336,
+  "cached": false,
+  "image_sha": [
+   "807e724c76628f19"
+  ]
+ }
+}

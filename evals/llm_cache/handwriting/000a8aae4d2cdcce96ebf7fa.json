@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10041:hw",
+ "answer": {
+  "data": "17/01/2026",
+  "ora": "20:00",
+  "luogo": "NAPOLI, VIA MILANO 85",
+  "testimoni": "CARUSO GIUSEPPE",
+  "A.cognome": "VITALE",
+  "A.nome": "ELISA",
+  "A.cf": "VTLLSE65D46A944K",
+  "A.targa": "PD395MA",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "22F7494550",
+  "A.cond_cognome": "VITALE",
+  "A.cond_nome": "ELISA",
+  "A.patente": "AT9671390G",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "MORETTI",
+  "B.nome": "LUCA",
+  "B.cf": "MRTLCU70T13D612S",
+  "B.targa": "MY355FE",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "27E6854496",
+  "B.cond_cognome": "MORETTI",
+  "B.cond_nome": "LUCA",
+  "B.patente": "CA1500287S",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 4953,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "841ffa7c75156169"
+  ]
+ }
+}

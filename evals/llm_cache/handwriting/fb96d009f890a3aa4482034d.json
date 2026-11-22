@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10055:hw",
+ "answer": {
+  "data": "03/08/2026",
+  "ora": "21:30",
+  "luogo": "TORINO, VIA DANTE 125",
+  "testimoni": "",
+  "A.cognome": "GALLI",
+  "A.nome": "FEDERICO",
+  "A.cf": "GLLFRC81P15L736A",
+  "A.targa": "ML460AN",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "30B6130387",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "RU3514541G",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "BRUNO",
+  "B.nome": "ELENA",
+  "B.cf": "BRNLNE71C62G224Y",
+  "B.targa": "VV445WB",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "34G1158305",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "ELENA",
+  "B.patente": "TV3416222E",
+  "B.danni": "PARAURTI ANTERIORE",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 406,
+  "ms": 4890,
+  "cost_usd": 0.02446,
+  "cached": false,
+  "image_sha": [
+   "d87b230bb8f94d90"
+  ]
+ }
+}

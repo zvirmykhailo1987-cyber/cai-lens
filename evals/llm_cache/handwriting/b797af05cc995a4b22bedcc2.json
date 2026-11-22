@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10025:hw",
+ "answer": {
+  "data": "05/07/2026",
+  "ora": "12:00",
+  "luogo": "BERGAMO, VIA MILANO 9",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GALLI",
+  "A.nome": "ANNA",
+  "A.cf": "GLLNNA86E68L219E",
+  "A.targa": "MA001RV",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "28S7952815",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "ANNA",
+  "A.patente": "DA8247616C",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "VJ419DB",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 354,
+  "ms": 4901,
+  "cost_usd": 0.02342,
+  "cached": false,
+  "image_sha": [
+   "512c4b8f92ec93ce"
+  ]
+ }
+}

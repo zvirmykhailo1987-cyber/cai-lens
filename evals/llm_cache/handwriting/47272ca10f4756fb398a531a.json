@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10010:hw",
+ "answer": {
+  "data": "16/05/2026",
+  "ora": "07:00",
+  "luogo": "MILANO, VIA DANTE 49",
+  "testimoni": "",
+  "A.cognome": "BIANCHI",
+  "A.nome": "PAOLO",
+  "A.cf": "BNCPLA69H07A794A",
+  "A.targa": "NX282EG",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "58M9483286",
+  "A.cond_cognome": "RIZZO",
+  "A.cond_nome": "LUCA",
+  "A.patente": "ME2751047E",
+  "A.danni": "PORTELLONE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "COLOMBO",
+  "B.nome": "FRANCESCO",
+  "B.cf": "CLMFNC66R21A944W",
+  "B.targa": "DH880PG",
+  "B.compagnia": "",
+  "B.polizza": "88S8560758",
+  "B.cond_cognome": "SANTORO",
+  "B.cond_nome": "ELENA",
+  "B.patente": "MU5994074A",
+  "B.danni": "PARAURTI ANTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 386,
+  "ms": 4710,
+  "cost_usd": 0.02406,
+  "cached": false,
+  "image_sha": [
+   "89af3473ce30a074"
+  ]
+ }
+}

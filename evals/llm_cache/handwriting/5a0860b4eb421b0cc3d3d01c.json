@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10138:hw",
+ "answer": {
+  "data": "29/07/2026",
+  "ora": "20:30",
+  "luogo": "FIRENZE, VIA VERDI 150",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LONGO",
+  "A.nome": "LORENZO",
+  "A.cf": "LNGLNZ03T19G224U",
+  "A.targa": "WC007RP",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "68A3182422",
+  "A.cond_cognome": "LONGO",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "MA5609560D",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "FERRARI",
+  "B.nome": "PAOLO",
+  "B.cf": "FRRPLA75L10A794Q",
+  "B.targa": "PJ685GZ",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "77N4122290",
+  "B.cond_cognome": "FERRARI",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "EA6764903A",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 4412,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "3cf16ae4fa2df8f2"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10111:hw",
+ "answer": {
+  "data": "31/05/2026",
+  "ora": "08:50",
+  "luogo": "BERGAMO, VIA MARCONI 179",
+  "testimoni": "",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "MARCO",
+  "A.cf": "DSNMRC98S06G224P",
+  "A.targa": "TW165DR",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "43H4846082",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "NICOLA",
+  "A.patente": "RM3843136Z",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "2",
+  "B.cognome": "GENTILE",
+  "B.nome": "ALESSIA",
+  "B.cf": "GNTLSS72E60L736I",
+  "B.targa": "SA112PX",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "14M8298445",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "ALESSIA",
+  "B.patente": "DM6805851Z",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 5108,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "ab4acff300684fdb"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90033:hw",
+ "answer": {
+  "data": "04/03/2026",
+  "ora": "06:30",
+  "luogo": "MILANO, PIAZZA CAVOUR 180",
+  "testimoni": "",
+  "A.cognome": "COPPOLA",
+  "A.nome": "MONICA",
+  "A.cf": "CPPMNC03T63D612I",
+  "A.targa": "VW187VA",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "92F1453912",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "MONICA",
+  "A.patente": "MC3723286R",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "SARA",
+  "B.cf": "DNGSRA84R61F839Q",
+  "B.targa": "PF829YH",
+  "B.compagnia": "",
+  "B.polizza": "53B4737533",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "SARA",
+  "B.patente": "DE3401756Z",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 407,
+  "ms": 4410,
+  "cost_usd": 0.02448,
+  "cached": false,
+  "image_sha": [
+   "16416ef5528e41e4"
+  ]
+ }
+}

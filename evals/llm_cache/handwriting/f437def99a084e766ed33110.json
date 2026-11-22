@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90059:hw",
+ "answer": {
+  "data": "22/04/2026",
+  "ora": "08:30",
+  "luogo": "NAPOLI, VIALE EUROPA 34",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MORETTI",
+  "A.nome": "ROBERTO",
+  "A.cf": "MRTRRT01T15L736N",
+  "A.targa": "CS830HR",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "93V6507792",
+  "A.cond_cognome": "SERRA",
+  "A.cond_nome": "SIMONE",
+  "A.patente": "EB4305018F",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "2",
+  "B.cognome": "RINALDI",
+  "B.nome": "VALENTINA",
+  "B.cf": "RNLVNT69T53L219R",
+  "B.targa": "",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "70R5741019",
+  "B.cond_cognome": "RINALDI",
+  "B.cond_nome": "VALENTINA",
+  "B.patente": "AM1513017E",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 425,
+  "ms": 10354,
+  "cost_usd": 0.02484,
+  "cached": false,
+  "image_sha": [
+   "5fe6675a6e1875b9"
+  ]
+ }
+}

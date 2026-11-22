@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10120:hw",
+ "answer": {
+  "data": "03/01/2026",
+  "ora": "07:50",
+  "luogo": "BOLOGNA, VIALE MONZA 104",
+  "testimoni": "GALLI FRANCESCO",
+  "A.cognome": "MARTINI",
+  "A.nome": "ANNA",
+  "A.cf": "MRTNNA79H41L781J",
+  "A.targa": "BB905RM",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "71N1170186",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "FEDERICA",
+  "A.patente": "VE7368342V",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "BRUNO",
+  "B.nome": "ANNA",
+  "B.cf": "BRNNNA80L61A944D",
+  "B.targa": "KC277VJ",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "48V4132725",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "ANNA",
+  "B.patente": "AC7545027A",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 5114,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "b80b61cfe0f1fedf"
+  ]
+ }
+}

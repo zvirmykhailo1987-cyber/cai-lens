@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10100:hw",
+ "answer": {
+  "data": "26/02/2026",
+  "ora": "11:10",
+  "luogo": "TORINO, VIA MARCONI 87",
+  "testimoni": "",
+  "A.cognome": "COLOMBO",
+  "A.nome": "ROBERTA",
+  "A.cf": "CLMRRT84P43G224H",
+  "A.targa": "WL524PS",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "30F3559250",
+  "A.cond_cognome": "COLOMBO",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "DA2060932S",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "FERRARI",
+  "B.nome": "MONICA",
+  "B.cf": "FRRMNC67R45H501J",
+  "B.targa": "PM512HL",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "72A8738098",
+  "B.cond_cognome": "FERRARI",
+  "B.cond_nome": "MONICA",
+  "B.patente": "TA5721055A",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 430,
+  "ms": 5314,
+  "cost_usd": 0.02494,
+  "cached": false,
+  "image_sha": [
+   "259abd69101be509"
+  ]
+ }
+}

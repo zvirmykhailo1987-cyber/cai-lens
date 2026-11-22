@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10028:hw",
+ "answer": {
+  "data": "03/11/2026",
+  "ora": "17:00",
+  "luogo": "TORINO, VIA MAZZINI 44",
+  "testimoni": "",
+  "A.cognome": "CONTI",
+  "A.nome": "MARTINA",
+  "A.cf": "CNTMTN59C49D612R",
+  "A.targa": "LV069ES",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "26P3067158",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "MARTINA",
+  "A.patente": "AB3537631L",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "COLOMBO",
+  "B.nome": "SARA",
+  "B.cf": "CLMSRA95E65D612I",
+  "B.targa": "EG888HV",
+  "B.compagnia": "",
+  "B.polizza": "93G2580537",
+  "B.cond_cognome": "COLOMBO",
+  "B.cond_nome": "SARA",
+  "B.patente": "EC3862823F",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 393,
+  "ms": 5948,
+  "cost_usd": 0.0242,
+  "cached": false,
+  "image_sha": [
+   "6b0dee7182351c0e"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10125:hw",
+ "answer": {
+  "data": "30/06/2026",
+  "ora": "10:20",
+  "luogo": "NAPOLI, VIALE MONZA 71",
+  "testimoni": "",
+  "A.cognome": "RICCI",
+  "A.nome": "MATTEO",
+  "A.cf": "RCCMTT85H24D612G",
+  "A.targa": "PS047PK",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "2IS3636871",
+  "A.cond_cognome": "RICCI",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "BE8617045E",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "COLOMBO",
+  "B.nome": "STEFANO",
+  "B.cf": "CLMSFN75B26A944V",
+  "B.targa": "KZ265MS",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "67G8071626",
+  "B.cond_cognome": "COLOMBO",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "MR1583507F",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 5236,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "e3f74ba65ac2e6df"
+  ]
+ }
+}

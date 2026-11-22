@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90088:hw",
+ "answer": {
+  "data": "23/09/2026",
+  "ora": "18:45",
+  "luogo": "VERONA, VIA TORINO 159",
+  "testimoni": "",
+  "A.cognome": "MORETTI",
+  "A.nome": "LUCA",
+  "A.cf": "MRTLCU97S03A794A",
+  "A.targa": "VA886GA",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "41N2534849",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "RA4961954G",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "STEFANO",
+  "B.cf": "GRDSFN95L28D612C",
+  "B.targa": "VP775EG",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "10D8794402",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "DV5312335L",
+  "B.danni": "SPECCHIETTO SX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 407,
+  "ms": 5055,
+  "cost_usd": 0.02448,
+  "cached": false,
+  "image_sha": [
+   "f129f6c50e1e614c"
+  ]
+ }
+}

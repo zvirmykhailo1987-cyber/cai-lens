@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10136:hw",
+ "answer": {
+  "data": "15/06/2026",
+  "ora": "19:00",
+  "luogo": "MILANO, PIAZZA CAVOUR 116",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COPPOLA",
+  "A.nome": "ALESSIA",
+  "A.cf": "CPPLSS85H67D612W",
+  "A.targa": "FB711HD",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "93V1221209",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "ALESSIA",
+  "A.patente": "TU5465198T",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "RIZZO",
+  "B.nome": "DAVIDE",
+  "B.cf": "RZZDVD57R06A794U",
+  "B.targa": "HD035GC",
+  "B.compagnia": "",
+  "B.polizza": "24T3958168",
+  "B.cond_cognome": "RIZZO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "RU6492519G",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 428,
+  "ms": 5123,
+  "cost_usd": 0.0249,
+  "cached": false,
+  "image_sha": [
+   "605eb47949027525"
+  ]
+ }
+}

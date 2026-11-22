@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500010:hw",
+ "answer": {
+  "data": "30/10/2026",
+  "ora": "20:30",
+  "luogo": "VENEZIA, VIA MILANO 1",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LOMBARDI",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "LMBGPP79C08L736G",
+  "A.targa": "AR319ZW",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "70E3033241",
+  "A.cond_cognome": "RIZZO",
+  "A.cond_nome": "ANDREA",
+  "A.patente": "ED5558646A",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "DSNGPP53L22A794B",
+  "B.targa": "LP107RB",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "55M7988406",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "GIUSEPPE",
+  "B.patente": "MU1056568B",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 430,
+  "ms": 4701,
+  "cost_usd": 0.02494,
+  "cached": false,
+  "image_sha": [
+   "01d336e31192462d"
+  ]
+ }
+}

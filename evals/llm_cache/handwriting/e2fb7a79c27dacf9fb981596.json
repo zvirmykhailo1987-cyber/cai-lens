@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10036:hw",
+ "answer": {
+  "data": "24/04/2026",
+  "ora": "10:10",
+  "luogo": "TORINO, CORSO ITALIA 48",
+  "testimoni": "NESSUNO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "FEDERICA",
+  "A.cf": "DSNFRC00S54H501A",
+  "A.targa": "ZS728RM",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "27L5278383",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "FEDERICA",
+  "A.patente": "EV4416499L",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "MRNGPP87L17H501R",
+  "B.targa": "SL381ZD",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "50H7816524",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "FRANCESCO",
+  "B.patente": "VR1410967B",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 442,
+  "ms": 5208,
+  "cost_usd": 0.02518,
+  "cached": false,
+  "image_sha": [
+   "2d17edfaa2ca8a25"
+  ]
+ }
+}

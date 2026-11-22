@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10001:hw",
+ "answer": {
+  "data": "30/06/2026",
+  "ora": "08:20",
+  "luogo": "PADOVA, CORSO ITALIA 122",
+  "testimoni": "GALLI LORENZO",
+  "A.cognome": "LEONE",
+  "A.nome": "SARA",
+  "A.cf": "LNESRA85E45H501S",
+  "A.targa": "NR826YM",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "49R1638936",
+  "A.cond_cognome": "SANTORO",
+  "A.cond_nome": "VALENTINA",
+  "A.patente": "TB9481891R",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "FERRARI",
+  "B.nome": "MARCO",
+  "B.cf": "FRRMRC57T07D612F",
+  "B.targa": "FW509YL",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "69D8754737",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "ROBERTO",
+  "B.patente": "MA9323651B",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 405,
+  "ms": 5170,
+  "cost_usd": 0.02444,
+  "cached": false,
+  "image_sha": [
+   "b05e2200cf3fd089"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10130:hw",
+ "answer": {
+  "data": "12/08/2026",
+  "ora": "20:10",
+  "luogo": "BERGAMO, VIA MAZZINI 69",
+  "testimoni": "MARIANI ANDREA",
+  "A.cognome": "SERRA",
+  "A.nome": "ELENA",
+  "A.cf": "SRRLNE51R63H501X",
+  "A.targa": "JM404AN",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "55S1776398",
+  "A.cond_cognome": "SERRA",
+  "A.cond_nome": "ELENA",
+  "A.patente": "TD9720827M",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "2",
+  "B.cognome": "COLOMBO",
+  "B.nome": "MARTINA",
+  "B.cf": "CLMMTN76S54F839O",
+  "B.targa": "GH662BH",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "40T8790537",
+  "B.cond_cognome": "COLOMBO",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "AT7615743D",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 6084,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "7f3ffdfafb22654f"
+  ]
+ }
+}

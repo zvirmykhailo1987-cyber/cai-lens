@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10068:hw",
+ "answer": {
+  "data": "02/10/2026",
+  "ora": "11:45",
+  "luogo": "TORINO, VIA DANTE 123",
+  "testimoni": "",
+  "A.cognome": "FONTANA",
+  "A.nome": "LORENZO",
+  "A.cf": "FNTLNZ86A24D612B",
+  "A.targa": "GC537JK",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "30P6823838",
+  "A.cond_cognome": "FONTANA",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "UD3004214V",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "3",
+  "B.cognome": "MARCHETTI",
+  "B.nome": "SILVIA",
+  "B.cf": "MRCSLV69H42H501X",
+  "B.targa": "XY404FZ",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "55B7803099",
+  "B.cond_cognome": "MARCHETTI",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "TV5980228G",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 425,
+  "ms": 5697,
+  "cost_usd": 0.02484,
+  "cached": false,
+  "image_sha": [
+   "ab653a5292f1203b"
+  ]
+ }
+}

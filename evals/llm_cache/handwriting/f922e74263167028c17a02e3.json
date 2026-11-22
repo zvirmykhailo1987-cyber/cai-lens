@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90057:hw",
+ "answer": {
+  "data": "28/06/2026",
+  "ora": "21:00",
+  "luogo": "FIRENZE, VIA ROMA 167",
+  "testimoni": "NESSUNO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "LORENZO",
+  "A.cf": "DSNLNZ83A03H501V",
+  "A.targa": "VH685RD",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "85F1339386",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "VA8214507R",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "",
+  "B.cognome": "CONTI",
+  "B.nome": "STEFANO",
+  "B.cf": "CNTSFN69C27A794D",
+  "B.targa": "BM682SE",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "37A5717589",
+  "B.cond_cognome": "CONTI",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "BR8340607D",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 434,
+  "ms": 6399,
+  "cost_usd": 0.02502,
+  "cached": false,
+  "image_sha": [
+   "c1e200deecf1b0b1"
+  ]
+ }
+}

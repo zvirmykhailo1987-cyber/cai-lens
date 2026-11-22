@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10146:hw",
+ "answer": {
+  "data": "15/06/2026",
+  "ora": "11:40",
+  "luogo": "TORINO, VIA VERDI 96",
+  "testimoni": "MARTINELLI GIUSEPPE",
+  "A.cognome": "FONTANA",
+  "A.nome": "ELENA",
+  "A.cf": "FNTLNE97S53D612V",
+  "A.targa": "LF680RW",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "61E4271210",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "LAURA",
+  "A.patente": "RR8191582Z",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "MORETTI",
+  "B.nome": "LORENZO",
+  "B.cf": "MRTLNZ59C15A794Z",
+  "B.targa": "VK858LY",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "63V9281962",
+  "B.cond_cognome": "MORETTI",
+  "B.cond_nome": "LORENZO",
+  "B.patente": "MC4335889P",
+  "B.danni": "PARAURTI ANTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 4991,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "590d7edb5d2e424e"
+  ]
+ }
+}

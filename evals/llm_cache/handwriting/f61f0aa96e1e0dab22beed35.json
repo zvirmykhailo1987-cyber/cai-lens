@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10177:hw",
+ "answer": {
+  "data": "23/05/2026",
+  "ora": "10:10",
+  "luogo": "MILANO, CORSO ITALIA 65",
+  "testimoni": "NESSUNO",
+  "A.cognome": "ROMANO",
+  "A.nome": "LORENZO",
+  "A.cf": "RMNLNZ72B19D612F",
+  "A.targa": "HY505MF",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "93F8067096",
+  "A.cond_cognome": "D'ANGELO",
+  "A.cond_nome": "FRANCESCO",
+  "A.patente": "TM7253874H",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "COSTA",
+  "B.nome": "PAOLA",
+  "B.cf": "CSTPLA57L63A944X",
+  "B.targa": "EH261CT",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "67L8592952",
+  "B.cond_cognome": "COSTA",
+  "B.cond_nome": "PAOLA",
+  "B.patente": "TM5042645H",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 409,
+  "ms": 5042,
+  "cost_usd": 0.02452,
+  "cached": false,
+  "image_sha": [
+   "99bddb3aa1ecae18"
+  ]
+ }
+}

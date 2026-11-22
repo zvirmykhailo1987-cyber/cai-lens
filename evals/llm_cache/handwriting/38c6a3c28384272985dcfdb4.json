@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10095:hw",
+ "answer": {
+  "data": "02/08/2026",
+  "ora": "09:50",
+  "luogo": "VENEZIA, VIA VERDI 107",
+  "testimoni": "LOMBARDI SILVIA",
+  "A.cognome": "DE LUCA",
+  "A.nome": "MATTEO",
+  "A.cf": "DLCMTT93M21F839E",
+  "A.targa": "BN018LH",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "25N6591662",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "DV3809726E",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "MARINO",
+  "B.nome": "VALENTINA",
+  "B.cf": "MRNVNT77B41A794W",
+  "B.targa": "GA179GT",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "82N1006910",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "ELISA",
+  "B.patente": "CT5554741Z",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 428,
+  "ms": 4521,
+  "cost_usd": 0.0249,
+  "cached": false,
+  "image_sha": [
+   "2905185c2c14fed4"
+  ]
+ }
+}

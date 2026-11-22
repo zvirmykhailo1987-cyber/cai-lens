@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500000:hw",
+ "answer": {
+  "data": "05/11/2026",
+  "ora": "20:20",
+  "luogo": "VERONA, PIAZZA CAVOUR 62",
+  "testimoni": "",
+  "A.cognome": "VITALE",
+  "A.nome": "ANDREA",
+  "A.cf": "VTLNDR66C16L736C",
+  "A.targa": "ND479SN",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "33P6915730",
+  "A.cond_cognome": "RINALDI",
+  "A.cond_nome": "LUCA",
+  "A.patente": "TC1461650D",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "CARUSO",
+  "B.nome": "DAVIDE",
+  "B.cf": "CRSDVD89R13H501K",
+  "B.targa": "HV767EP",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "98V8863674",
+  "B.cond_cognome": "CARUSO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "MU9376662A",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 422,
+  "ms": 5377,
+  "cost_usd": 0.02478,
+  "cached": false,
+  "image_sha": [
+   "15404f2aa9d12530"
+  ]
+ }
+}

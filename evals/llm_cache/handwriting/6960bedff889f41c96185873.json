@@ -1,0 +1,50 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90085:hw",
+ "answer": {
+  "data": "05/09/2026",
+  "ora": "14:10",
+  "luogo": "NAPOLI, VIA TORINO 170",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LOMBARDI",
+  "A.nome": "DAVIDE",
+  "A.cf": "LMBDVD64M11A794B",
+  "A.targa": "SN159HW",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "9709120940",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "DAVIDE",
+  "A.patente": "UE93577482",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "ROSSI",
+  "B.nome": "FRANCESCA",
+  "B.cf": "RSSFNC58D47A794T",
+  "B.targa": "HB569RJ",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "7456384298",
+  "B.cond_cognome": "ROSSI",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "CC3064523E",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "0",
+  "illeggibili": [
+   "A.polizza",
+   "A.patente"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 449,
+  "ms": 4940,
+  "cost_usd": 0.02532,
+  "cached": false,
+  "image_sha": [
+   "52cb4b848627c6ec"
+  ]
+ }
+}

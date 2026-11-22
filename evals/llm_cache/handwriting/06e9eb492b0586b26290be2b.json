@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10075:hw",
+ "answer": {
+  "data": "31/07/2026",
+  "ora": "18:20",
+  "luogo": "TORINO, VIA TORINO 119",
+  "testimoni": "MARINO FRANCESCA",
+  "A.cognome": "CONTI",
+  "A.nome": "ANDREA",
+  "A.cf": "CNTNDR83L01L736L",
+  "A.targa": "LY115WF",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "94L2763712",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "ANDREA",
+  "A.patente": "RR42442247",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "ROMANO",
+  "B.nome": "SIMONE",
+  "B.cf": "RMNSMN75B15L736P",
+  "B.targa": "SX471MV",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "50V6784117",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "SIMONE",
+  "B.patente": "BE3503178H",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 409,
+  "ms": 4502,
+  "cost_usd": 0.02452,
+  "cached": false,
+  "image_sha": [
+   "3df4cba8e79ccd05"
+  ]
+ }
+}

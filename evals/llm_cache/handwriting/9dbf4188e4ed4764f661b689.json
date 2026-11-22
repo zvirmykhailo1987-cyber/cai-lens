@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10119:hw",
+ "answer": {
+  "data": "07/11/2026",
+  "ora": "09:20",
+  "luogo": "BERGAMO, CORSO ITALIA 156",
+  "testimoni": "",
+  "A.cognome": "LONGO",
+  "A.nome": "GIOVANNI",
+  "A.cf": "LNGGNN79M22A794B",
+  "A.targa": "TW503LY",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "21P3482313",
+  "A.cond_cognome": "LONGO",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "DR31129287",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GENTILE",
+  "B.nome": "MARCO",
+  "B.cf": "GNTMRC02L23F205Z",
+  "B.targa": "FE258LB",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "49L6160079",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "MARCO",
+  "B.patente": "BB9326316Z",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 429,
+  "ms": 5447,
+  "cost_usd": 0.02492,
+  "cached": false,
+  "image_sha": [
+   "fa305c682ac74133"
+  ]
+ }
+}

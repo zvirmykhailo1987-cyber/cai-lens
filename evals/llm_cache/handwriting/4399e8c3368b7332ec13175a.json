@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10040:hw",
+ "answer": {
+  "data": "29/09/2026",
+  "ora": "10:30",
+  "luogo": "VENEZIA, CORSO ITALIA 67",
+  "testimoni": "",
+  "A.cognome": "MARTINI",
+  "A.nome": "MONICA",
+  "A.cf": "MRTMNC79M43D612G",
+  "A.targa": "TW090HK",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "87E3112613",
+  "A.cond_cognome": "MARTINI",
+  "A.cond_nome": "MONICA",
+  "A.patente": "RT4045859S",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "RICCI",
+  "B.nome": "ROBERTO",
+  "B.cf": "RCCRRT79B09F839Y",
+  "B.targa": "AD723JM",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "33M6852126",
+  "B.cond_cognome": "RICCI",
+  "B.cond_nome": "ROBERTO",
+  "B.patente": "VR7641434D",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 406,
+  "ms": 4676,
+  "cost_usd": 0.02446,
+  "cached": false,
+  "image_sha": [
+   "826d6485e6ae4580"
+  ]
+ }
+}

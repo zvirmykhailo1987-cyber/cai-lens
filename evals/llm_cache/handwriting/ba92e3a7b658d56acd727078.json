@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10140:hw",
+ "answer": {
+  "data": "07/10/2026",
+  "ora": "11:50",
+  "luogo": "VENEZIA, VIA ROMA 94",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GRECO",
+  "A.nome": "MATTEO",
+  "A.cf": "GRCMTT66P07G224P",
+  "A.targa": "WE351FK",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "10E6391063",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "TC3256370N",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "COLOMBO",
+  "B.nome": "SIMONE",
+  "B.cf": "CLMSMN66P24A794X",
+  "B.targa": "LA693LH",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "98B6653631",
+  "B.cond_cognome": "COLOMBO",
+  "B.cond_nome": "SIMONE",
+  "B.patente": "DB5511492B",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 5309,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "52997fffe3501f8f"
+  ]
+ }
+}

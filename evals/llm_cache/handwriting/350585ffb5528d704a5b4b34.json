@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10051:hw",
+ "answer": {
+  "data": "11/01/2026",
+  "ora": "12:30",
+  "luogo": "NAPOLI, VIA MILANO 150",
+  "testimoni": "",
+  "A.cognome": "GENTILE",
+  "A.nome": "STEFANO",
+  "A.cf": "GNTSFN92M18L736L",
+  "A.targa": "AN414EX",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "21F3476350",
+  "A.cond_cognome": "GENTILE",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "EE4951259C",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "FONTANA",
+  "B.nome": "FRANCESCO",
+  "B.cf": "FNTFNC85A05D612Z",
+  "B.targa": "TN944PA",
+  "B.compagnia": "",
+  "B.polizza": "37R2098509",
+  "B.cond_cognome": "FONTANA",
+  "B.cond_nome": "FRANCESCO",
+  "B.patente": "BT7670878S",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 4516,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "2c19a156e78155cf"
+  ]
+ }
+}

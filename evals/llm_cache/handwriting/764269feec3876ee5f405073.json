@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10115:hw",
+ "answer": {
+  "data": "29/10/2026",
+  "ora": "09:00",
+  "luogo": "ROMA, VIA TORINO 115",
+  "testimoni": "RICCI SIMONE",
+  "A.cognome": "MANCINI",
+  "A.nome": "ELENA",
+  "A.cf": "MNCLNE50D63L736U",
+  "A.targa": "SA351DS",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "43S2969392",
+  "A.cond_cognome": "D'ANGELO",
+  "A.cond_nome": "PAOLA",
+  "A.patente": "DE5077688L",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "COSTA",
+  "B.nome": "FRANCESCA",
+  "B.cf": "CSTFNC52S44F205X",
+  "B.targa": "ZE678BV",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "99M5967500",
+  "B.cond_cognome": "COSTA",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "UE7997234C",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 427,
+  "ms": 4426,
+  "cost_usd": 0.02488,
+  "cached": false,
+  "image_sha": [
+   "c2ef4133f7ae7076"
+  ]
+ }
+}

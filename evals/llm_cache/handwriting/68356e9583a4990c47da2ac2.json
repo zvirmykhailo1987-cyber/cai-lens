@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90087:hw",
+ "answer": {
+  "data": "02/02/2026",
+  "ora": "12:15",
+  "luogo": "FIRENZE, CORSO ITALIA 165",
+  "testimoni": "",
+  "A.cognome": "ROSSI",
+  "A.nome": "FEDERICO",
+  "A.cf": "RSSFRC51S12H501B",
+  "A.targa": "FF310LJ",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "88D6668280",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "BT5012157B",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "COPPOLA",
+  "B.nome": "ELISA",
+  "B.cf": "CPPLSE66R60H501C",
+  "B.targa": "MC027ZG",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "92B6866905",
+  "B.cond_cognome": "COPPOLA",
+  "B.cond_nome": "ELISA",
+  "B.patente": "EU3140297P",
+  "B.danni": "SPECCHIETTO SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 425,
+  "ms": 4630,
+  "cost_usd": 0.02484,
+  "cached": false,
+  "image_sha": [
+   "d014923a3eb2dc6a"
+  ]
+ }
+}

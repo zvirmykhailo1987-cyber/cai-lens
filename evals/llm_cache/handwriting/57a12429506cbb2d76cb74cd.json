@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90075:hw",
+ "answer": {
+  "data": "25/06/2026",
+  "ora": "12:45",
+  "luogo": "NAPOLI, VIA GARIBALDI 82",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GALLO",
+  "A.nome": "GIOVANNI",
+  "A.cf": "GLLGNN67A21L736K",
+  "A.targa": "NF100DF",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "98N9362505",
+  "A.cond_cognome": "BRUNO",
+  "A.cond_nome": "DAVIDE",
+  "A.patente": "CT2989382F",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "FERRARI",
+  "B.nome": "ALESSIA",
+  "B.cf": "FRRLSS78D61F205K",
+  "B.targa": "DZ503HF",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "72D2921543",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "BD1544737E",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 437,
+  "ms": 6898,
+  "cost_usd": 0.02508,
+  "cached": false,
+  "image_sha": [
+   "e4fa41edd8154a23"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90049:hw",
+ "answer": {
+  "data": "16/03/2026",
+  "ora": "15:40",
+  "luogo": "VENEZIA, VIA DANTE 168",
+  "testimoni": "",
+  "A.cognome": "COSTA",
+  "A.nome": "ANNA",
+  "A.cf": "CSTNNA84H62L219D",
+  "A.targa": "FG619RM",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "56R1294874",
+  "A.cond_cognome": "COSTA",
+  "A.cond_nome": "ANNA",
+  "A.patente": "UM1778259C",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "MANCINI",
+  "B.nome": "NICOLA",
+  "B.cf": "MNCNCL75A05F205U",
+  "B.targa": "BS524VZ",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "43L9032666",
+  "B.cond_cognome": "MANCINI",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "VB1552809V",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 407,
+  "ms": 4754,
+  "cost_usd": 0.02448,
+  "cached": false,
+  "image_sha": [
+   "a688fcb5adf0c514"
+  ]
+ }
+}

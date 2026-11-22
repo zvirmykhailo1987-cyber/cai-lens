@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10030:hw",
+ "answer": {
+  "data": "20/05/2026",
+  "ora": "12:45",
+  "luogo": "ROMA, VIA MAZZINI 166",
+  "testimoni": "COLOMBO LORENZO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "MATTEO",
+  "A.cf": "DSNMTT83H07F205N",
+  "A.targa": "NV387ZY",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "20F9368196",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "AR4987348S",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "SIMONE",
+  "B.cf": "DSNSMN73M10F205B",
+  "B.targa": "NJ440RZ",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "57B1803810",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "SIMONE",
+  "B.patente": "UR5357608Z",
+  "B.danni": "PARAURTI ANTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 5209,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "70f0ce24ab43bc86"
+  ]
+ }
+}

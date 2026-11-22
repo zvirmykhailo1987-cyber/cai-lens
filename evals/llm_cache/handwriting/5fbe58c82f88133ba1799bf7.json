@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10081:hw",
+ "answer": {
+  "data": "22/05/2026",
+  "ora": "12:30",
+  "luogo": "BOLOGNA, VIA MAZZINI 178",
+  "testimoni": "D'ANGELO LAURA",
+  "A.cognome": "LOMBARDI",
+  "A.nome": "MARTINA",
+  "A.cf": "LMBMTN78E52A944A",
+  "A.targa": "ZR383YV",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "24M8148800",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "MARTINA",
+  "A.patente": "AE9365957G",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "DE LUCA",
+  "B.nome": "FEDERICA",
+  "B.cf": "DLCFRC97S67F839T",
+  "B.targa": "JP773WG",
+  "B.compagnia": "",
+  "B.polizza": "98H8016373",
+  "B.cond_cognome": "DE LUCA",
+  "B.cond_nome": "FEDERICA",
+  "B.patente": "EV1419067E",
+  "B.danni": "SPECCHIETTO SX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 419,
+  "ms": 6350,
+  "cost_usd": 0.02472,
+  "cached": false,
+  "image_sha": [
+   "4acc2eb2234e1576"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10144:hw",
+ "answer": {
+  "data": "05/01/2026",
+  "ora": "08:20",
+  "luogo": "ROMA, VIA VERDI 179",
+  "testimoni": "NESSUNO",
+  "A.cognome": "SANTORO",
+  "A.nome": "STEFANO",
+  "A.cf": "SNTSFN66C24H501K",
+  "A.targa": "AM648NP",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "94L7043870",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "PAOLA",
+  "A.patente": "UU8813207S",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "0",
+  "B.cognome": "BARBIERI",
+  "B.nome": "NICOLA",
+  "B.cf": "BRBNCL67T06A794C",
+  "B.targa": "LC600EV",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "57H7444381",
+  "B.cond_cognome": "BARBIERI",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "UD4787045E",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 431,
+  "ms": 5210,
+  "cost_usd": 0.02496,
+  "cached": false,
+  "image_sha": [
+   "303d260fa807bdf5"
+  ]
+ }
+}

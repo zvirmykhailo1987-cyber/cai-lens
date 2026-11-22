@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90030:hw",
+ "answer": {
+  "data": "30/12/2025",
+  "ora": "19:10",
+  "luogo": "TORINO, VIA MILANO 14",
+  "testimoni": "",
+  "A.cognome": "RINALDI",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "RNLGPP53P20L781D",
+  "A.targa": "AX350RN",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "30H5177728",
+  "A.cond_cognome": "FONTANA",
+  "A.cond_nome": "PAOLA",
+  "A.patente": "TA5487397N",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GALLI",
+  "B.nome": "LAURA",
+  "B.cf": "GLLLRA90M58A794R",
+  "B.targa": "LE962EC",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "77R4255892",
+  "B.cond_cognome": "GALLI",
+  "B.cond_nome": "LAURA",
+  "B.patente": "VC3415823P",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "2",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 397,
+  "ms": 6279,
+  "cost_usd": 0.02428,
+  "cached": false,
+  "image_sha": [
+   "69818da142f74341"
+  ]
+ }
+}

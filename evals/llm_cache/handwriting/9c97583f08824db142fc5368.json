@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10180:hw",
+ "answer": {
+  "data": "09/03/202",
+  "ora": "16:20",
+  "luogo": "BERGAMO, CORSO ITALIA 37",
+  "testimoni": "CONTI ANDREA",
+  "A.cognome": "MARIANI",
+  "A.nome": "LUCA",
+  "A.cf": "MRNLCU87R27F839K",
+  "A.targa": "GB259GN",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "68M3598806",
+  "A.cond_cognome": "MARIANI",
+  "A.cond_nome": "LUCA",
+  "A.patente": "VB8629823F",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "MARTINI",
+  "B.nome": "LAURA",
+  "B.cf": "MRTLRA75E42A944M",
+  "B.targa": "RZ220ZK",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "75R7361076",
+  "B.cond_cognome": "MARTINI",
+  "B.cond_nome": "LAURA",
+  "B.patente": "TD7999216S",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 413,
+  "ms": 5577,
+  "cost_usd": 0.0246,
+  "cached": false,
+  "image_sha": [
+   "8df8f96d83cb6831"
+  ]
+ }
+}

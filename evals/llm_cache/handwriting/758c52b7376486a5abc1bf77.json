@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500003:hw",
+ "answer": {
+  "data": "27/11/2026",
+  "ora": "22:10",
+  "luogo": "FIRENZE, VIALE EUROPA 134",
+  "testimoni": "BIANCHI VALENTINA",
+  "A.cognome": "RINALDI",
+  "A.nome": "LUCA",
+  "A.cf": "RNLLCU92C04H501O",
+  "A.targa": "ZT402ZP",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "52E8506146",
+  "A.cond_cognome": "BRUNO",
+  "A.cond_nome": "FRANCESCA",
+  "A.patente": "BU7905112T",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GRECO",
+  "B.nome": "DAVIDE",
+  "B.cf": "GRCDVD56C14F839F",
+  "B.targa": "KS225VP",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "98B5764989",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "CE5576501D",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 407,
+  "ms": 4531,
+  "cost_usd": 0.02448,
+  "cached": false,
+  "image_sha": [
+   "11854259f1ef9343"
+  ]
+ }
+}

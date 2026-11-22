@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10118:hw",
+ "answer": {
+  "data": "22/09/2026",
+  "ora": "13:45",
+  "luogo": "PADOVA, VIA MARCONI 133",
+  "testimoni": "",
+  "A.cognome": "COPPOLA",
+  "A.nome": "FRANCESCA",
+  "A.cf": "CPPFNC70L53D612D",
+  "A.targa": "YH829PR",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "9289221675",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "FRANCESCA",
+  "A.patente": "BD8765184G",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "FEDERICA",
+  "B.cf": "DNGFRC96A58D612W",
+  "B.targa": "AS591MM",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "10G4971592",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "FEDERICA",
+  "B.patente": "MA6576839D",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 438,
+  "ms": 5470,
+  "cost_usd": 0.0251,
+  "cached": false,
+  "image_sha": [
+   "97e6ffaa93a5b725"
+  ]
+ }
+}

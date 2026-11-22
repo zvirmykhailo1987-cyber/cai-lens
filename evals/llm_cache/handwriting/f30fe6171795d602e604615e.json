@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10038:hw",
+ "answer": {
+  "data": "12/09/2026",
+  "ora": "13:00",
+  "luogo": "FIRENZE, CORSO ITALIA 149",
+  "testimoni": "BRUNO MONICA",
+  "A.cognome": "GIORDANO",
+  "A.nome": "PAOLO",
+  "A.cf": "GRDPLA90H18F839I",
+  "A.targa": "AE265GZ",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "63N9922093",
+  "A.cond_cognome": "GIORDANO",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "BM7004577V",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "2",
+  "B.cognome": "MARINO",
+  "B.nome": "ELENA",
+  "B.cf": "MRNLNE65H59H501R",
+  "B.targa": "MN820WM",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "52V8574886",
+  "B.cond_cognome": "MARINO",
+  "B.cond_nome": "ELENA",
+  "B.patente": "MB8803394S",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 425,
+  "ms": 4523,
+  "cost_usd": 0.02484,
+  "cached": false,
+  "image_sha": [
+   "f2a35bb4d7b94f3c"
+  ]
+ }
+}

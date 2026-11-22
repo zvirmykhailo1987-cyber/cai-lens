@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90014:hw",
+ "answer": {
+  "data": "01/11/2026",
+  "ora": "14:15",
+  "luogo": "FIRENZE, VIA VERDI 163",
+  "testimoni": "LONGO ANNA",
+  "A.cognome": "D'ANGELO",
+  "A.nome": "LAURA",
+  "A.cf": "DNGLRA53L52L781Q",
+  "A.targa": "AR458NJ",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "91V6190226",
+  "A.cond_cognome": "CARUSO",
+  "A.cond_nome": "ELISA",
+  "A.patente": "UR4247637H",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "MARTINI",
+  "B.nome": "CHIARA",
+  "B.cf": "MRTCHR68T68G224N",
+  "B.targa": "AH344XB",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "45A9410064",
+  "B.cond_cognome": "MARTINI",
+  "B.cond_nome": "CHIARA",
+  "B.patente": "RT7067375F",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 433,
+  "ms": 6826,
+  "cost_usd": 0.025,
+  "cached": false,
+  "image_sha": [
+   "977781bb087d9711"
+  ]
+ }
+}

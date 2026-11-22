@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90076:hw",
+ "answer": {
+  "data": "26/04/2026",
+  "ora": "09:15",
+  "luogo": "VENEZIA, VIA DANTE 68",
+  "testimoni": "MARIANI ELENA",
+  "A.cognome": "COPPOLA",
+  "A.nome": "ROBERTA",
+  "A.cf": "CPPRRT66B62L781F",
+  "A.targa": "CX985KL",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "17D1494947",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "RC7403349C",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "FEDERICA",
+  "B.cf": "MRNFRC92L50H501T",
+  "B.targa": "BX961TM",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "17E4298375",
+  "B.cond_cognome": "MARIANI",
+  "B.cond_nome": "FEDERICA",
+  "B.patente": "VM9956153R",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 427,
+  "ms": 5424,
+  "cost_usd": 0.02488,
+  "cached": false,
+  "image_sha": [
+   "36d73dbaf5632dc2"
+  ]
+ }
+}

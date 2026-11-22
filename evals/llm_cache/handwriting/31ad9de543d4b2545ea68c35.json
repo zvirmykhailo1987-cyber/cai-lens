@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90079:hw",
+ "answer": {
+  "data": "23/07/2026",
+  "ora": "08:20",
+  "luogo": "ROMA, VIA DANTE 112",
+  "testimoni": "MANCINI PAOLA",
+  "A.cognome": "SERRA",
+  "A.nome": "GIOVANNI",
+  "A.cf": "SRRGNN63P17D612A",
+  "A.targa": "XV013CN",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "50H7445363",
+  "A.cond_cognome": "SERRA",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "RD5796176R",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "ROSSI",
+  "B.nome": "SILVIA",
+  "B.cf": "RSSSLV04R67H501H",
+  "B.targa": "ZN272CJ",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "36M7151832",
+  "B.cond_cognome": "BIANCHI",
+  "B.cond_nome": "MONICA",
+  "B.patente": "VR2623398D",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 422,
+  "ms": 7958,
+  "cost_usd": 0.02478,
+  "cached": false,
+  "image_sha": [
+   "971e52184abe211f"
+  ]
+ }
+}

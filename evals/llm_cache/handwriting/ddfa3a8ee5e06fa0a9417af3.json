@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90062:hw",
+ "answer": {
+  "data": "15/03/2026",
+  "ora": "06:40",
+  "luogo": "BERGAMO, CORSO ITALIA 179",
+  "testimoni": "NESSUNO",
+  "A.cognome": "LONGO",
+  "A.nome": "CHIARA",
+  "A.cf": "LNGCHR73M57D612W",
+  "A.targa": "JG742WF",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "25N9694752",
+  "A.cond_cognome": "LONGO",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "EU3770239B",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "VITALE",
+  "B.nome": "DAVIDE",
+  "B.cf": "VTLDVD66M03F839N",
+  "B.targa": "VG671KY",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "12M8620018",
+  "B.cond_cognome": "VITALE",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "DB3427123E",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 5615,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "b8b948b1ace05e73"
+  ]
+ }
+}

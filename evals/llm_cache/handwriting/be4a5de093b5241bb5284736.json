@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90086:hw",
+ "answer": {
+  "data": "03/07/2026",
+  "ora": "13:15",
+  "luogo": "NAPOLI, VIALE EUROPA 46",
+  "testimoni": "NESSUNO",
+  "A.cognome": "ROSSI",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "RSSGPP84C17F839A",
+  "A.targa": "BA756NH",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "74V4969041",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "GIUSEPPE",
+  "A.patente": "RR2523880G",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "CONTI",
+  "B.nome": "ALESSIA",
+  "B.cf": "CNTLSS79D59G224Y",
+  "B.targa": "RL381ZD",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "41A2843918",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "LAURA",
+  "B.patente": "BV4900483L",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 412,
+  "ms": 5229,
+  "cost_usd": 0.02458,
+  "cached": false,
+  "image_sha": [
+   "58b2ea25b93968f7"
+  ]
+ }
+}

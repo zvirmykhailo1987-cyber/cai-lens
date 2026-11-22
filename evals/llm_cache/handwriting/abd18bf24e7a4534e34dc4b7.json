@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10155:hw",
+ "answer": {
+  "data": "25/08/2026",
+  "ora": "17:50",
+  "luogo": "FIRENZE, PIAZZA CAVOUR 62",
+  "testimoni": "",
+  "A.cognome": "MARINO",
+  "A.nome": "ALESSIA",
+  "A.cf": "MRNLSS84B67H501G",
+  "A.targa": "HP671WH",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "59P8883524",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "ALESSIA",
+  "A.patente": "BB2003523P",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "SANTORO",
+  "B.nome": "DAVIDE",
+  "B.cf": "SNTDVD61P26D612L",
+  "B.targa": "MN468JH",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "14V9031528",
+  "B.cond_cognome": "SANTORO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "RD1514552A",
+  "B.danni": "PARAURTI ANTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 401,
+  "ms": 4761,
+  "cost_usd": 0.02436,
+  "cached": false,
+  "image_sha": [
+   "cb33207fcee21c9c"
+  ]
+ }
+}

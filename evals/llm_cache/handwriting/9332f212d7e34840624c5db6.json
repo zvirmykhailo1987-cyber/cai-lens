@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10185:hw",
+ "answer": {
+  "data": "10/05/2026",
+  "ora": "12:45",
+  "luogo": "VENEZIA, PIAZZA CAVOUR 139",
+  "testimoni": "RICCI ANNA",
+  "A.cognome": "MANCINI",
+  "A.nome": "MATTEO",
+  "A.cf": "MNCMTT95T23L781K",
+  "A.targa": "FG515TG",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "73N3955457",
+  "A.cond_cognome": "MANCINI",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "TT4147714V",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "FERRARI",
+  "B.nome": "STEFANO",
+  "B.cf": "FRRSFN74P02A794Q",
+  "B.targa": "AS928YE",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "57N3212275",
+  "B.cond_cognome": "FERRARI",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "ER4652154G",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 4661,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "65f3b443d5625a55"
+  ]
+ }
+}

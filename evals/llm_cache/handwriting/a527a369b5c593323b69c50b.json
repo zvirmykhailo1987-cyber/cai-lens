@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90070:hw",
+ "answer": {
+  "data": "20/07/2026",
+  "ora": "08:10",
+  "luogo": "NAPOLI, VIA DANTE 15",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GENTILE",
+  "A.nome": "ANNA",
+  "A.cf": "GNTNNA55H42F839L",
+  "A.targa": "LH170EB",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "17S3098864",
+  "A.cond_cognome": "GENTILE",
+  "A.cond_nome": "ANNA",
+  "A.patente": "BC2525811C",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "",
+  "B.cognome": "COPPOLA",
+  "B.nome": "ALESSANDRO",
+  "B.cf": "CPPLSN80H26F839E",
+  "B.targa": "AF758WJ",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "41L4360661",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "LAURA",
+  "B.patente": "CT7099580V",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 5174,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "913aa32b1b941975"
+  ]
+ }
+}

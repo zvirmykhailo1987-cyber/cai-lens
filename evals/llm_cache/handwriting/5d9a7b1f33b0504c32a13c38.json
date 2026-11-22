@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10191:hw",
+ "answer": {
+  "data": "29/06/2026",
+  "ora": "15:45",
+  "luogo": "BERGAMO, VIA GARIBALDI 17",
+  "testimoni": "",
+  "A.cognome": "GRECO",
+  "A.nome": "SIMONE",
+  "A.cf": "GRCSMN86L17A794M",
+  "A.targa": "LK323MY",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "43G6669563",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "SIMONE",
+  "A.patente": "BU4718943E",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "GENTILE",
+  "B.nome": "ANDREA",
+  "B.cf": "GNTNDR82S08F205Y",
+  "B.targa": "JM942CW",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "11H3902953",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "ANDREA",
+  "B.patente": "EC9532946H",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 428,
+  "ms": 4876,
+  "cost_usd": 0.0249,
+  "cached": false,
+  "image_sha": [
+   "c0c73c98db0b673d"
+  ]
+ }
+}

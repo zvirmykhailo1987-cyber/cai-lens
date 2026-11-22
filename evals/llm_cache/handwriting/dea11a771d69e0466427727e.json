@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10096:hw",
+ "answer": {
+  "data": "02/02/2026",
+  "ora": "08:20",
+  "luogo": "BERGAMO, VIA TORINO 133",
+  "testimoni": "",
+  "A.cognome": "GRECO",
+  "A.nome": "ALESSANDRO",
+  "A.cf": "GRCLSN74T06L736N",
+  "A.targa": "HC591LS",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "88L2108659",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "VE5838126T",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "LEONE",
+  "B.nome": "ALESSIA",
+  "B.cf": "LNELSS65P62D612V",
+  "B.targa": "FA950JL",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "36T2221383",
+  "B.cond_cognome": "LEONE",
+  "B.cond_nome": "ALESSIA",
+  "B.patente": "DT2708139V",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 428,
+  "ms": 5220,
+  "cost_usd": 0.0249,
+  "cached": false,
+  "image_sha": [
+   "623ff3319fec97cf"
+  ]
+ }
+}

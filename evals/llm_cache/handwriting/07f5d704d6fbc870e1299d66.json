@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90073:hw",
+ "answer": {
+  "data": "01/06/2026",
+  "ora": "13:45",
+  "luogo": "BERGAMO, VIA DANTE 66",
+  "testimoni": "",
+  "A.cognome": "RICCI",
+  "A.nome": "FRANCESCO",
+  "A.cf": "RCCFNC57A28A794P",
+  "A.targa": "PD810SF",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "50M2545818",
+  "A.cond_cognome": "SERRA",
+  "A.cond_nome": "FEDERICA",
+  "A.patente": "CM5412765T",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "MARCHETTI",
+  "B.nome": "PAOLO",
+  "B.cf": "MRCPLA64A14D612J",
+  "B.targa": "PE023RM",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "77B4983722",
+  "B.cond_cognome": "MARCHETTI",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "RA1339839G",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 5237,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "0defe8f3df53ead8"
+  ]
+ }
+}

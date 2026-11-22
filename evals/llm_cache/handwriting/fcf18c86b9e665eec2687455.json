@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10190:hw",
+ "answer": {
+  "data": "01/08/2026",
+  "ora": "18:45",
+  "luogo": "TORINO, VIALE MONZA 3",
+  "testimoni": "",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "ANDREA",
+  "A.cf": "DSNNDR88T24F205A",
+  "A.targa": "GG877ME",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "59V9613434",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "ANDREA",
+  "A.patente": "MD8915578C",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARTINELLI",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "MRTGPP75B04L219M",
+  "B.targa": "TV054DX",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "47N5765338",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "GIUSEPPE",
+  "B.patente": "AB9046710N",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 5513,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "12dd5feba6c903fe"
+  ]
+ }
+}

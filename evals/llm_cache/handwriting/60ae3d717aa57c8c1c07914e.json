@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10149:hw",
+ "answer": {
+  "data": "04/04/2026",
+  "ora": "08:10",
+  "luogo": "FIRENZE, CORSO ITALIA 113",
+  "testimoni": "NESSUNO",
+  "A.cognome": "CONTI",
+  "A.nome": "FRANCESCA",
+  "A.cf": "CNTFNC50R67L736T",
+  "A.targa": "CA168ZK",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "75N6782370",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "FRANCESCA",
+  "A.patente": "RE5293826P",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "SERRA",
+  "B.nome": "SILVIA",
+  "B.cf": "SRRSLV83D57F205Y",
+  "B.targa": "DM536HD",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "86H8679549",
+  "B.cond_cognome": "SERRA",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "CA62512526",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 399,
+  "ms": 4748,
+  "cost_usd": 0.02432,
+  "cached": false,
+  "image_sha": [
+   "c77579530b56de14"
+  ]
+ }
+}

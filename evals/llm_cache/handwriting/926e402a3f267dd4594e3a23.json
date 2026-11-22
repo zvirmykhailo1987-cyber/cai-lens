@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10151:hw",
+ "answer": {
+  "data": "14/02/2026",
+  "ora": "16:45",
+  "luogo": "BERGAMO, VIA MAZZINI 106",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COSTA",
+  "A.nome": "GIULIA",
+  "A.cf": "CSTGLI81B61H501X",
+  "A.targa": "JB658DY",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "29P1130598",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "VALENTINA",
+  "A.patente": "DB8621622G",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "LAURA",
+  "B.cf": "GRDLRA72A43G224H",
+  "B.targa": "YY713BL",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "89G4073768",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "GIULIA",
+  "B.patente": "BC3488051N",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 4856,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "134c2c1b7b71f867"
+  ]
+ }
+}

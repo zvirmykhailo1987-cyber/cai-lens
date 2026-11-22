@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90038:hw",
+ "answer": {
+  "data": "12/10/2026",
+  "ora": "15:20",
+  "luogo": "MILANO VIA DANTE 179",
+  "testimoni": "",
+  "A.cognome": "D'ANGELO",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "DNGGPP78T22H501V",
+  "A.targa": "YS664GK",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "62V9616188",
+  "A.cond_cognome": "LEONE",
+  "A.cond_nome": "ELISA",
+  "A.patente": "VA1623843T",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "SANTORO",
+  "B.nome": "ROBERTA",
+  "B.cf": "SNTRRT87L42F205P",
+  "B.targa": "HJ683GF",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "7488072904",
+  "B.cond_cognome": "CARUSO",
+  "B.cond_nome": "PAOLA",
+  "B.patente": "CC6612283P",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 5201,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "d9742e8bf6591e92"
+  ]
+ }
+}

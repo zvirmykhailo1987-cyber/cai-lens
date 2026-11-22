@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10061:hw",
+ "answer": {
+  "data": "23/07/2026",
+  "ora": "15:45",
+  "luogo": "VERONA, VIA MARCONI 145",
+  "testimoni": "",
+  "A.cognome": "COPPOLA",
+  "A.nome": "MATTEO",
+  "A.cf": "CPPMTT85B14G224A",
+  "A.targa": "YS977TC",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "10A3731955",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "AU4871960M",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "2",
+  "B.cognome": "MARIANI",
+  "B.nome": "MARTINA",
+  "B.cf": "MRNMTN04M49G224I",
+  "B.targa": "TT701XZ",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "17V7976651",
+  "B.cond_cognome": "FERRARI",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "RU2857654G",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 5971,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "6ccec6b6649b4133"
+  ]
+ }
+}

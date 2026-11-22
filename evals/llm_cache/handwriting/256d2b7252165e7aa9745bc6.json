@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90034:hw",
+ "answer": {
+  "data": "21/02/2026",
+  "ora": "21:20",
+  "luogo": "VENEZIA, CORSO ITALIA 93",
+  "testimoni": "",
+  "A.cognome": "SANTORO",
+  "A.nome": "FRANCESCO",
+  "A.cf": "SNTFNC56E05F205A",
+  "A.targa": "NH403XM",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "78D6835820",
+  "A.cond_cognome": "SANTORO",
+  "A.cond_nome": "FRANCESCO",
+  "A.patente": "MA1031289V",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "LONGO",
+  "B.nome": "ALESSANDRO",
+  "B.cf": "LNGLSN50D10H501G",
+  "B.targa": "NC516ST",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "14T3805466",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "ALESSANDRO",
+  "B.patente": "AT7485984M",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 4603,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "79fc7b50ebf13d91"
+  ]
+ }
+}

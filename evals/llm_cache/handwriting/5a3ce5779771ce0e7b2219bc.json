@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90029:hw",
+ "answer": {
+  "data": "17/08/2026",
+  "ora": "13:30",
+  "luogo": "VERONA, PIAZZA CAVOUR 56",
+  "testimoni": "MORETTI ANDREA",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "CHIARA",
+  "A.cf": "DSNCHR92B41H501Y",
+  "A.targa": "MN459XD",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "89C7186607",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "ER9965653B",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARCHETTI",
+  "B.nome": "SARA",
+  "B.cf": "MRCSRA84T65A794B",
+  "B.targa": "BT180ZT",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "95V3679687",
+  "B.cond_cognome": "MARCHETTI",
+  "B.cond_nome": "SARA",
+  "B.patente": "BT5120257A",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 436,
+  "ms": 5742,
+  "cost_usd": 0.02506,
+  "cached": false,
+  "image_sha": [
+   "5b7789c208b3ab7e"
+  ]
+ }
+}

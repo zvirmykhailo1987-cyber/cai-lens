@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10122:hw",
+ "answer": {
+  "data": "14/07/2026",
+  "ora": "11:45",
+  "luogo": "VERONA, VIA ROMA 145",
+  "testimoni": "MARTINI VALENTINA",
+  "A.cognome": "COSTA",
+  "A.nome": "PAOLA",
+  "A.cf": "CSTPLA73H54L781N",
+  "A.targa": "HL457NM",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "65G5670046",
+  "A.cond_cognome": "COSTA",
+  "A.cond_nome": "PAOLA",
+  "A.patente": "CT3406957Z",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "COPPOLA",
+  "B.nome": "MARCO",
+  "B.cf": "CPPMRC68B14H501U",
+  "B.targa": "MS912WC",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "23H5624062",
+  "B.cond_cognome": "COPPOLA",
+  "B.cond_nome": "MARCO",
+  "B.patente": "VB4924651P",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 429,
+  "ms": 5153,
+  "cost_usd": 0.02492,
+  "cached": false,
+  "image_sha": [
+   "8f7c0abe7fb16648"
+  ]
+ }
+}

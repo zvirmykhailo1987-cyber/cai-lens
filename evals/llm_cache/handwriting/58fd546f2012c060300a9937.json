@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10067:hw",
+ "answer": {
+  "data": "24/10/2026",
+  "ora": "08:20",
+  "luogo": "PADOVA, VIALE EUROPA 93",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GENTILE",
+  "A.nome": "SIMONE",
+  "A.cf": "GNTSMN92H22D612A",
+  "A.targa": "JH599SS",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "15V3815080",
+  "A.cond_cognome": "VITALE",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "CA7031043A",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "VITALE",
+  "B.nome": "NICOLA",
+  "B.cf": "VTLNCL81C02L781Y",
+  "B.targa": "YW705SW",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "71F8141646",
+  "B.cond_cognome": "FERRARI",
+  "B.cond_nome": "VALENTINA",
+  "B.patente": "TU4892436D",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 6012,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "ccaddfdcf152985b"
+  ]
+ }
+}

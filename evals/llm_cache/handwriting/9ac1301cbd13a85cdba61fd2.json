@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90091:hw",
+ "answer": {
+  "data": "18/03/2026",
+  "ora": "14:10",
+  "luogo": "ROMA, VIA GARIBALDI 78",
+  "testimoni": "",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "FEDERICO",
+  "A.cf": "MRCFRC85A22F205G",
+  "A.targa": "DW119RR",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "92D8693415",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "VD6927079E",
+  "A.danni": "PORTELLONE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GENTILE",
+  "B.nome": "ELENA",
+  "B.cf": "GNTLNE93S43L781E",
+  "B.targa": "VR343XW",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "93F5300328",
+  "B.cond_cognome": "BARBIERI",
+  "B.cond_nome": "SARA",
+  "B.patente": "RD7579804E",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 399,
+  "ms": 4860,
+  "cost_usd": 0.02432,
+  "cached": false,
+  "image_sha": [
+   "b98b82c9a83f0ece"
+  ]
+ }
+}

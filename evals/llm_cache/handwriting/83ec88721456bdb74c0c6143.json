@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500011:hw",
+ "answer": {
+  "data": "17/11/2026",
+  "ora": "15:45",
+  "luogo": "BOLOGNA, VIALE MONZA 144",
+  "testimoni": "BIANCHI SARA",
+  "A.cognome": "LEONE",
+  "A.nome": "ROBERTO",
+  "A.cf": "LNERRT77A24L781M",
+  "A.targa": "DJ894PE",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "19P4298848",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "ANNA",
+  "A.patente": "ET8557288B",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "SANTORO",
+  "B.nome": "LUCA",
+  "B.cf": "SNTLCU71T14H501H",
+  "B.targa": "ZK548WN",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "62F7702173",
+  "B.cond_cognome": "SANTORO",
+  "B.cond_nome": "LUCA",
+  "B.patente": "AA9569980N",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 418,
+  "ms": 4848,
+  "cost_usd": 0.0247,
+  "cached": false,
+  "image_sha": [
+   "f9eb3f18ef9be8aa"
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10097:hw",
+ "answer": {
+  "data": "15/02/2026",
+  "ora": "12:50",
+  "luogo": "PADOVA, VIALE EUROPA 84",
+  "testimoni": "",
+  "A.cognome": "MARTINI",
+  "A.nome": "MATTEO",
+  "A.cf": "MRTMTT80B27A944K",
+  "A.targa": "PA862PW",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "47N4818479",
+  "A.cond_cognome": "MARTINI",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "AM5094755D",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "ROSSI",
+  "B.nome": "MARCO",
+  "B.cf": "RSSMRC94T26L219Y",
+  "B.targa": "BY316CP",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "36A3204843",
+  "B.cond_cognome": "FONTANA",
+  "B.cond_nome": "LORENZO",
+  "B.patente": "MB4323096E",
+  "B.danni": "",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": [
+   "B.danni"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 407,
+  "ms": 5120,
+  "cost_usd": 0.02448,
+  "cached": false,
+  "image_sha": [
+   "f952b0a13c7b6875"
+  ]
+ }
+}

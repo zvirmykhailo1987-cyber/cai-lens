@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10183:hw",
+ "answer": {
+  "data": "28/04/2026",
+  "ora": "06:00",
+  "luogo": "TORINO, PIAZZA CAVOUR 12",
+  "testimoni": "",
+  "A.cognome": "MARTINELLI",
+  "A.nome": "ALESSIA",
+  "A.cf": "MRTLSS02B55A794Q",
+  "A.targa": "TA122EX",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "58L1579164",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "ALESSIA",
+  "A.patente": "EU6910796M",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "BRUNO",
+  "B.nome": "FEDERICO",
+  "B.cf": "BRNFRC50A18F205F",
+  "B.targa": "AV025PB",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "95T5287519",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "UE4706170V",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 4874,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "0bf1c041e8abc355"
+  ]
+ }
+}

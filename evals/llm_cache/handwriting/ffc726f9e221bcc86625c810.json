@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90042:hw",
+ "answer": {
+  "data": "19/01/2026",
+  "ora": "13:15",
+  "luogo": "MILANO, VIALE EUROPA 43",
+  "testimoni": "COSTA FRANCESCO",
+  "A.cognome": "CARUSO",
+  "A.nome": "PAOLO",
+  "A.cf": "CRSPLA75D03G224H",
+  "A.targa": "GF676KT",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "56R1355824",
+  "A.cond_cognome": "CARUSO",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "BV9255802H",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "2",
+  "B.cognome": "COPPOLA",
+  "B.nome": "ALESSANDRO",
+  "B.cf": "CPPLSN64R26H501T",
+  "B.targa": "AX883CC",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "2882229104",
+  "B.cond_cognome": "COPPOLA",
+  "B.cond_nome": "ALESSANDRO",
+  "B.patente": "BV4798712C",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 433,
+  "ms": 5004,
+  "cost_usd": 0.025,
+  "cached": false,
+  "image_sha": [
+   "8a3b81f146ff045e"
+  ]
+ }
+}

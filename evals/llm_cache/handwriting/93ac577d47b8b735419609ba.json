@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500006:hw",
+ "answer": {
+  "data": "29/10/2026",
+  "ora": "08:00",
+  "luogo": "BOLOGNA, VIA MILANO 36",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "DAVIDE",
+  "A.cf": "MRCDVD66H16F839A",
+  "A.targa": "JK341KZ",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "43E8262707",
+  "A.cond_cognome": "MORETTI",
+  "A.cond_nome": "FEDERICA",
+  "A.patente": "AC5834466A",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "MORETTI",
+  "B.nome": "LORENZO",
+  "B.cf": "MRTLNZ54C18G224N",
+  "B.targa": "YS272TL",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "73D3121583",
+  "B.cond_cognome": "GALLI",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "AB8311450V",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 413,
+  "ms": 4239,
+  "cost_usd": 0.0246,
+  "cached": false,
+  "image_sha": [
+   "cbbecd0beaa8659d"
+  ]
+ }
+}

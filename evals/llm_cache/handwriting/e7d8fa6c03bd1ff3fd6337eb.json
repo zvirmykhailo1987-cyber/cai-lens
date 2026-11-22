@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10101:hw",
+ "answer": {
+  "data": "07/01/2026",
+  "ora": "08:10",
+  "luogo": "BOLOGNA, VIALE MONZA 61",
+  "testimoni": "",
+  "A.cognome": "SANTORO",
+  "A.nome": "STEFANO",
+  "A.cf": "SNTSFN74E05L781G",
+  "A.targa": "ZT200MJ",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "65A1458234",
+  "A.cond_cognome": "SANTORO",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "RE9427408M",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "MORETTI",
+  "B.nome": "SARA",
+  "B.cf": "MRTSRA81C41G224W",
+  "B.targa": "JS828KS",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "79D3900923",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "ME5145175Z",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 419,
+  "ms": 4902,
+  "cost_usd": 0.02472,
+  "cached": false,
+  "image_sha": [
+   "db472ea079d95cd4"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10008:hw",
+ "answer": {
+  "data": "07/12/2026",
+  "ora": "12:10",
+  "luogo": "MILANO, VIA DANTE 11",
+  "testimoni": "RIZZO LAURA",
+  "A.cognome": "SANTORO",
+  "A.nome": "PAOLO",
+  "A.cf": "SNTPLA68P03G224J",
+  "A.targa": "JF342BW",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "91D3378145",
+  "A.cond_cognome": "FONTANA",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "AE3677907R",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GRECO",
+  "B.nome": "PAOLO",
+  "B.cf": "GRCPLA73T06A944J",
+  "B.targa": "VK124LE",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "55B2033668",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "CA1161101F",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 5043,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "4f95478d4c63e5e3"
+  ]
+ }
+}

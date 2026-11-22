@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10083:hw",
+ "answer": {
+  "data": "07/02/2026",
+  "ora": "13:15",
+  "luogo": "NAPOLI, VIA ROMA 171",
+  "testimoni": "NESSUNO",
+  "A.cognome": "BARBIERI",
+  "A.nome": "GIOVANNI",
+  "A.cf": "BRBGNN64A14A944Q",
+  "A.targa": "HT897ND",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "56P1424642",
+  "A.cond_cognome": "BARBIERI",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "CM6778721B",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "LONGO",
+  "B.nome": "ROBERTO",
+  "B.cf": "LNGRRT51H19D612X",
+  "B.targa": "YN784BJ",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "75S2550756",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "ROBERTO",
+  "B.patente": "MT4637664V",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 431,
+  "ms": 5701,
+  "cost_usd": 0.02496,
+  "cached": false,
+  "image_sha": [
+   "2bc104734b46cf07"
+  ]
+ }
+}

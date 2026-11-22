@@ -1,0 +1,50 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90090:hw",
+ "answer": {
+  "data": "22/09/2026",
+  "ora": "17:20",
+  "luogo": "TORINO, VIA MAZZINI 147",
+  "testimoni": "",
+  "A.cognome": "MANCINI",
+  "A.nome": "FRANCESCA",
+  "A.cf": "MNCFNC82P49F205F",
+  "A.targa": "GP716DJ",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "63E3429914",
+  "A.cond_cognome": "",
+  "A.cond_nome": "FRANCESCA",
+  "A.patente": "EB7358761S",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "BARBIERI",
+  "B.nome": "SARA",
+  "B.cf": "BRBSRA72M65D612T",
+  "B.targa": "GB914NG",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "99R2851342",
+  "B.cond_cognome": "",
+  "B.cond_nome": "PAOLA",
+  "B.patente": "RE5799165B",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": [
+   "A.cond_cognome",
+   "B.cond_cognome"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 628,
+  "ms": 7143,
+  "cost_usd": 0.0289,
+  "cached": false,
+  "image_sha": [
+   "a5ad19c0476b5000"
+  ]
+ }
+}

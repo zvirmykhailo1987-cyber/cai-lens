@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10063:hw",
+ "answer": {
+  "data": "14/08/2026",
+  "ora": "17:50",
+  "luogo": "BERGAMO, VIA DANTE 124",
+  "testimoni": "CARUSO VALENTINA",
+  "A.cognome": "COSTA",
+  "A.nome": "FRANCESCO",
+  "A.cf": "CSTFNC52H10A794D",
+  "A.targa": "TP670PV",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "78P2274712",
+  "A.cond_cognome": "COSTA",
+  "A.cond_nome": "FRANCESCO",
+  "A.patente": "TV1760313T",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "LONGO",
+  "B.nome": "STEFANO",
+  "B.cf": "LNGSFN72D23D612F",
+  "B.targa": "HW081YS",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "58L5309686",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "RU3454195N",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 5671,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "d340f3bb7a9b2fb0"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90078:hw",
+ "answer": {
+  "data": "17/08/2026",
+  "ora": "17:15",
+  "luogo": "ROMA, VIA TORINO 159",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MANCINI",
+  "A.nome": "VALENTINA",
+  "A.cf": "MNCVNT65T42A944A",
+  "A.targa": "HZ802HJ",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "46R5314505",
+  "A.cond_cognome": "MANCINI",
+  "A.cond_nome": "VALENTINA",
+  "A.patente": "BC8667665T",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "RINALDI",
+  "B.nome": "CHIARA",
+  "B.cf": "RNLCHR88D63L219Q",
+  "B.targa": "HL936JT",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "11M2128983",
+  "B.cond_cognome": "RINALDI",
+  "B.cond_nome": "CHIARA",
+  "B.patente": "BU3868922V",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 6309,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "bf20acb9a8d14742"
+  ]
+ }
+}

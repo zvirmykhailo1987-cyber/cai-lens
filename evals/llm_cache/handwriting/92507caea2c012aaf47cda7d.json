@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10157:hw",
+ "answer": {
+  "data": "08/06/2026",
+  "ora": "19:20",
+  "luogo": "VENEZIA, VIA GARIBALDI 4",
+  "testimoni": "NESSUNO",
+  "A.cognome": "SANTORO",
+  "A.nome": "MATTEO",
+  "A.cf": "SNTMTT79D12G224P",
+  "A.targa": "JD552CY",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "16A1850196",
+  "A.cond_cognome": "LEONE",
+  "A.cond_nome": "NICOLA",
+  "A.patente": "RE2580299F",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "LEONE",
+  "B.nome": "LORENZO",
+  "B.cf": "LNELNZ75H21L736N",
+  "B.targa": "SL813VB",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "60P3457587",
+  "B.cond_cognome": "LEONE",
+  "B.cond_nome": "LORENZO",
+  "B.patente": "AB8770321P",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 401,
+  "ms": 4827,
+  "cost_usd": 0.02436,
+  "cached": false,
+  "image_sha": [
+   "35e6e3ba97778e1d"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500014:hw",
+ "answer": {
+  "data": "21/10/2026",
+  "ora": "06:20",
+  "luogo": "BERGAMO, VIA MARCONI 56",
+  "testimoni": "NESSUNO",
+  "A.cognome": "BIANCHI",
+  "A.nome": "ANNA",
+  "A.cf": "BNCNNA61A55F205F",
+  "A.targa": "TA242WJ",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "34S4874941",
+  "A.cond_cognome": "BIANCHI",
+  "A.cond_nome": "ANNA",
+  "A.patente": "CD1781342T",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "CHIARA",
+  "B.cf": "MRNCHR04E63H501I",
+  "B.targa": "SV645VH",
+  "B.compagnia": "",
+  "B.polizza": "11N3139368",
+  "B.cond_cognome": "MORETTI",
+  "B.cond_nome": "GIOVANNI",
+  "B.patente": "EC8685430G",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 417,
+  "ms": 5646,
+  "cost_usd": 0.02468,
+  "cached": false,
+  "image_sha": [
+   "9e9fa89de6fb4f9f"
+  ]
+ }
+}

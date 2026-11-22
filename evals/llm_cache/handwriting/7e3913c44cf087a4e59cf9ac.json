@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90039:hw",
+ "answer": {
+  "data": "18/02/2026",
+  "ora": "20:10",
+  "luogo": "FIRENZE, VIA TORINO 150",
+  "testimoni": "NESSUNO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "MARCO",
+  "A.cf": "DSNMRC58R15D612E",
+  "A.targa": "DM705EW",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "15N9623594",
+  "A.cond_cognome": "D'ANGELO",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "BB7727094V",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "ROSSI",
+  "B.nome": "FRANCESCA",
+  "B.cf": "RSSFNC65D41D612Q",
+  "B.targa": "CJ738NX",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "56B8925604",
+  "B.cond_cognome": "ROSSI",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "AA5156541V",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 434,
+  "ms": 4810,
+  "cost_usd": 0.02502,
+  "cached": false,
+  "image_sha": [
+   "5bd6e8ea6994dd1d"
+  ]
+ }
+}

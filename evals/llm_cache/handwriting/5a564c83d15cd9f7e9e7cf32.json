@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10057:hw",
+ "answer": {
+  "data": "04/10/2026",
+  "ora": "17:50",
+  "luogo": "BERGAMO, CORSO ITALIA 117",
+  "testimoni": "BIANCHI ANDREA",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "GIOVANNI",
+  "A.cf": "MRCGNN74D23F205J",
+  "A.targa": "TS559XA",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "95D1977038",
+  "A.cond_cognome": "MARCHETTI",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "VB5671504P",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "RICCI",
+  "B.nome": "GIULIA",
+  "B.cf": "RCCGLI68A51F205H",
+  "B.targa": "SV730KA",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "34D3612152",
+  "B.cond_cognome": "RICCI",
+  "B.cond_nome": "GIULIA",
+  "B.patente": "DU2470827B",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 436,
+  "ms": 4993,
+  "cost_usd": 0.02506,
+  "cached": false,
+  "image_sha": [
+   "4a021deb8cb1779e"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90031:hw",
+ "answer": {
+  "data": "28/01/2026",
+  "ora": "16:50",
+  "luogo": "FIRENZE, VIA TORINO 1",
+  "testimoni": "LEONE SIMONE",
+  "A.cognome": "GRECO",
+  "A.nome": "MONICA",
+  "A.cf": "GRCMNC02B67H501N",
+  "A.targa": "NN711WB",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "70L3257762",
+  "A.cond_cognome": "CARUSO",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "TD6267876R",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "COPPOLA",
+  "B.nome": "STEFANO",
+  "B.cf": "",
+  "B.targa": "",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "",
+  "B.totale": "0",
+  "illeggibili": [
+   "B.cf",
+   "B.polizza",
+   "B.patente"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 411,
+  "ms": 4925,
+  "cost_usd": 0.02456,
+  "cached": false,
+  "image_sha": [
+   "7d21a7e7e8891505"
+  ]
+ }
+}

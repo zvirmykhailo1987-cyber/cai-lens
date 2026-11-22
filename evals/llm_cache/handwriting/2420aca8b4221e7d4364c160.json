@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90051:hw",
+ "answer": {
+  "data": "28/05/2026",
+  "ora": "12:30",
+  "luogo": "NAPOLI, VIA TORINO 170",
+  "testimoni": "",
+  "A.cognome": "RICCI",
+  "A.nome": "PAOLO",
+  "A.cf": "RCCPLA82S16D612D",
+  "A.targa": "YX174AY",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "95R1028877",
+  "A.cond_cognome": "RICCI",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "BU7568709Z",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "BIANCHI",
+  "B.nome": "SILVIA",
+  "B.cf": "BNCSLV90S60G224T",
+  "B.targa": "",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "19D2512100",
+  "B.cond_cognome": "BIANCHI",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "UC2044817Z",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 393,
+  "ms": 5211,
+  "cost_usd": 0.0242,
+  "cached": false,
+  "image_sha": [
+   "f901f52d7670ee1e"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90017:hw",
+ "answer": {
+  "data": "08/11/2026",
+  "ora": "20:00",
+  "luogo": "VERONA, VIA MILANO 71",
+  "testimoni": "MORETTI MATTEO",
+  "A.cognome": "DE LUCA",
+  "A.nome": "ALESSANDRO",
+  "A.cf": "DLCLSN62D11F839C",
+  "A.targa": "AG713LH",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "27R2708867",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "BE2236517B",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "MONICA",
+  "B.cf": "MRNMNC58D65A944O",
+  "B.targa": "CW512CM",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "48C9807407",
+  "B.cond_cognome": "MARIANI",
+  "B.cond_nome": "MONICA",
+  "B.patente": "DD3246042D",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 434,
+  "ms": 5102,
+  "cost_usd": 0.02502,
+  "cached": false,
+  "image_sha": [
+   "7aebf7b9896cb07a"
+  ]
+ }
+}

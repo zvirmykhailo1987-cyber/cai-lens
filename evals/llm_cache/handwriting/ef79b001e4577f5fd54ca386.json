@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10011:hw",
+ "answer": {
+  "data": "13/01/2026",
+  "ora": "12:15",
+  "luogo": "VERONA, VIA MARCONI 74",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARIANI",
+  "A.nome": "ROBERTA",
+  "A.cf": "MRNRRT04C58L736A",
+  "A.targa": "KR426MV",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "56L5693816",
+  "A.cond_cognome": "MARIANI",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "CV3640710D",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "ALESSANDRO",
+  "B.cf": "DSNLSN70H02L219C",
+  "B.targa": "GC220PK",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "25S8281342",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "ALESSANDRO",
+  "B.patente": "RB9909255V",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 425,
+  "ms": 4507,
+  "cost_usd": 0.02484,
+  "cached": false,
+  "image_sha": [
+   "e3963bb6abe69524"
+  ]
+ }
+}

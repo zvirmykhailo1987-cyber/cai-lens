@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10134:hw",
+ "answer": {
+  "data": "09/07/2026",
+  "ora": "09:30",
+  "luogo": "MILANO, VIALE EUROPA 81",
+  "testimoni": "RIZZO ANNA",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "MARCO",
+  "A.cf": "MRCMRC01P04H501S",
+  "A.targa": "LN599CH",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "98G8470948",
+  "A.cond_cognome": "MARCHETTI",
+  "A.cond_nome": "MARCO",
+  "A.patente": "ER8618422C",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "VITALE",
+  "B.nome": "ELENA",
+  "B.cf": "VTLLNE61C42L219G",
+  "B.targa": "RK079GR",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "96F1482508",
+  "B.cond_cognome": "VITALE",
+  "B.cond_nome": "ELENA",
+  "B.patente": "AR3308170H",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 422,
+  "ms": 5039,
+  "cost_usd": 0.02478,
+  "cached": false,
+  "image_sha": [
+   "87ec6d67f8592027"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10007:hw",
+ "answer": {
+  "data": "24/02/2026",
+  "ora": "07:00",
+  "luogo": "ROMA, PIAZZA CAVOUR 125",
+  "testimoni": "BIANCHI LORENZO",
+  "A.cognome": "DE LUCA",
+  "A.nome": "ANNA",
+  "A.cf": "DLCNNA74E55L219M",
+  "A.targa": "DA324SL",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "82D6560011",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "CHIARA",
+  "A.patente": "MU9942773T",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "",
+  "B.cognome": "RIZZO",
+  "B.nome": "PAOLO",
+  "B.cf": "RZZPLA58H21H501F",
+  "B.targa": "EG027CW",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "46D3328583",
+  "B.cond_cognome": "RIZZO",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "UD5589130S",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 436,
+  "ms": 5115,
+  "cost_usd": 0.02506,
+  "cached": false,
+  "image_sha": [
+   "95a2fab5f0f2636a"
+  ]
+ }
+}

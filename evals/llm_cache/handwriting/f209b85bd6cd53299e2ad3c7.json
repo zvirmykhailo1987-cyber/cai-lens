@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10184:hw",
+ "answer": {
+  "data": "30/10/2026",
+  "ora": "18:50",
+  "luogo": "BOLOGNA, VIA MARCONI 34",
+  "testimoni": "NESSUNO",
+  "A.cognome": "FERRARI",
+  "A.nome": "MARCO",
+  "A.cf": "FRRMRC00S06A944S",
+  "A.targa": "CV760CJ",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "58D3223335",
+  "A.cond_cognome": "MARCHETTI",
+  "A.cond_nome": "DAVIDE",
+  "A.patente": "TB1750750R",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "LORENZO",
+  "B.cf": "DSNLNZ50T12F205B",
+  "B.targa": "WD563JP",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "32M8537016",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "LORENZO",
+  "B.patente": "VU2003051Z",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 4816,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "2fc9cc6e7babbe58"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90099:hw",
+ "answer": {
+  "data": "19/08/2026",
+  "ora": "13:40",
+  "luogo": "VERONA, VIA GARIBALDI 57",
+  "testimoni": "",
+  "A.cognome": "RICCI",
+  "A.nome": "SARA",
+  "A.cf": "RCCSRA80C54A794K",
+  "A.targa": "TV506KH",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "73N8416073",
+  "A.cond_cognome": "RICCI",
+  "A.cond_nome": "SARA",
+  "A.patente": "AT1414997D",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "LONGO",
+  "B.nome": "ELENA",
+  "B.cf": "LNGLNE86T66L736R",
+  "B.targa": "JB933NE",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "38P5503494",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "ELENA",
+  "B.patente": "UR1139978T",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 402,
+  "ms": 4990,
+  "cost_usd": 0.02438,
+  "cached": false,
+  "image_sha": [
+   "17e0557adc35cf9e"
+  ]
+ }
+}

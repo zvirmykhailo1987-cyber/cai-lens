@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10153:hw",
+ "answer": {
+  "data": "01/02/2026",
+  "ora": "09:10",
+  "luogo": "VENEZIA, VIA MAZZINI 65",
+  "testimoni": "FONTANA PAOLO",
+  "A.cognome": "GRECO",
+  "A.nome": "ELENA",
+  "A.cf": "GRCLNE58A66L736F",
+  "A.targa": "VN472VW",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "47L8269911",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "ELENA",
+  "A.patente": "UB1004375L",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GRECO",
+  "B.nome": "ELISA",
+  "B.cf": "GRCLSE71H45L781W",
+  "B.targa": "GM107VJ",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "62C4500558",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "ELISA",
+  "B.patente": "RD7493527A",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 399,
+  "ms": 4536,
+  "cost_usd": 0.02432,
+  "cached": false,
+  "image_sha": [
+   "109fd8c8ff3354a6"
+  ]
+ }
+}

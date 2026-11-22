@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90005:hw",
+ "answer": {
+  "data": "10/07/2026",
+  "ora": "10:15",
+  "luogo": "PADOVA, VIA GARIBALDI 155",
+  "testimoni": "GENTILE ROBERTO",
+  "A.cognome": "COLOMBO",
+  "A.nome": "ROBERTA",
+  "A.cf": "CLMRRT72T53L781D",
+  "A.targa": "TF286EB",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "99N7395278",
+  "A.cond_cognome": "COLOMBO",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "UA3876998N",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GIORDANO",
+  "B.nome": "ROBERTA",
+  "B.cf": "GRDRRT57D60L736H",
+  "B.targa": "NK402KP",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "93F7018916",
+  "B.cond_cognome": "GIORDANO",
+  "B.cond_nome": "ROBERTA",
+  "B.patente": "AM1201318B",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 428,
+  "ms": 4712,
+  "cost_usd": 0.0249,
+  "cached": false,
+  "image_sha": [
+   "dfe06d3712bc6316"
+  ]
+ }
+}

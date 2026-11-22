@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10009:hw",
+ "answer": {
+  "data": "11/06/2026",
+  "ora": "22:30",
+  "luogo": "VENEZIA, VIALE MONZA 151",
+  "testimoni": "NESSUNO",
+  "A.cognome": "SERRA",
+  "A.nome": "PAOLA",
+  "A.cf": "SRRPLA67M41A944E",
+  "A.targa": "HJ564CN",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "79B4994073",
+  "A.cond_cognome": "SERRA",
+  "A.cond_nome": "PAOLA",
+  "A.patente": "CT9125302G",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "2",
+  "B.cognome": "DE LUCA",
+  "B.nome": "STEFANO",
+  "B.cf": "DLCSFN93P27A794S",
+  "B.targa": "VY439YJ",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "81A4701598",
+  "B.cond_cognome": "DE LUCA",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "UB7508742V",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 5162,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "c1a0a3faf984fd9e"
+  ]
+ }
+}

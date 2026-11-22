@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90027:hw",
+ "answer": {
+  "data": "21/06/2026",
+  "ora": "14:10",
+  "luogo": "MILANO, VIALE MONZA 151",
+  "testimoni": "RINALDI SILVIA",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "GIOVANNI",
+  "A.cf": "DSNGNN00B06L781G",
+  "A.targa": "CV495EC",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "19P3531061",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "UE4138362D",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "GALLO",
+  "B.nome": "ROBERTA",
+  "B.cf": "GLLRRT59M50F205N",
+  "B.targa": "MD769WL",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "65P1785317",
+  "B.cond_cognome": "GALLO",
+  "B.cond_nome": "ROBERTA",
+  "B.patente": "DV7696751B",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 422,
+  "ms": 5556,
+  "cost_usd": 0.02478,
+  "cached": false,
+  "image_sha": [
+   "26c9f7a4674b86f6"
+  ]
+ }
+}

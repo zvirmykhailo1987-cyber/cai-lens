@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90019:hw",
+ "answer": {
+  "data": "04/11/2026",
+  "ora": "17:10",
+  "luogo": "MILANO, VIA DANTE 79",
+  "testimoni": "",
+  "A.cognome": "ROMANO",
+  "A.nome": "PAOLO",
+  "A.cf": "RMNPLA02E13D612Z",
+  "A.targa": "WL248SN",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "10D8523923",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "ANNA",
+  "A.patente": "EV1529134H",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "XG502GB",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 350,
+  "ms": 7515,
+  "cost_usd": 0.02334,
+  "cached": false,
+  "image_sha": [
+   "83190937e8e6ed0e"
+  ]
+ }
+}

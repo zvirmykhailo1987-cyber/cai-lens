@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10154:hw",
+ "answer": {
+  "data": "07/09/2026",
+  "ora": "08:20",
+  "luogo": "PADOVA, VIA GARIBALDI 120",
+  "testimoni": "COLOMBO ROBERTA",
+  "A.cognome": "MARTINI",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "MRTGPP77B04L219O",
+  "A.targa": "FY132CJ",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "88E3288779",
+  "A.cond_cognome": "D'ANGELO",
+  "A.cond_nome": "ANNA",
+  "A.patente": "ET6376776P",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "0",
+  "B.cognome": "SERRA",
+  "B.nome": "ELENA",
+  "B.cf": "SRRLNE72T57D612V",
+  "B.targa": "JV597PJ",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "87S8682998",
+  "B.cond_cognome": "SERRA",
+  "B.cond_nome": "ELENA",
+  "B.patente": "TD1496138E",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 4689,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "4227fbd46a0f6f5b"
+  ]
+ }
+}

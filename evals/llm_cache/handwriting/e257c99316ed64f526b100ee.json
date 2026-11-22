@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90071:hw",
+ "answer": {
+  "data": "02/09/2026",
+  "ora": "14:45",
+  "luogo": "MILANO, VIA VERDI 99",
+  "testimoni": "ROMANO FRANCESCA",
+  "A.cognome": "MARIANI",
+  "A.nome": "ANNA",
+  "A.cf": "MRNNNA80D44G224T",
+  "A.targa": "HA513RY",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "24L9427870",
+  "A.cond_cognome": "MARIANI",
+  "A.cond_nome": "ANNA",
+  "A.patente": "RR8318361M",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "2",
+  "B.cognome": "RICCI",
+  "B.nome": "MATTEO",
+  "B.cf": "RCCMTT99B04G224R",
+  "B.targa": "TX499RD",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "",
+  "B.cond_cognome": "DE LUCA",
+  "B.cond_nome": "PAOLA",
+  "B.patente": "DV8174047B",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": [
+   "B.polizza"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 5445,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "48cf7fc522d59564"
+  ]
+ }
+}

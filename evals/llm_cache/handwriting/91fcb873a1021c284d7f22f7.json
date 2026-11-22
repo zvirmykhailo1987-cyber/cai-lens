@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10156:hw",
+ "answer": {
+  "data": "30/07/2026",
+  "ora": "09:10",
+  "luogo": "BOLOGNA, VIALE EUROPA 72",
+  "testimoni": "DE LUCA ROBERTO",
+  "A.cognome": "ROSSI",
+  "A.nome": "MATTEO",
+  "A.cf": "RSSMTT53E21H501A",
+  "A.targa": "ZV734EH",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "52L2685262",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "AC9168589Z",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "FRANCESCO",
+  "B.cf": "DSNFNC86C07L219B",
+  "B.targa": "VE012WJ",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "61F5285006",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "GIOVANNI",
+  "B.patente": "DU6442847N",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 4863,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "1260589a62778a9d"
+  ]
+ }
+}

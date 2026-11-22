@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90045:hw",
+ "answer": {
+  "data": "10/09/2026",
+  "ora": "08:50",
+  "luogo": "PADOVA, VIA TORINO 156",
+  "testimoni": "MARTINI SIMONE",
+  "A.cognome": "LONGO",
+  "A.nome": "DAVIDE",
+  "A.cf": "LNGDVD92B12G224V",
+  "A.targa": "WS801FN",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "26E5116075",
+  "A.cond_cognome": "LONGO",
+  "A.cond_nome": "DAVIDE",
+  "A.patente": "RB1010863C",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "BRUNO",
+  "B.nome": "FEDERICO",
+  "B.cf": "BRNFRC77A07G224M",
+  "B.targa": "WJ886PX",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "28N8000918",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "VD4629471H",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 417,
+  "ms": 4690,
+  "cost_usd": 0.02468,
+  "cached": false,
+  "image_sha": [
+   "b28ddf58df3d2b6f"
+  ]
+ }
+}

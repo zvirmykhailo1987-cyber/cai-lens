@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10015:hw",
+ "answer": {
+  "data": "18/01/2026",
+  "ora": "15:10",
+  "luogo": "NAPOLI, VIA GARIBALDI 97",
+  "testimoni": "MARTINELLI LUCA",
+  "A.cognome": "D'ANGELO",
+  "A.nome": "GIOVANNI",
+  "A.cf": "DNGGNN69C19F839R",
+  "A.targa": "DD132PX",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "72E3351941",
+  "A.cond_cognome": "D'ANGELO",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "AR2232316B",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "MANCINI",
+  "B.nome": "SILVIA",
+  "B.cf": "MNCSLV72S58L736Y",
+  "B.targa": "HB622VP",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "50G1315730",
+  "B.cond_cognome": "MARINO",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "BT7514093Z",
+  "B.danni": "SPECCHIETTO SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 435,
+  "ms": 4862,
+  "cost_usd": 0.02504,
+  "cached": false,
+  "image_sha": [
+   "1fcef59798a51715"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500016:hw",
+ "answer": {
+  "data": "21/10/2026",
+  "ora": "15:50",
+  "luogo": "BERGAMO, VIA MILANO 64",
+  "testimoni": "RICCI ELISA",
+  "A.cognome": "GALLO",
+  "A.nome": "LUCA",
+  "A.cf": "GLLLCU82P14D612U",
+  "A.targa": "NS448LH",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "51L2128019",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "ELISA",
+  "A.patente": "MD2917967L",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "LEONE",
+  "B.nome": "GIOVANNI",
+  "B.cf": "LNEGNN97T19G224V",
+  "B.targa": "RY007WE",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "69G1204025",
+  "B.cond_cognome": "LEONE",
+  "B.cond_nome": "GIOVANNI",
+  "B.patente": "ER7309370C",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 413,
+  "ms": 5563,
+  "cost_usd": 0.0246,
+  "cached": false,
+  "image_sha": [
+   "5364520cda49cb23"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90008:hw",
+ "answer": {
+  "data": "20/09/2026",
+  "ora": "10:30",
+  "luogo": "VERONA, CORSO ITALIA 141",
+  "testimoni": "MARCHETTI SIMONE",
+  "A.cognome": "COPPOLA",
+  "A.nome": "GIOVANNI",
+  "A.cf": "CPPGNN60H24H501V",
+  "A.targa": "YR081WA",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "34S2130178",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "GIOVANNI",
+  "A.patente": "BA2755527Z",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "AV481EK",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 360,
+  "ms": 4695,
+  "cost_usd": 0.02354,
+  "cached": false,
+  "image_sha": [
+   "2e05905ceea806d6"
+  ]
+ }
+}

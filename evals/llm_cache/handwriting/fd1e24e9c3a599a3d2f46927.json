@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90054:hw",
+ "answer": {
+  "data": "24/05/2026",
+  "ora": "19:30",
+  "luogo": "VENEZIA, PIAZZA CAVOUR 162",
+  "testimoni": "NESSUNO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "SILVIA",
+  "A.cf": "DSNSLV73D68A944S",
+  "A.targa": "FY603MV",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "65T9034244",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "SILVIA",
+  "A.patente": "UD6735994H",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "SILVIA",
+  "B.cf": "DNGSLV68H42L219J",
+  "B.targa": "AK535VE",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "87L4873127",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "RA9926486L",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 445,
+  "ms": 5229,
+  "cost_usd": 0.02524,
+  "cached": false,
+  "image_sha": [
+   "26c3207b1160aefe"
+  ]
+ }
+}

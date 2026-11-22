@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10169:hw",
+ "answer": {
+  "data": "07/07/2026",
+  "ora": "15:40",
+  "luogo": "FIRENZE, VIA VERDI 121",
+  "testimoni": "BARBIERI VALENTINA",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "PAOLO",
+  "A.cf": "MRCPLA75P17L736S",
+  "A.targa": "MT284YJ",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "36N7776074",
+  "A.cond_cognome": "MARCHETTI",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "AT8267249E",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "CONTI",
+  "B.nome": "DAVIDE",
+  "B.cf": "CNTDVD69E03G224G",
+  "B.targa": "XC097CM",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "51P8249284",
+  "B.cond_cognome": "CONTI",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "VE1093894S",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 408,
+  "ms": 4533,
+  "cost_usd": 0.0245,
+  "cached": false,
+  "image_sha": [
+   "830d0fdfd71cbcc9"
+  ]
+ }
+}

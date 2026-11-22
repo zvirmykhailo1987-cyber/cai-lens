@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10072:hw",
+ "answer": {
+  "data": "06/03/2026",
+  "ora": "19:45",
+  "luogo": "FIRENZE, CORSO ITALIA 115",
+  "testimoni": "",
+  "A.cognome": "DE LUCA",
+  "A.nome": "NICOLA",
+  "A.cf": "DLCNCL56C08A794A",
+  "A.targa": "TK224ZR",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "34E8875328",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "NICOLA",
+  "A.patente": "AB3024897F",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MANCINI",
+  "B.nome": "LORENZO",
+  "B.cf": "MNCLNZ61T08L736F",
+  "B.targa": "CX254WM",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "19B5986964",
+  "B.cond_cognome": "DE LUCA",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "DA1076280M",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 4373,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "3712cda0332e7fab"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10085:hw",
+ "answer": {
+  "data": "06/09/2026",
+  "ora": "08:40",
+  "luogo": "NAPOLI, VIA MAZZINI 128",
+  "testimoni": "NESSUNO",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "MATTEO",
+  "A.cf": "DSNMTT65M06F205K",
+  "A.targa": "MX624SG",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "11N3445205",
+  "A.cond_cognome": "DE SANTIS",
+  "A.cond_nome": "MATTEO",
+  "A.patente": "TD6535089B",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "MARCHETTI",
+  "B.nome": "NICOLA",
+  "B.cf": "MRCNCL57D14H501W",
+  "B.targa": "RD648LF",
+  "B.compagnia": "",
+  "B.polizza": "46E2601582",
+  "B.cond_cognome": "MARCHETTI",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "CT8844286F",
+  "B.danni": "PARAURTI ANTERIORE",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 4786,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "ef539edd8fb02365"
+  ]
+ }
+}

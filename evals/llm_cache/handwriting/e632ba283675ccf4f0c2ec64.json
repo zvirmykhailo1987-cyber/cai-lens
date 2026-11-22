@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10022:hw",
+ "answer": {
+  "data": "30/07/2026",
+  "ora": "08:50",
+  "luogo": "NAPOLI, VIA VERDI 169",
+  "testimoni": "",
+  "A.cognome": "MARIANI",
+  "A.nome": "ROBERTO",
+  "A.cf": "MRNRRT89E02A944A",
+  "A.targa": "GH637XX",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "85F6827103",
+  "A.cond_cognome": "MARIANI",
+  "A.cond_nome": "ROBERTO",
+  "A.patente": "AT3987223M",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "GALLI",
+  "B.nome": "LAURA",
+  "B.cf": "GLLLRA79M57L219X",
+  "B.targa": "JY987WJ",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "83A9745635",
+  "B.cond_cognome": "COLOMBO",
+  "B.cond_nome": "FRANCESCA",
+  "B.patente": "UM8559317P",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 4590,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "9d73cf5e8713a5e7"
+  ]
+ }
+}

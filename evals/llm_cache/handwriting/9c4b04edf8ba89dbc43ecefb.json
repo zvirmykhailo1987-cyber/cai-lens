@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10056:hw",
+ "answer": {
+  "data": "29/06/2026",
+  "ora": "17:40",
+  "luogo": "TORINO, VIA TORINO 2",
+  "testimoni": "",
+  "A.cognome": "ROSSI",
+  "A.nome": "DAVIDE",
+  "A.cf": "RSSDVD80B18D612N",
+  "A.targa": "CN089ET",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "70P1091746",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "DAVIDE",
+  "A.patente": "DE5799725R",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "VITALE",
+  "B.nome": "PAOLA",
+  "B.cf": "VTLPLA71C47A944A",
+  "B.targa": "EH190FX",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "78T6720034",
+  "B.cond_cognome": "VITALE",
+  "B.cond_nome": "PAOLA",
+  "B.patente": "UA4364163V",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "2",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 416,
+  "ms": 4433,
+  "cost_usd": 0.02466,
+  "cached": false,
+  "image_sha": [
+   "feffacf03b6eac45"
+  ]
+ }
+}

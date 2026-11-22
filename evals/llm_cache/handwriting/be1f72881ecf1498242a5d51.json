@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90067:hw",
+ "answer": {
+  "data": "07/02/2026",
+  "ora": "10:30",
+  "luogo": "VENEZIA, VIA DANTE 157",
+  "testimoni": "RIZZO ANDREA",
+  "A.cognome": "LONGO",
+  "A.nome": "ELENA",
+  "A.cf": "LNGLNE76R45L736F",
+  "A.targa": "SE014ZC",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "44E2896151",
+  "A.cond_cognome": "LONGO",
+  "A.cond_nome": "ELENA",
+  "A.patente": "TT9554712L",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "RIZZO",
+  "B.nome": "MARTINA",
+  "B.cf": "RZZMTN70E61F205U",
+  "B.targa": "CF296VJ",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "19N5988266",
+  "B.cond_cognome": "RIZZO",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "UD8020911R",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 399,
+  "ms": 4539,
+  "cost_usd": 0.02432,
+  "cached": false,
+  "image_sha": [
+   "c265dc6515e32e85"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10012:hw",
+ "answer": {
+  "data": "07/07/2026",
+  "ora": "13:50",
+  "luogo": "VERONA, VIA VERDI 150",
+  "testimoni": "NESSUNO",
+  "A.cognome": "BIANCHI",
+  "A.nome": "SARA",
+  "A.cf": "BNCSRA85B43D612Z",
+  "A.targa": "LL346NC",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "33E4667973",
+  "A.cond_cognome": "BIANCHI",
+  "A.cond_nome": "SARA",
+  "A.patente": "MT5322162T",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "",
+  "B.cognome": "GALLI",
+  "B.nome": "FEDERICO",
+  "B.cf": "GLLFRC81P09H501F",
+  "B.targa": "MW137XK",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "46B6744271",
+  "B.cond_cognome": "VITALE",
+  "B.cond_nome": "LUCA",
+  "B.patente": "VA9590221M",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 411,
+  "ms": 5530,
+  "cost_usd": 0.02456,
+  "cached": false,
+  "image_sha": [
+   "2a26dca997858b25"
+  ]
+ }
+}

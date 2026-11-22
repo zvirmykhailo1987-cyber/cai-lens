@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "demo-500017:hw",
+ "answer": {
+  "data": "07/11/2026",
+  "ora": "10:20",
+  "luogo": "BOLOGNA, VIA VERDI 10",
+  "testimoni": "",
+  "A.cognome": "RIZZO",
+  "A.nome": "FRANCESCO",
+  "A.cf": "RZZFNC85H12F839W",
+  "A.targa": "DY901PW",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "42C3783747",
+  "A.cond_cognome": "RIZZO",
+  "A.cond_nome": "ANNA",
+  "A.patente": "CU8393478T",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "",
+  "B.cognome": "COPPOLA",
+  "B.nome": "FEDERICO",
+  "B.cf": "CPPFRC00M03G224I",
+  "B.targa": "HW168RN",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "15M8079561",
+  "B.cond_cognome": "COPPOLA",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "AC12107148",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 421,
+  "ms": 4937,
+  "cost_usd": 0.02476,
+  "cached": false,
+  "image_sha": [
+   "95801e57fd1f9048"
+  ]
+ }
+}

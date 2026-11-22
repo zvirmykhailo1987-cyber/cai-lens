@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10179:hw",
+ "answer": {
+  "data": "31/01/2026",
+  "ora": "16:00",
+  "luogo": "FIRENZE, VIA GARIBALDI 14",
+  "testimoni": "NESSUNO",
+  "A.cognome": "RINALDI",
+  "A.nome": "MONICA",
+  "A.cf": "RNLMNC58C44L219G",
+  "A.targa": "ZR715YA",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "25G3119640",
+  "A.cond_cognome": "RINALDI",
+  "A.cond_nome": "MONICA",
+  "A.patente": "RV8014640F",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "GALLO",
+  "B.nome": "MATTEO",
+  "B.cf": "GLLMTT55C02H501T",
+  "B.targa": "KK617VY",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "63P5127356",
+  "B.cond_cognome": "GALLO",
+  "B.cond_nome": "MATTEO",
+  "B.patente": "DR1481224V",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 414,
+  "ms": 5001,
+  "cost_usd": 0.02462,
+  "cached": false,
+  "image_sha": [
+   "8dde319b5da7943d"
+  ]
+ }
+}

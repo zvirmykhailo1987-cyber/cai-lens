@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10167:hw",
+ "answer": {
+  "data": "18/08/2026",
+  "ora": "16:15",
+  "luogo": "VERONA, VIA MAZZINI 34",
+  "testimoni": "",
+  "A.cognome": "GENTILE",
+  "A.nome": "LORENZO",
+  "A.cf": "GNTLNZ02P27L736N",
+  "A.targa": "JW271LY",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "59R2873276",
+  "A.cond_cognome": "GENTILE",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "RM5131865E",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "HR987AT",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 345,
+  "ms": 4375,
+  "cost_usd": 0.02324,
+  "cached": false,
+  "image_sha": [
+   "93316a0e11a55e48"
+  ]
+ }
+}

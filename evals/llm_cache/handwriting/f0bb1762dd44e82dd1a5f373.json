@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90068:hw",
+ "answer": {
+  "data": "27/01/2026",
+  "ora": "18:50",
+  "luogo": "ROMA, VIA MAZZINI 76",
+  "testimoni": "FONTANA PAOLA",
+  "A.cognome": "MARINO",
+  "A.nome": "SARA",
+  "A.cf": "MRNSRA64M46L781R",
+  "A.targa": "HD576YX",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "69D6196011",
+  "A.cond_cognome": "MARINO",
+  "A.cond_nome": "SARA",
+  "A.patente": "AM7017905F",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "RINALDI",
+  "B.nome": "FEDERICA",
+  "B.cf": "RNLFRC99C57A944B",
+  "B.targa": "CY207TW",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "44S1535946",
+  "B.cond_cognome": "RINALDI",
+  "B.cond_nome": "FEDERICA",
+  "B.patente": "BB4078090C",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 419,
+  "ms": 4742,
+  "cost_usd": 0.02472,
+  "cached": false,
+  "image_sha": [
+   "bc806ef5d339334c"
+  ]
+ }
+}

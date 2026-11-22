@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90098:hw",
+ "answer": {
+  "data": "26/05/2026",
+  "ora": "07:50",
+  "luogo": "VERONA, VIA TORINO 3",
+  "testimoni": "MORETTI CHIARA",
+  "A.cognome": "RINALDI",
+  "A.nome": "SARA",
+  "A.cf": "RNLSRA61T63A944Y",
+  "A.targa": "AK293XJ",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "90P3592883",
+  "A.cond_cognome": "RINALDI",
+  "A.cond_nome": "SARA",
+  "A.patente": "CT5164627C",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "FERRARI",
+  "B.nome": "ALESSIA",
+  "B.cf": "FRRLSS54A66D612M",
+  "B.targa": "XB216GR",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "26T8200444",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "SILVIA",
+  "B.patente": "RB1588057P",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 4633,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "d3c7af1106ee1a06"
+  ]
+ }
+}

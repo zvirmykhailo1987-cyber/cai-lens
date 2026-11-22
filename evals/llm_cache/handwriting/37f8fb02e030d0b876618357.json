@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90089:hw",
+ "answer": {
+  "data": "20/05/2026",
+  "ora": "14:40",
+  "luogo": "PADOVA, VIA ROMA 34",
+  "testimoni": "MARTINI NICOLA",
+  "A.cognome": "MARTINELLI",
+  "A.nome": "STEFANO",
+  "A.cf": "MRTSFN84L14F205X",
+  "A.targa": "DB349HV",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "49H9153095",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "MU1997700S",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "RINALDI",
+  "B.nome": "SIMONE",
+  "B.cf": "RNLSMN00H24L736T",
+  "B.targa": "WJ408GB",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "33R2050265",
+  "B.cond_cognome": "MORETTI",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "CT3717112C",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 5403,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "da7f8cde286cc072"
+  ]
+ }
+}

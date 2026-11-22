@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90065:hw",
+ "answer": {
+  "data": "02/11/2026",
+  "ora": "22:10",
+  "luogo": "NAPOLI, VIA VERDI 159",
+  "testimoni": "FERRARI ANDREA",
+  "A.cognome": "CARUSO",
+  "A.nome": "NICOLA",
+  "A.cf": "CRSNCL99H08F205A",
+  "A.targa": "JR793WW",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "88C3670639",
+  "A.cond_cognome": "CARUSO",
+  "A.cond_nome": "NICOLA",
+  "A.patente": "EE6629088S",
+  "A.danni": "PARAURTI POSTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "SANTORO",
+  "B.nome": "ALESSIA",
+  "B.cf": "SNTLSS76S65A794N",
+  "B.targa": "VH316NH",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "58H6007996",
+  "B.cond_cognome": "MARTINELLI",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "UD4766190V",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 427,
+  "ms": 5579,
+  "cost_usd": 0.02488,
+  "cached": false,
+  "image_sha": [
+   "0c2416b5a8d3e26a"
+  ]
+ }
+}

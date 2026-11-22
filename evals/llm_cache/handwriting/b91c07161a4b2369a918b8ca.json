@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10176:hw",
+ "answer": {
+  "data": "07/09/2026",
+  "ora": "19:45",
+  "luogo": "NAPOLI, VIA MARCONI 8",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GENTILE",
+  "A.nome": "SILVIA",
+  "A.cf": "GNTSLV52D44G224M",
+  "A.targa": "VZ896TJ",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "13G6907006",
+  "A.cond_cognome": "GENTILE",
+  "A.cond_nome": "SILVIA",
+  "A.patente": "BD3432082V",
+  "A.danni": "FARO ANT. SX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "MARINO",
+  "B.nome": "MARCO",
+  "B.cf": "MRNMRC89H26H501D",
+  "B.targa": "YC664YY",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "73G9910744",
+  "B.cond_cognome": "MARINO",
+  "B.cond_nome": "MARCO",
+  "B.patente": "AA1033589T",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 426,
+  "ms": 5217,
+  "cost_usd": 0.02486,
+  "cached": false,
+  "image_sha": [
+   "91828775db61d47a"
+  ]
+ }
+}

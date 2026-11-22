@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10029:hw",
+ "answer": {
+  "data": "16/07/2026",
+  "ora": "18:15",
+  "luogo": "BERGAMO, VIA TORINO 174",
+  "testimoni": "MORETTI ALESSANDRO",
+  "A.cognome": "RIZZO",
+  "A.nome": "ELISA",
+  "A.cf": "RZZLSE97P68A794S",
+  "A.targa": "JR680AE",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "53N6971571",
+  "A.cond_cognome": "RIZZO",
+  "A.cond_nome": "ELISA",
+  "A.patente": "VV9109082D",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "MARTINELLI",
+  "B.nome": "DAVIDE",
+  "B.cf": "MRTDVD68C07A794P",
+  "B.targa": "TW888TB",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "60A3175246",
+  "B.cond_cognome": "RINALDI",
+  "B.cond_nome": "LUCA",
+  "B.patente": "CT6801688N",
+  "B.danni": "PORTIERA SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 5899,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "3d27ab90311afae8"
+  ]
+ }
+}

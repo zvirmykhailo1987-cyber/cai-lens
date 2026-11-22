@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10098:hw",
+ "answer": {
+  "data": "24/06/2026",
+  "ora": "19:45",
+  "luogo": "BOLOGNA, VIA MILANO 19",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GRECO",
+  "A.nome": "LUCA",
+  "A.cf": "GRCLCU02H14L781J",
+  "A.targa": "GB699DX",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "79B9350851",
+  "A.cond_cognome": "RICCI",
+  "A.cond_nome": "ANNA",
+  "A.patente": "MU1097142B",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "LONGO",
+  "B.nome": "DAVIDE",
+  "B.cf": "LNGDVD01M19H501G",
+  "B.targa": "EW226XC",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "93S3820442",
+  "B.cond_cognome": "LONGO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "MA1913325P",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 400,
+  "ms": 4329,
+  "cost_usd": 0.02434,
+  "cached": false,
+  "image_sha": [
+   "ffcb5406b981860a"
+  ]
+ }
+}

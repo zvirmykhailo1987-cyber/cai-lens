@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10073:hw",
+ "answer": {
+  "data": "17/10/2026",
+  "ora": "15:45",
+  "luogo": "TORINO, VIA MAZZINI 90",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COPPOLA",
+  "A.nome": "PAOLO",
+  "A.cf": "CPPPLA98S08G224U",
+  "A.targa": "WE954VB",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "17G3940019",
+  "A.cond_cognome": "COPPOLA",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "CC8413731Z",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "BRUNO",
+  "B.nome": "MARTINA",
+  "B.cf": "BRNMTN95H45F205D",
+  "B.targa": "AA007FD",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "77H5076638",
+  "B.cond_cognome": "BRUNO",
+  "B.cond_nome": "MARTINA",
+  "B.patente": "MU2162667N",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "STRADA BAGNATA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 412,
+  "ms": 4364,
+  "cost_usd": 0.02458,
+  "cached": false,
+  "image_sha": [
+   "1ab02d42aa34165e"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10089:hw",
+ "answer": {
+  "data": "13/09/2026",
+  "ora": "06:30",
+  "luogo": "VENEZIA, VIA MAZZINI 125",
+  "testimoni": "",
+  "A.cognome": "VITALE",
+  "A.nome": "SILVIA",
+  "A.cf": "VTLSLV55H44L781E",
+  "A.targa": "FE908PL",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "78G4425770",
+  "A.cond_cognome": "VITALE",
+  "A.cond_nome": "SILVIA",
+  "A.patente": "ED7062581D",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "GRECO",
+  "B.nome": "STEFANO",
+  "B.cf": "GRCSFN99R07L781Q",
+  "B.targa": "FZ664WV",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "87H2021892",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "STEFANO",
+  "B.patente": "TR5340029H",
+  "B.danni": "PORTELLONE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 406,
+  "ms": 4958,
+  "cost_usd": 0.02446,
+  "cached": false,
+  "image_sha": [
+   "9ace333ccaadf5a4"
+  ]
+ }
+}

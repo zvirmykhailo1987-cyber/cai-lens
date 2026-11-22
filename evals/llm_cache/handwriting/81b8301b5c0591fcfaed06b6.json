@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10137:hw",
+ "answer": {
+  "data": "23/04/2026",
+  "ora": "08:40",
+  "luogo": "ROMA, VIA MARCONI 8",
+  "testimoni": "",
+  "A.cognome": "SERRA",
+  "A.nome": "ROBERTA",
+  "A.cf": "SRRRRT00L47L736X",
+  "A.targa": "WB655DD",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "20G1150343",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "STEFANO",
+  "A.patente": "EA6977067R",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "AA934RH",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 361,
+  "ms": 4265,
+  "cost_usd": 0.02356,
+  "cached": false,
+  "image_sha": [
+   "ead6e63511af6f95"
+  ]
+ }
+}

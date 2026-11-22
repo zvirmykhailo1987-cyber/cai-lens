@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10031:hw",
+ "answer": {
+  "data": "19/05/2026",
+  "ora": "16:15",
+  "luogo": "NAPOLI, VIA VERDI 45",
+  "testimoni": "SERRA LUCA",
+  "A.cognome": "GIORDANO",
+  "A.nome": "MARTINA",
+  "A.cf": "GRDMTN58C67G224T",
+  "A.targa": "ED269YJ",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "77M7899656",
+  "A.cond_cognome": "GIORDANO",
+  "A.cond_nome": "MARTINA",
+  "A.patente": "RU4604315E",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "PAOLA",
+  "B.cf": "DNGPLA95A61F839F",
+  "B.targa": "GJ356YZ",
+  "B.compagnia": "MEDITERRANEA RC",
+  "B.polizza": "36H4574863",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "PAOLA",
+  "B.patente": "EU2082774Z",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 413,
+  "ms": 5745,
+  "cost_usd": 0.0246,
+  "cached": false,
+  "image_sha": [
+   "03c92b469ddddf1f"
+  ]
+ }
+}

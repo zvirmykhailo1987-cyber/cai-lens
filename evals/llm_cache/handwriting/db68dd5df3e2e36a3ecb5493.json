@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10194:hw",
+ "answer": {
+  "data": "12/05/2026",
+  "ora": "11:45",
+  "luogo": "VERONA, VIA GARIBALDI 18",
+  "testimoni": "",
+  "A.cognome": "MARTINELLI",
+  "A.nome": "VALENTINA",
+  "A.cf": "MRTVNT86B42G224J",
+  "A.targa": "TX354PP",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "29A6243773",
+  "A.cond_cognome": "MARTINELLI",
+  "A.cond_nome": "VALENTINA",
+  "A.patente": "AT7734258V",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "ROMANO",
+  "B.nome": "NICOLA",
+  "B.cf": "RMNNCL91A06L736X",
+  "B.targa": "SE448LP",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "81E6111540",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "NICOLA",
+  "B.patente": "AD7689401T",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 428,
+  "ms": 4781,
+  "cost_usd": 0.0249,
+  "cached": false,
+  "image_sha": [
+   "38d9e892d9711e12"
+  ]
+ }
+}

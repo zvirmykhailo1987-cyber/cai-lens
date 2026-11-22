@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90082:hw",
+ "answer": {
+  "data": "04/04/2026",
+  "ora": "20:45",
+  "luogo": "MILANO, PIAZZA CAVOUR 162",
+  "testimoni": "NESSUNO",
+  "A.cognome": "ROSSI",
+  "A.nome": "MONICA",
+  "A.cf": "RSSMNC70B50G224N",
+  "A.targa": "TN437DN",
+  "A.compagnia": "PONENTE ASSICURAZIONI",
+  "A.polizza": "92C8257030",
+  "A.cond_cognome": "SANTORO",
+  "A.cond_nome": "ELENA",
+  "A.patente": "ET4954930E",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "MANCINI",
+  "B.nome": "LORENZO",
+  "B.cf": "MNCLNZ74S16A794U",
+  "B.targa": "LR215PW",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "40G6391455",
+  "B.cond_cognome": "ROSSI",
+  "B.cond_nome": "CHIARA",
+  "B.patente": "UA3335554S",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 442,
+  "ms": 5159,
+  "cost_usd": 0.02518,
+  "cached": false,
+  "image_sha": [
+   "6b1294011780f648"
+  ]
+ }
+}

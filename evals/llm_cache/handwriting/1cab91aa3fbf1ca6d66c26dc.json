@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10114:hw",
+ "answer": {
+  "data": "11/07/2026",
+  "ora": "14:40",
+  "luogo": "VERONA, VIA MILANO 109",
+  "testimoni": "NESSUNO",
+  "A.cognome": "GENTILE",
+  "A.nome": "LAURA",
+  "A.cf": "GNTLRA51M50H501P",
+  "A.targa": "RL199NL",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "44A5685059",
+  "A.cond_cognome": "MANCINI",
+  "A.cond_nome": "SIMONE",
+  "A.patente": "AR94887879P",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "D'ANGELO",
+  "B.nome": "LORENZO",
+  "B.cf": "DNGLNZ88B04L736R",
+  "B.targa": "LB767RK",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "80P5932648",
+  "B.cond_cognome": "D'ANGELO",
+  "B.cond_nome": "LORENZO",
+  "B.patente": "VC3899112N",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 397,
+  "ms": 4681,
+  "cost_usd": 0.02428,
+  "cached": false,
+  "image_sha": [
+   "2389fb26322d5b13"
+  ]
+ }
+}

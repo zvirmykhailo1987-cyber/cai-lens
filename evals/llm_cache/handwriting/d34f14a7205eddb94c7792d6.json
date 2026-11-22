@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10124:hw",
+ "answer": {
+  "data": "20/03/2026",
+  "ora": "17:40",
+  "luogo": "PADOVA, CORSO ITALIA 49",
+  "testimoni": "COPPOLA SARA",
+  "A.cognome": "FERRARI",
+  "A.nome": "ALESSANDRO",
+  "A.cf": "FRRLSN82B19F205K",
+  "A.targa": "MF190DG",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "23B7522980",
+  "A.cond_cognome": "FERRARI",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "DB1064756E",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "2",
+  "B.cognome": "DE SANTIS",
+  "B.nome": "FRANCESCO",
+  "B.cf": "DSNFNC58T14A944V",
+  "B.targa": "ZG850TL",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "42S4646785",
+  "B.cond_cognome": "DE SANTIS",
+  "B.cond_nome": "FRANCESCO",
+  "B.patente": "UD8913206N",
+  "B.danni": "PARAURTI POSTERIORE",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 424,
+  "ms": 5041,
+  "cost_usd": 0.02482,
+  "cached": false,
+  "image_sha": [
+   "65362d043433f1fc"
+  ]
+ }
+}

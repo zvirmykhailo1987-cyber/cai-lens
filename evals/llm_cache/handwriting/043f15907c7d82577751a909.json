@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90064:hw",
+ "answer": {
+  "data": "11/03/2026",
+  "ora": "15:50",
+  "luogo": "PADOVA, VIA MARCONI 19",
+  "testimoni": "BIANCHI VALENTINA",
+  "A.cognome": "GRECO",
+  "A.nome": "ROBERTA",
+  "A.cf": "GRCRRT00P44F839Q",
+  "A.targa": "KE708NF",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "99D4061096",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "CD1827511G",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "",
+  "B.nome": "",
+  "B.cf": "",
+  "B.targa": "PB370VZ",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "",
+  "B.cond_cognome": "",
+  "B.cond_nome": "",
+  "B.patente": "",
+  "B.danni": "",
+  "B.osservazioni": "",
+  "B.totale": "",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 367,
+  "ms": 5152,
+  "cost_usd": 0.02368,
+  "cached": false,
+  "image_sha": [
+   "b466137719fb2bbd"
+  ]
+ }
+}

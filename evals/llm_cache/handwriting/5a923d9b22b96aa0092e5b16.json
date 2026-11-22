@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90066:hw",
+ "answer": {
+  "data": "22/04/2026",
+  "ora": "15:00",
+  "luogo": "FIRENZE, VIA ROMA 56",
+  "testimoni": "NESSUNO",
+  "A.cognome": "DE LUCA",
+  "A.nome": "GIOVANNI",
+  "A.cf": "DLCGNN63C27A794J",
+  "A.targa": "WF503PM",
+  "A.compagnia": "BOREALE RC AUTO",
+  "A.polizza": "35P7908588",
+  "A.cond_cognome": "GRECO",
+  "A.cond_nome": "LAURA",
+  "A.patente": "RV8052125M",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "2",
+  "B.cognome": "ROMANO",
+  "B.nome": "GIULIA",
+  "B.cf": "RMNGLI63R58H501Y",
+  "B.targa": "GH791FA",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "14A4361543",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "GIULIA",
+  "B.patente": "AA2948053N",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 415,
+  "ms": 4762,
+  "cost_usd": 0.02464,
+  "cached": false,
+  "image_sha": [
+   "68304eff9d86737a"
+  ]
+ }
+}

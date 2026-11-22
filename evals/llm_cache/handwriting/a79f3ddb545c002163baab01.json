@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10113:hw",
+ "answer": {
+  "data": "11/01/2026",
+  "ora": "18:15",
+  "luogo": "BOLOGNA, VIA TORINO 146",
+  "testimoni": "",
+  "A.cognome": "SANTORO",
+  "A.nome": "ELISA",
+  "A.cf": "SNTLSE97C56D612A",
+  "A.targa": "JS243NV",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "15L4504933",
+  "A.cond_cognome": "ROMANO",
+  "A.cond_nome": "FRANCESCA",
+  "A.patente": "AU7391045D",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "STRADA BAGNATA",
+  "A.totale": "1",
+  "B.cognome": "RICCI",
+  "B.nome": "FEDERICO",
+  "B.cf": "RCCFRC82M02A944E",
+  "B.targa": "PA397ZN",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "13A9155800",
+  "B.cond_cognome": "RICCI",
+  "B.cond_nome": "FEDERICO",
+  "B.patente": "TE9936861S",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "2",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 423,
+  "ms": 5096,
+  "cost_usd": 0.0248,
+  "cached": false,
+  "image_sha": [
+   "1e3dc959f0db6f18"
+  ]
+ }
+}

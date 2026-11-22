@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10103:hw",
+ "answer": {
+  "data": "26/12/2025",
+  "ora": "12:00",
+  "luogo": "VERONA, VIA MILANO 153",
+  "testimoni": "NESSUNO",
+  "A.cognome": "FONTANA",
+  "A.nome": "ALESSANDRO",
+  "A.cf": "FNTLSN61D01L736A",
+  "A.targa": "NA094RL",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "71H6352787",
+  "A.cond_cognome": "GENTILE",
+  "A.cond_nome": "ELENA",
+  "A.patente": "BB4741190C",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "ROMANO",
+  "B.nome": "ANNA",
+  "B.cf": "RMNNNA70E56G224L",
+  "B.targa": "GF395JE",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "82A8890932",
+  "B.cond_cognome": "ROMANO",
+  "B.cond_nome": "ANNA",
+  "B.patente": "VE1603618B",
+  "B.danni": "PARAFANGO POST. SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 430,
+  "ms": 4736,
+  "cost_usd": 0.02494,
+  "cached": false,
+  "image_sha": [
+   "18c8f5c7a97ca424"
+  ]
+ }
+}

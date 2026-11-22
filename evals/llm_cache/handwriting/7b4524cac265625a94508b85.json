@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90007:hw",
+ "answer": {
+  "data": "27/05/2026",
+  "ora": "15:30",
+  "luogo": "MILANO, VIA GARIBALDI 164",
+  "testimoni": "BIANCHI FRANCESCA",
+  "A.cognome": "MARINO",
+  "A.nome": "FEDERICA",
+  "A.cf": "MRNFRC63S51L781L",
+  "A.targa": "RV143ZD",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "12M9994285",
+  "A.cond_cognome": "COSTA",
+  "A.cond_nome": "ROBERTA",
+  "A.patente": "TU4117598D",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "GALLI",
+  "B.nome": "GIULIA",
+  "B.cf": "GLLGLI51R67F205M",
+  "B.targa": "AG886YK",
+  "B.compagnia": "LAGUNA ASS.NI",
+  "B.polizza": "25A8408090",
+  "B.cond_cognome": "GALLI",
+  "B.cond_nome": "GIULIA",
+  "B.patente": "ED2397267G",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 421,
+  "ms": 5081,
+  "cost_usd": 0.02476,
+  "cached": false,
+  "image_sha": [
+   "58e07e322ac2a82f"
+  ]
+ }
+}

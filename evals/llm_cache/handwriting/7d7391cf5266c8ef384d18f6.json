@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10065:hw",
+ "answer": {
+  "data": "30/10/2026",
+  "ora": "17:20",
+  "luogo": "NAPOLI, VIALE EUROPA 113",
+  "testimoni": "BRUNO STEFANO",
+  "A.cognome": "DE LUCA",
+  "A.nome": "FRANCESCA",
+  "A.cf": "DLCFNC50C43A944J",
+  "A.targa": "YB022AZ",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "30T5316958",
+  "A.cond_cognome": "DE LUCA",
+  "A.cond_nome": "FRANCESCA",
+  "A.patente": "DU7619681G",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "FONTANA",
+  "B.nome": "GIUSEPPE",
+  "B.cf": "FNTGPP89S23A794S",
+  "B.targa": "AM153AY",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "62A2991505",
+  "B.cond_cognome": "FONTANA",
+  "B.cond_nome": "GIUSEPPE",
+  "B.patente": "EM1159329H",
+  "B.danni": "MASCHERINA",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 430,
+  "ms": 6612,
+  "cost_usd": 0.02494,
+  "cached": false,
+  "image_sha": [
+   "e98597d0bf2b36c2"
+  ]
+ }
+}

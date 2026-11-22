@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10027:hw",
+ "answer": {
+  "data": "01/11/2026",
+  "ora": "20:45",
+  "luogo": "NAPOLI, PIAZZA CAVOUR 20",
+  "testimoni": "COPPOLA LUCA",
+  "A.cognome": "GALLI",
+  "A.nome": "GIUSEPPE",
+  "A.cf": "GLLGPP63A06H501E",
+  "A.targa": "YF537AB",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "78F6948031",
+  "A.cond_cognome": "GALLI",
+  "A.cond_nome": "GIUSEPPE",
+  "A.patente": "RA9086106E",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "ROSSI",
+  "B.nome": "FEDERICA",
+  "B.cf": "RSSFRC63H52F839Q",
+  "B.targa": "GF237PE",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "88M9905896",
+  "B.cond_cognome": "ROSSI",
+  "B.cond_nome": "FEDERICA",
+  "B.patente": "UM6783092R",
+  "B.danni": "FIANCATA SINISTRA",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 433,
+  "ms": 4480,
+  "cost_usd": 0.025,
+  "cached": false,
+  "image_sha": [
+   "e545f683aae6f563"
+  ]
+ }
+}

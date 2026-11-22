@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90081:hw",
+ "answer": {
+  "data": "07/08/2026",
+  "ora": "13:45",
+  "luogo": "BERGAMO, VIA VERDI 148",
+  "testimoni": "MORETTI DAVIDE",
+  "A.cognome": "DE SANTIS",
+  "A.nome": "MARTINA",
+  "A.cf": "DSNMTN83H53H501Z",
+  "A.targa": "HD335FA",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "89E1924963",
+  "A.cond_cognome": "BRUNO",
+  "A.cond_nome": "GIULIA",
+  "A.patente": "UC5337000Z",
+  "A.danni": "PARAURTI ANTERIORE",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "GRECO",
+  "B.nome": "CHIARA",
+  "B.cf": "GRCCHR72S51F839B",
+  "B.targa": "LC690VC",
+  "B.compagnia": "POLARIS ASSICURA",
+  "B.polizza": "60E5162199",
+  "B.cond_cognome": "GRECO",
+  "B.cond_nome": "CHIARA",
+  "B.patente": "BM3194661Z",
+  "B.danni": "PORTIERA DX",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 436,
+  "ms": 5103,
+  "cost_usd": 0.02506,
+  "cached": false,
+  "image_sha": [
+   "5a80fdac35d0152e"
+  ]
+ }
+}

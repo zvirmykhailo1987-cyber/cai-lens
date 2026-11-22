@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90004:hw",
+ "answer": {
+  "data": "09/01/2026",
+  "ora": "14:40",
+  "luogo": "NAPOLI, VIA MILANO 17",
+  "testimoni": "",
+  "A.cognome": "LEONE",
+  "A.nome": "NICOLA",
+  "A.cf": "LNENCL76D13L736J",
+  "A.targa": "EB151CG",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "78L2213562",
+  "A.cond_cognome": "LEONE",
+  "A.cond_nome": "NICOLA",
+  "A.patente": "VT4010397M",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "1",
+  "B.cognome": "COSTA",
+  "B.nome": "SIMONE",
+  "B.cf": "CSTSMN56D01L219U",
+  "B.targa": "RC872XX",
+  "B.compagnia": "",
+  "B.polizza": "47T2654714",
+  "B.cond_cognome": "COSTA",
+  "B.cond_nome": "SIMONE",
+  "B.patente": "BA5861544N",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 403,
+  "ms": 5288,
+  "cost_usd": 0.0244,
+  "cached": false,
+  "image_sha": [
+   "bc3402a5e61614dc"
+  ]
+ }
+}

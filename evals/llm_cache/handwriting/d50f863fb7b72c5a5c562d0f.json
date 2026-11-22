@@ -1,0 +1,49 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90022:hw",
+ "answer": {
+  "data": "12/07/2026",
+  "ora": "16:50",
+  "luogo": "BERGAMO, VIA MARCONI 90",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARINO",
+  "A.nome": "LUCA",
+  "A.cf": "MRNLCU81S10F839R",
+  "A.targa": "NY774FH",
+  "A.compagnia": "POLARIS ASSICURA",
+  "A.polizza": "23B8714685",
+  "A.cond_cognome": "MANCINI",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "DC7207946T",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "RIZZO",
+  "B.nome": "CHIARA",
+  "B.cf": "RZZCHR72D59G224K",
+  "B.targa": "",
+  "B.compagnia": "PONENTE ASSICURAZIONI",
+  "B.polizza": "42M7588091",
+  "B.cond_cognome": "RIZZO",
+  "B.cond_nome": "CHIARA",
+  "B.patente": "",
+  "B.danni": "FIANCATA DESTRA",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": [
+   "B.patente"
+  ]
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 413,
+  "ms": 5709,
+  "cost_usd": 0.0246,
+  "cached": false,
+  "image_sha": [
+   "cb5fb55553fe8803"
+  ]
+ }
+}

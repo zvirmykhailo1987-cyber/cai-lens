@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10192:hw",
+ "answer": {
+  "data": "20/10/2026",
+  "ora": "21:15",
+  "luogo": "ROMA, VIALE EUROPA 81",
+  "testimoni": "GRECO SARA",
+  "A.cognome": "SERRA",
+  "A.nome": "ALESSANDRO",
+  "A.cf": "SRRLSN90P07L736E",
+  "A.targa": "HY432WM",
+  "A.compagnia": "CORSO MUTUA",
+  "A.polizza": "32S2566975",
+  "A.cond_cognome": "SERRA",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "TE9304841Z",
+  "A.danni": "MASCHERINA",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARTINELLI",
+  "B.nome": "PAOLO",
+  "B.cf": "MRTPLA78T06H501M",
+  "B.targa": "ZZ563DR",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "86D9541284",
+  "B.cond_cognome": "MARTINELLI",
+  "B.cond_nome": "PAOLO",
+  "B.patente": "AR5136522N",
+  "B.danni": "SPECCHIETTO SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 5239,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "46276d2e07197625"
+  ]
+ }
+}

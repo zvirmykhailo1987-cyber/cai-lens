@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90044:hw",
+ "answer": {
+  "data": "01/06/2026",
+  "ora": "14:40",
+  "luogo": "PADOVA, VIA ROMA 98",
+  "testimoni": "NESSUNO",
+  "A.cognome": "MARCHETTI",
+  "A.nome": "FEDERICO",
+  "A.cf": "MRCFRC72S04G224N",
+  "A.targa": "ZC482YV",
+  "A.compagnia": "MEDITERRANEA RC",
+  "A.polizza": "63G6787207",
+  "A.cond_cognome": "MARCHETTI",
+  "A.cond_nome": "FEDERICO",
+  "A.patente": "UD9304841N",
+  "A.danni": "FANALE POST.",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "MARIANI",
+  "B.nome": "GIOVANNI",
+  "B.cf": "MRNGNN50C22G224L",
+  "B.targa": "RJ880FN",
+  "B.compagnia": "BOREALE RC AUTO",
+  "B.polizza": "70M9089247",
+  "B.cond_cognome": "MARIANI",
+  "B.cond_nome": "GIOVANNI",
+  "B.patente": "TU4237653N",
+  "B.danni": "COFANO E FARO",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 420,
+  "ms": 4114,
+  "cost_usd": 0.02474,
+  "cached": false,
+  "image_sha": [
+   "951e3466657e586a"
+  ]
+ }
+}

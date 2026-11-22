@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "holdout-90083:hw",
+ "answer": {
+  "data": "01/09/2026",
+  "ora": "18:15",
+  "luogo": "PADOVA, VIA ROMA 18",
+  "testimoni": "",
+  "A.cognome": "GRECO",
+  "A.nome": "ANDREA",
+  "A.cf": "GRCNDR65E09G224Q",
+  "A.targa": "XH987CR",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "53T1871572",
+  "A.cond_cognome": "CONTI",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "VV6035361F",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "1",
+  "B.cognome": "RINALDI",
+  "B.nome": "ROBERTO",
+  "B.cf": "RNLRRT00E07L219E",
+  "B.targa": "FF086DG",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "79S4188662",
+  "B.cond_cognome": "RINALDI",
+  "B.cond_nome": "ROBERTO",
+  "B.patente": "TM8606177V",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "VISIBILITA' SCARSA",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 413,
+  "ms": 4318,
+  "cost_usd": 0.0246,
+  "cached": false,
+  "image_sha": [
+   "6deba6ecf9eeb58f"
+  ]
+ }
+}

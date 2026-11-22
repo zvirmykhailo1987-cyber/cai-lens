@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10197:hw",
+ "answer": {
+  "data": "15/02/2026",
+  "ora": "11:40",
+  "luogo": "VENEZIA, VIA DANTE 165",
+  "testimoni": "",
+  "A.cognome": "MANCINI",
+  "A.nome": "PAOLA",
+  "A.cf": "MNCPLA84A60H501C",
+  "A.targa": "PL851EE",
+  "A.compagnia": "ALPINA MUTUA",
+  "A.polizza": "77L8636251",
+  "A.cond_cognome": "LOMBARDI",
+  "A.cond_nome": "LORENZO",
+  "A.patente": "EU6050070M",
+  "A.danni": "COFANO E FARO",
+  "A.osservazioni": "SEMAFORO GUASTO",
+  "A.totale": "2",
+  "B.cognome": "CARUSO",
+  "B.nome": "ANNA",
+  "B.cf": "CRSNNA78S41L781O",
+  "B.targa": "CR615JG",
+  "B.compagnia": "",
+  "B.polizza": "31L4086691",
+  "B.cond_cognome": "MARTINELLI",
+  "B.cond_nome": "ALESSANDRO",
+  "B.patente": "CE3327656M",
+  "B.danni": "FANALE POST.",
+  "B.osservazioni": "TRAFFICO INTENSO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 409,
+  "ms": 4804,
+  "cost_usd": 0.02452,
+  "cached": false,
+  "image_sha": [
+   "f23815ee32dfb476"
+  ]
+ }
+}

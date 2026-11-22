@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10172:hw",
+ "answer": {
+  "data": "12/03/2026",
+  "ora": "20:45",
+  "luogo": "BERGAMO, VIALE MONZA 161",
+  "testimoni": "NESSUNO",
+  "A.cognome": "COLOMBO",
+  "A.nome": "PAOLO",
+  "A.cf": "CLMPLA94D18L736V",
+  "A.targa": "TH123MX",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "37F4679183",
+  "A.cond_cognome": "COLOMBO",
+  "A.cond_nome": "PAOLO",
+  "A.patente": "MM4183830L",
+  "A.danni": "PARAFANGO ANT. DX",
+  "A.osservazioni": "",
+  "A.totale": "3",
+  "B.cognome": "MARTINI",
+  "B.nome": "GIULIA",
+  "B.cf": "MRTGLI78R57D612Q",
+  "B.targa": "RL358GF",
+  "B.compagnia": "ALPINA MUTUA",
+  "B.polizza": "55A3445123",
+  "B.cond_cognome": "MARTINI",
+  "B.cond_nome": "GIULIA",
+  "B.patente": "RT5918750D",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 408,
+  "ms": 5172,
+  "cost_usd": 0.0245,
+  "cached": false,
+  "image_sha": [
+   "8fa323aba3bb8d2f"
+  ]
+ }
+}

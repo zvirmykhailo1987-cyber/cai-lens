@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10147:hw",
+ "answer": {
+  "data": "02/06/2026",
+  "ora": "07:45",
+  "luogo": "MILANO, VIA MARCONI 33",
+  "testimoni": "RINALDI ANDREA",
+  "A.cognome": "BRUNO",
+  "A.nome": "LAURA",
+  "A.cf": "BRNLRA99P49L219W",
+  "A.targa": "VK266BV",
+  "A.compagnia": "AURORA ASSICURAZIONI",
+  "A.polizza": "86D1862787",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "MARTINA",
+  "A.patente": "CD8851810P",
+  "A.danni": "FARO ANT. DX",
+  "A.osservazioni": "TRAFFICO INTENSO",
+  "A.totale": "2",
+  "B.cognome": "GENTILE",
+  "B.nome": "ALESSIA",
+  "B.cf": "GNTLSS97T61D612Z",
+  "B.targa": "EC787GB",
+  "B.compagnia": "CORSO MUTUA",
+  "B.polizza": "55R3658861",
+  "B.cond_cognome": "GENTILE",
+  "B.cond_nome": "ALESSIA",
+  "B.patente": "ED6546817C",
+  "B.danni": "FANALE POST. SX",
+  "B.osservazioni": "SEMAFORO GUASTO",
+  "B.totale": "1",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 430,
+  "ms": 4629,
+  "cost_usd": 0.02494,
+  "cached": false,
+  "image_sha": [
+   "534a78cab979e08c"
+  ]
+ }
+}

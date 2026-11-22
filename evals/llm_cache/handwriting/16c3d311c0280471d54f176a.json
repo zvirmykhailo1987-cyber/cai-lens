@@ -1,0 +1,47 @@
+{
+ "purpose": "handwriting",
+ "prompt_version": "hw-v2",
+ "cache_id": "dev-10092:hw",
+ "answer": {
+  "data": "28/06/2026",
+  "ora": "11:30",
+  "luogo": "FIRENZE, VIA MAZZINI 123",
+  "testimoni": "NESSUNO",
+  "A.cognome": "ROSSI",
+  "A.nome": "ALESSANDRO",
+  "A.cf": "RSSLSN51H27F839Q",
+  "A.targa": "LF942ZS",
+  "A.compagnia": "LAGUNA ASS.NI",
+  "A.polizza": "18D7067930",
+  "A.cond_cognome": "ROSSI",
+  "A.cond_nome": "ALESSANDRO",
+  "A.patente": "UV3816099G",
+  "A.danni": "PARAFANGO ANT. SX",
+  "A.osservazioni": "VISIBILITA' SCARSA",
+  "A.totale": "1",
+  "B.cognome": "GALLO",
+  "B.nome": "DAVIDE",
+  "B.cf": "GLLDVD91T23F839J",
+  "B.targa": "FD859GA",
+  "B.compagnia": "AURORA ASSICURAZIONI",
+  "B.polizza": "28H1060946",
+  "B.cond_cognome": "GALLO",
+  "B.cond_nome": "DAVIDE",
+  "B.patente": "RC5990275S",
+  "B.danni": "SPECCHIETTO DX",
+  "B.osservazioni": "",
+  "B.totale": "0",
+  "illeggibili": []
+ },
+ "meta": {
+  "model": "claude-opus-5-5",
+  "input_tokens": 4085,
+  "output_tokens": 433,
+  "ms": 5534,
+  "cost_usd": 0.025,
+  "cached": false,
+  "image_sha": [
+   "9b01760252bf514f"
+  ]
+ }
+}
